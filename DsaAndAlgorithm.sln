@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "Strings\Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuplicateNumberArray", "Arrays\DuplicateNumberArray\DuplicateNumberArray.csproj", "{C504153B-3C54-491A-9941-1EE80E4A247E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintMatrixInSnakePattern", "Matrix\PrintMatrixInSnakePattern\PrintMatrixInSnakePattern.csproj", "{8265B4C5-A990-4354-9C9F-E513296361A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C504153B-3C54-491A-9941-1EE80E4A247E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C504153B-3C54-491A-9941-1EE80E4A247E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C504153B-3C54-491A-9941-1EE80E4A247E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8265B4C5-A990-4354-9C9F-E513296361A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8265B4C5-A990-4354-9C9F-E513296361A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8265B4C5-A990-4354-9C9F-E513296361A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8265B4C5-A990-4354-9C9F-E513296361A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{FF1CA645-B4B5-4E37-86C6-1A76E57FF8EB} = {58C98126-66B4-4CFC-BCC4-285DA0ED389D}
 		{56B4AB6D-318C-4F97-BDE7-8D847230AD4C} = {DD00893C-53D1-4930-96F7-96AA5BA0C105}
 		{C504153B-3C54-491A-9941-1EE80E4A247E} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
+		{8265B4C5-A990-4354-9C9F-E513296361A1} = {58C98126-66B4-4CFC-BCC4-285DA0ED389D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
