@@ -193,6 +193,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp14", "BinarySearc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp15", "LinearSearch\ConsoleApp15\ConsoleApp15.csproj", "{B2F9B0C9-FA92-48D0-988C-3408AB9D7A9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSumII-InputArrayIsSorted", "TwoPointer\TwoSumII-InputArrayIsSorted\TwoSumII-InputArrayIsSorted.csproj", "{3ED71ADE-BD66-4AA9-8A26-48BCF28445C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -495,6 +497,10 @@ Global
 		{B2F9B0C9-FA92-48D0-988C-3408AB9D7A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F9B0C9-FA92-48D0-988C-3408AB9D7A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F9B0C9-FA92-48D0-988C-3408AB9D7A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED71ADE-BD66-4AA9-8A26-48BCF28445C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED71ADE-BD66-4AA9-8A26-48BCF28445C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED71ADE-BD66-4AA9-8A26-48BCF28445C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED71ADE-BD66-4AA9-8A26-48BCF28445C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -573,6 +579,7 @@ Global
 		{08B16DD9-1133-43C6-9BB4-70CD62667FB2} = {8FF51505-BCB8-4CD8-A24C-239C877705C4}
 		{F2649260-0FD0-4EEA-A54B-87612725E70A} = {A3D57415-D5BB-4653-8354-120E0AB39BD6}
 		{B2F9B0C9-FA92-48D0-988C-3408AB9D7A9D} = {8725BB6A-82AD-4223-B976-85835B207780}
+		{3ED71ADE-BD66-4AA9-8A26-48BCF28445C3} = {0850283D-E7FB-45A7-A943-383167F16520}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
