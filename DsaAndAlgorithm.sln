@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33603.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DsaAndAlgorithm", "DsaAndAlgorithm\DsaAndAlgorithm.csproj", "{657F60E8-3530-4E3A-94BB-5FFF436C363B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DsaAndAlgorithm", "DsaAndAlgorithm\DsaAndAlgorithm.csproj", "{657F60E8-3530-4E3A-94BB-5FFF436C363B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}"
 EndProject
@@ -11,11 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matrix", "Matrix", "{58C981
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{DD00893C-53D1-4930-96F7-96AA5BA0C105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfArrayExceptSelf", "Arrays\ProductOfArrayExceptSelf\ProductOfArrayExceptSelf.csproj", "{2091F239-B258-4720-90E8-440BA8C3FAB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductOfArrayExceptSelf", "Arrays\ProductOfArrayExceptSelf\ProductOfArrayExceptSelf.csproj", "{2091F239-B258-4720-90E8-440BA8C3FAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDeimensionArrays", "Matrix\MultiDeimensionArrays\MultiDeimensionArrays.csproj", "{FF1CA645-B4B5-4E37-86C6-1A76E57FF8EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiDeimensionArrays", "Matrix\MultiDeimensionArrays\MultiDeimensionArrays.csproj", "{FF1CA645-B4B5-4E37-86C6-1A76E57FF8EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "Strings\ConsoleApp1\ConsoleApp1.csproj", "{56B4AB6D-318C-4F97-BDE7-8D847230AD4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "Strings\ConsoleApp1\ConsoleApp1.csproj", "{56B4AB6D-318C-4F97-BDE7-8D847230AD4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuplicateNumberArray", "Arrays\DuplicateNumberArray\DuplicateNumberArray.csproj", "{C504153B-3C54-491A-9941-1EE80E4A247E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{56B4AB6D-318C-4F97-BDE7-8D847230AD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56B4AB6D-318C-4F97-BDE7-8D847230AD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56B4AB6D-318C-4F97-BDE7-8D847230AD4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C504153B-3C54-491A-9941-1EE80E4A247E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C504153B-3C54-491A-9941-1EE80E4A247E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C504153B-3C54-491A-9941-1EE80E4A247E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C504153B-3C54-491A-9941-1EE80E4A247E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{2091F239-B258-4720-90E8-440BA8C3FAB5} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 		{FF1CA645-B4B5-4E37-86C6-1A76E57FF8EB} = {58C98126-66B4-4CFC-BCC4-285DA0ED389D}
 		{56B4AB6D-318C-4F97-BDE7-8D847230AD4C} = {DD00893C-53D1-4930-96F7-96AA5BA0C105}
+		{C504153B-3C54-491A-9941-1EE80E4A247E} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
