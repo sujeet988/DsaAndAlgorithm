@@ -1,0 +1,80 @@
+1.Data Types :
+
+
+data type min and maximum value
+ int max = Int32.MinValue;
+  int min = Int32.MaxValue;
+
+
+2. Arrays:
+
+ Length()->
+ Array.Sort(arryname);
+
+
+3. MultDImession Array:
+  1.Mutli
+  2.jagged Array
+
+3. String:
+
+1.Split
+2.ToCharAt
+3 SubString
+4. 
+CharAt(java) in c# => string[indexnumber]
+
+
+4.Data Table
+
+
+5.Data Set
+
+
+6.Dictionary
+
+
+
+7.Stack
+
+Push()
+Pop()
+Count()
+Peek()
+Contains()
+
+
+8.Queque
+1. Enquque
+2. Dequque
+3.  
+
+
+
+9. ArrayList
+
+
+
+10. List
+
+1.Count
+2.Contains
+3. AddRange--Adding array to List
+3. RemoveAt
+4 Sort()--For  sort list
+
+11 Ilist
+
+ff
+11 Math
+--
+What is a priority queue? How does it differ from a regular queue?
+
+12 ASCII Code	for alpphabet
+
+Letter	ASCII Code
+A-Z  065 to 090
+a-z  097 to 122
+
+13. Matrix: sqare maitrx means row and column is same.
+

@@ -1,0 +1,35 @@
+//Math.sqrt(N);
+//Math.pow(digit,count); //Math.Pow()
+//Convert list to array
+list.ToArray();
+
+char at
+Tolower
+Toupper
+
+Math.Max
+Math.Min
+
+Ilist<Ilist>
+
+conatins
+lenght
+
+---stack
+
+
+---queque
+
+
+-------------Arrays
+Length()
+
+---string
+char at
+ToChar Array
+IndexOf
+
+
+
+---------------
+https://practice.geeksforgeeks.org/problems/find-duplicates-in-an-array/1
