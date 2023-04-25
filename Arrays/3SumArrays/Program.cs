@@ -30,9 +30,9 @@ namespace _3SumArrays
             //}
             int i, j, k;
             int n = nums.Length;
-            for (i = 0; i < nums.Length; i++)
+            for (i = 0; i < nums.Length-2; i++)
             {
-                for (j = i + 1; j < nums.Length; j++)
+                for (j = i + 1; j < nums.Length-1; j++)
                 {
                     for (k = j + 1; k < nums.Length; k++)
                     {
