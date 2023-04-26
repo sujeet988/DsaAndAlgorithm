@@ -14,7 +14,7 @@ namespace MathsDemo
             int count = 0;
             while (n > 0)
             {
-                n = 7 / 10;
+                n = n / 10;
                 count++;
             }
             return count;
