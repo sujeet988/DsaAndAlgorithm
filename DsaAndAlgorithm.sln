@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DsaAndAlgorithm", "DsaAndAlgorithm\DsaAndAlgorithm.csproj", "{657F60E8-3530-4E3A-94BB-5FFF436C363B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}"
+	ProjectSection(SolutionItems) = preProject
+		Arrays\ArraysNotes.txt = Arrays\ArraysNotes.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matrix", "Matrix", "{58C98126-66B4-4CFC-BCC4-285DA0ED389D}"
 EndProject
