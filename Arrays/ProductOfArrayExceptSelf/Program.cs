@@ -61,7 +61,7 @@ namespace ProductOfArrayExceptSelf
             for (int i=0; i < nums.Length - 1; i++)
             {
                 int lp = product; // lp left product
-                int rp = right[i+1]; // right product
+                int rp = right[i+1]; // rp right product
                 result[i] = lp * rp;
                 product *= nums[i];
             }
