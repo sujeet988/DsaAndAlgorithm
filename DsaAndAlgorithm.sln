@@ -90,13 +90,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayisSortedOrNot", "Array
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Maths", "Maths", "{21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "Maths\ConsoleApp3\ConsoleApp3.csproj", "{2829F78D-75BF-4F6A-9799-B9341979D9CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp3", "Maths\ConsoleApp3\ConsoleApp3.csproj", "{2829F78D-75BF-4F6A-9799-B9341979D9CF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathsDemo", "Maths\MathsDemo\MathsDemo.csproj", "{FE662F2E-FFAD-49F1-81F5-88938AA385B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3SumArrays", "Arrays\3SumArrays\3SumArrays.csproj", "{D829F640-E99C-49E8-905F-0E725CA1376E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3SumArrays", "Arrays\3SumArrays\3SumArrays.csproj", "{D829F640-E99C-49E8-905F-0E725CA1376E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4SumArrays", "Arrays\4SumArrays\4SumArrays.csproj", "{3EDF1C7A-FB5C-402F-9854-D298D8E5DD80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4SumArrays", "Arrays\4SumArrays\4SumArrays.csproj", "{3EDF1C7A-FB5C-402F-9854-D298D8E5DD80}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{8AE398D3-50F4-4815-B20B-AF5C8055853D}"
 	ProjectSection(SolutionItems) = preProject
@@ -107,17 +107,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{8AE398D3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary", "Dictionary", "{07FBE735-E518-494F-9F9D-F3D2DCD11622}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "Dictionary\ConsoleApp4\ConsoleApp4.csproj", "{2747EDB3-B434-456F-BE55-BAB125DCDE6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp4", "Dictionary\ConsoleApp4\ConsoleApp4.csproj", "{2747EDB3-B434-456F-BE55-BAB125DCDE6F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryCrud", "Dictionary\DictionaryCrud\DictionaryCrud.csproj", "{7A3D46FD-58CC-464D-80D8-604456491599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajorityElements", "Dictionary\MajorityElements\MajorityElements.csproj", "{D1E76E2D-CEDB-47F9-9F2B-5086DEE47FA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MajorityElements", "Dictionary\MajorityElements\MajorityElements.csproj", "{D1E76E2D-CEDB-47F9-9F2B-5086DEE47FA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp5", "Notes\ConsoleApp5\ConsoleApp5.csproj", "{CEC5BAEE-1A33-45B9-B6AA-8C2401990B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp5", "Notes\ConsoleApp5\ConsoleApp5.csproj", "{CEC5BAEE-1A33-45B9-B6AA-8C2401990B68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bit", "Bit", "{0BB541AD-1DC0-4BDF-A150-EC281A48EE2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp6", "Bit\ConsoleApp6\ConsoleApp6.csproj", "{B63B5DFC-5939-449B-A6BB-731DAEC0BF8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp6", "Bit\ConsoleApp6\ConsoleApp6.csproj", "{B63B5DFC-5939-449B-A6BB-731DAEC0BF8B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitWiseQuestions", "Bit\BitWiseQuestions\BitWiseQuestions.csproj", "{145340FB-0C99-4C68-B978-ED6757B17C50}"
 EndProject
@@ -132,7 +132,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetDemo", "HashSet\Hash
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Heap", "Heap", "{0E070469-0F76-464A-80C7-4E5DBAA82A8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8", "Heap\ConsoleApp8\ConsoleApp8.csproj", "{FCBBAFE3-A49C-421D-B265-F33A39E8DA1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp8", "Heap\ConsoleApp8\ConsoleApp8.csproj", "{FCBBAFE3-A49C-421D-B265-F33A39E8DA1A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthLowestElement", "Heap\KthLowestElement\KthLowestElement.csproj", "{F6BCAE86-1CE2-4544-8A81-562AF37D31F0}"
 EndProject
@@ -141,11 +141,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", 
 		LinkedList\Help.txt = LinkedList\Help.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp9", "LinkedList\ConsoleApp9\ConsoleApp9.csproj", "{6F840C19-8E01-4394-AAE1-9707E45DD95F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp9", "LinkedList\ConsoleApp9\ConsoleApp9.csproj", "{6F840C19-8E01-4394-AAE1-9707E45DD95F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{BC47D8BA-2DF0-4B5D-8832-5690243D08F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp10", "Recursion\ConsoleApp10\ConsoleApp10.csproj", "{6EFE4FA7-9475-495A-9DE1-45828619F97B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp10", "Recursion\ConsoleApp10\ConsoleApp10.csproj", "{6EFE4FA7-9475-495A-9DE1-45828619F97B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "Recursion\Factorial\Factorial.csproj", "{483BE248-C1A5-4E9A-813B-EE9BA04FDA63}"
 EndProject
@@ -167,7 +167,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{8C286C30
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{3A550915-7340-43CC-A2C7-27FF707E7D91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp11", "Queue\ConsoleApp11\ConsoleApp11.csproj", "{91E331F4-B68D-44EA-B178-DA86468EAD3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp11", "Queue\ConsoleApp11\ConsoleApp11.csproj", "{91E331F4-B68D-44EA-B178-DA86468EAD3C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteMiddleElememntFromStacks", "Stack\DeleteMiddleElememntFromStacks\DeleteMiddleElememntFromStacks.csproj", "{E5F6FBF8-7F34-4316-A255-498847D41467}"
 EndProject
@@ -175,7 +175,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrudQueqe", "Queue\CrudQueq
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tree", "Tree", "{8FF51505-BCB8-4CD8-A24C-239C877705C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp13", "Tree\ConsoleApp13\ConsoleApp13.csproj", "{1F9B4FE2-97EB-4AB3-8E0E-A6C37AFA834E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp13", "Tree\ConsoleApp13\ConsoleApp13.csproj", "{1F9B4FE2-97EB-4AB3-8E0E-A6C37AFA834E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTrees", "Tree\BinaryTrees\BinaryTrees.csproj", "{5723B56F-CC04-442D-95A6-AFD51A1FA412}"
 EndProject
@@ -187,35 +187,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinearSearch", "LinearSearc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearch", "BinarySearch", "{A3D57415-D5BB-4653-8354-120E0AB39BD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp14", "BinarySearch\ConsoleApp14\ConsoleApp14.csproj", "{F2649260-0FD0-4EEA-A54B-87612725E70A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp14", "BinarySearch\ConsoleApp14\ConsoleApp14.csproj", "{F2649260-0FD0-4EEA-A54B-87612725E70A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp15", "LinearSearch\ConsoleApp15\ConsoleApp15.csproj", "{B2F9B0C9-FA92-48D0-988C-3408AB9D7A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp15", "LinearSearch\ConsoleApp15\ConsoleApp15.csproj", "{B2F9B0C9-FA92-48D0-988C-3408AB9D7A9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSumII-InputArrayIsSorted", "TwoPointer\TwoSumII-InputArrayIsSorted\TwoSumII-InputArrayIsSorted.csproj", "{3ED71ADE-BD66-4AA9-8A26-48BCF28445C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSumII-InputArrayIsSorted", "TwoPointer\TwoSumII-InputArrayIsSorted\TwoSumII-InputArrayIsSorted.csproj", "{3ED71ADE-BD66-4AA9-8A26-48BCF28445C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedArrays", "Arrays\MergeTwoSortedArrays\MergeTwoSortedArrays.csproj", "{66962DB2-86F0-4644-A0A9-0128B0F43565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedArrays", "Arrays\MergeTwoSortedArrays\MergeTwoSortedArrays.csproj", "{66962DB2-86F0-4644-A0A9-0128B0F43565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestSumSubarray", "Arrays\LargestSumSubarray\LargestSumSubarray.csproj", "{235FF2B7-EF3B-49EF-A0E9-F89DFD4183B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargestSumSubarray", "Arrays\LargestSumSubarray\LargestSumSubarray.csproj", "{235FF2B7-EF3B-49EF-A0E9-F89DFD4183B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondLargestElementInArray", "Arrays\SecondLargestElementInArray\SecondLargestElementInArray.csproj", "{AD89A913-D80F-4F81-BE2A-B01A9EC9FC2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondLargestElementInArray", "Arrays\SecondLargestElementInArray\SecondLargestElementInArray.csproj", "{AD89A913-D80F-4F81-BE2A-B01A9EC9FC2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayinsertAtIndex", "ArrayinsertAtIndex\ArrayinsertAtIndex.csproj", "{F3F9E42C-C11E-4E89-98B1-6F406847FCD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayinsertAtIndex", "ArrayinsertAtIndex\ArrayinsertAtIndex.csproj", "{F3F9E42C-C11E-4E89-98B1-6F406847FCD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDeleteAtIndex", "Arrays\ArrayDeleteAtIndex\ArrayDeleteAtIndex.csproj", "{4976F489-C16B-4CDA-B009-410D762FEAFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayDeleteAtIndex", "Arrays\ArrayDeleteAtIndex\ArrayDeleteAtIndex.csproj", "{4976F489-C16B-4CDA-B009-410D762FEAFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAllSubstringsforaString", "Strings\PrintAllSubstringsforaString\PrintAllSubstringsforaString.csproj", "{0628A65E-31AB-47C9-91B0-97FDFCCFB4F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintAllSubstringsforaString", "Strings\PrintAllSubstringsforaString\PrintAllSubstringsforaString.csproj", "{0628A65E-31AB-47C9-91B0-97FDFCCFB4F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetsOfaString", "Strings\SubsetsOfaString\SubsetsOfaString.csproj", "{307A704C-09E5-4718-A6BB-3E828C6EA161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubsetsOfaString", "Strings\SubsetsOfaString\SubsetsOfaString.csproj", "{307A704C-09E5-4718-A6BB-3E828C6EA161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAllPermutationsOfaStringOrArray", "Strings\PrintAllPermutationsOfaStringOrArray\PrintAllPermutationsOfaStringOrArray.csproj", "{D3112717-C236-4F62-9A09-3A2A2203D9EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintAllPermutationsOfaStringOrArray", "Strings\PrintAllPermutationsOfaStringOrArray\PrintAllPermutationsOfaStringOrArray.csproj", "{D3112717-C236-4F62-9A09-3A2A2203D9EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrefixSum", "Arrays\PrefixSum\PrefixSum.csproj", "{EC37020C-6521-4F60-AEA7-37041807893F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrefixSum", "Arrays\PrefixSum\PrefixSum.csproj", "{EC37020C-6521-4F60-AEA7-37041807893F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotationOfAnumber", "Maths\RotationOfAnumber\RotationOfAnumber.csproj", "{22F74A17-0BD7-4F0F-B21B-CE6B3CF249DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotationOfAnumber", "Maths\RotationOfAnumber\RotationOfAnumber.csproj", "{22F74A17-0BD7-4F0F-B21B-CE6B3CF249DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCDOfANumber", "Maths\GCDOfANumber\GCDOfANumber.csproj", "{9A0144E3-6801-44B9-A6DE-593A5F327DD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCDOfANumber", "Maths\GCDOfANumber\GCDOfANumber.csproj", "{9A0144E3-6801-44B9-A6DE-593A5F327DD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCMOfANjumber", "Maths\LCMOfANjumber\LCMOfANjumber.csproj", "{26C5043B-39F1-4559-9BB8-39821F9504B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LCMOfANjumber", "Maths\LCMOfANjumber\LCMOfANjumber.csproj", "{26C5043B-39F1-4559-9BB8-39821F9504B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyNumber", "Maths\HappyNumber\HappyNumber.csproj", "{4E9412F2-CE18-480C-BC44-DE9F6EF9A166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -555,6 +557,10 @@ Global
 		{26C5043B-39F1-4559-9BB8-39821F9504B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C5043B-39F1-4559-9BB8-39821F9504B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C5043B-39F1-4559-9BB8-39821F9504B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9412F2-CE18-480C-BC44-DE9F6EF9A166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9412F2-CE18-480C-BC44-DE9F6EF9A166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9412F2-CE18-480C-BC44-DE9F6EF9A166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9412F2-CE18-480C-BC44-DE9F6EF9A166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -642,6 +648,7 @@ Global
 		{22F74A17-0BD7-4F0F-B21B-CE6B3CF249DE} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{9A0144E3-6801-44B9-A6DE-593A5F327DD1} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{26C5043B-39F1-4559-9BB8-39821F9504B6} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
+		{4E9412F2-CE18-480C-BC44-DE9F6EF9A166} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
