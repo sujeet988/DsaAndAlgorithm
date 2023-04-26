@@ -124,6 +124,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthBit", "Bit\KthBit\KthBit.csproj", "{E005C9C3-F42E-40CC-B3CB-A44B041A7BAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashSet", "HashSet", "{CEFAB787-570B-4333-BC32-AE7CBBEF6E03}"
+	ProjectSection(SolutionItems) = preProject
+		HashSet\HastSetNotes.rtf = HashSet\HastSetNotes.rtf
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetDemo", "HashSet\HashSetDemo\HashSetDemo.csproj", "{7C65C1D6-1F4E-4418-A35F-55796F040D3F}"
 EndProject
