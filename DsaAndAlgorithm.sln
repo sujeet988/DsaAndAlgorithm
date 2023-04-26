@@ -203,6 +203,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondLargestElementInArray
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayinsertAtIndex", "ArrayinsertAtIndex\ArrayinsertAtIndex.csproj", "{F3F9E42C-C11E-4E89-98B1-6F406847FCD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDeleteAtIndex", "Arrays\ArrayDeleteAtIndex\ArrayDeleteAtIndex.csproj", "{4976F489-C16B-4CDA-B009-410D762FEAFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -525,6 +527,10 @@ Global
 		{F3F9E42C-C11E-4E89-98B1-6F406847FCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3F9E42C-C11E-4E89-98B1-6F406847FCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3F9E42C-C11E-4E89-98B1-6F406847FCD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4976F489-C16B-4CDA-B009-410D762FEAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4976F489-C16B-4CDA-B009-410D762FEAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4976F489-C16B-4CDA-B009-410D762FEAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4976F489-C16B-4CDA-B009-410D762FEAFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -608,6 +614,7 @@ Global
 		{235FF2B7-EF3B-49EF-A0E9-F89DFD4183B1} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 		{AD89A913-D80F-4F81-BE2A-B01A9EC9FC2A} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 		{F3F9E42C-C11E-4E89-98B1-6F406847FCD6} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
+		{4976F489-C16B-4CDA-B009-410D762FEAFC} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
