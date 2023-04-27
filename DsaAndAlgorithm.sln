@@ -219,6 +219,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LCMOfANjumber", "Maths\LCMO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyNumber", "Maths\HappyNumber\HappyNumber.csproj", "{4E9412F2-CE18-480C-BC44-DE9F6EF9A166}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicProgramming", "DynamicProgramming", "{AFBE8B91-1DFB-496F-829A-DD796FA95B29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackTracking", "BackTracking", "{080D234D-439E-41D2-829E-DA4B31DD2C2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BubbleSort", "BubbleSort", "{174E3269-1604-466A-B958-045535030A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SelectionSort", "SelectionSort", "{09E7E619-DCA2-4DA0-A29E-A9993C38D1CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

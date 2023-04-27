@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace DsAlgo.Sujeet
 {
+
+    /*
+     * https://practice.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1
+     * https://www.geeksforgeeks.org/move-zeroes-end-array/
+     * Given an array arr[] of N positive integers. Push all the zeros of the given array to the right end of the array while maitaining the order of non-zero elements.
+     */
     internal class PushZeroToend
     {
         //Naive Solution or Brute Force Solution
@@ -38,8 +44,10 @@ namespace DsAlgo.Sujeet
             return newarr;
 
         }
+
         //By Two pointer
         // Optmized
+        // no extra array
         public static int[]  PushZeroToEndByTwoPointer(int[] nums)
         {
             //Do not return anything, modify nums in-place instead.
