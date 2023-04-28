@@ -7,7 +7,6 @@ namespace BubbleSort
      */
     internal class Program
     {
-
         public static void BubbleSortArray(int[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
@@ -24,6 +23,9 @@ namespace BubbleSort
             }
 
         }
+
+        // Expected Time Complexity: O(N^2).
+        // Expected Auxiliary Space: O(1).
 
         static void Main(string[] args)
         {
