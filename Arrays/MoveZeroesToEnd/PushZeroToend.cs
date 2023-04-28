@@ -15,7 +15,6 @@ namespace DsAlgo.Sujeet
     internal class PushZeroToend
     {
         //Naive Solution or Brute Force Solution
-
         public static int[] PushZeroToEnd(int[] arr)
         {
             /*

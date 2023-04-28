@@ -227,7 +227,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BubbleSort", "BubbleSort", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SelectionSort", "SelectionSort", "{09E7E619-DCA2-4DA0-A29E-A9993C38D1CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeilingOfANumber", "BinarySearch\CeilingOfANumber\CeilingOfANumber.csproj", "{33682B7C-AD2C-4AEB-A863-D29A76379D40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CeilingOfANumber", "BinarySearch\CeilingOfANumber\CeilingOfANumber.csproj", "{33682B7C-AD2C-4AEB-A863-D29A76379D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort\BubbleSort.csproj", "{15417AB1-9793-4AD9-9A83-82E6F9FC6390}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -575,6 +577,10 @@ Global
 		{33682B7C-AD2C-4AEB-A863-D29A76379D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33682B7C-AD2C-4AEB-A863-D29A76379D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33682B7C-AD2C-4AEB-A863-D29A76379D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15417AB1-9793-4AD9-9A83-82E6F9FC6390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15417AB1-9793-4AD9-9A83-82E6F9FC6390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15417AB1-9793-4AD9-9A83-82E6F9FC6390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15417AB1-9793-4AD9-9A83-82E6F9FC6390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -664,6 +670,7 @@ Global
 		{26C5043B-39F1-4559-9BB8-39821F9504B6} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{4E9412F2-CE18-480C-BC44-DE9F6EF9A166} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{33682B7C-AD2C-4AEB-A863-D29A76379D40} = {A3D57415-D5BB-4653-8354-120E0AB39BD6}
+		{15417AB1-9793-4AD9-9A83-82E6F9FC6390} = {174E3269-1604-466A-B958-045535030A0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
