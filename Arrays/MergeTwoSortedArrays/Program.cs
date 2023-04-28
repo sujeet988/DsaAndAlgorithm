@@ -1,2 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using MergeTwoSortedArrays;
+
+
+Console.WriteLine("Merge Two Sorted Arrays");
+//Brute force
+MergeForSortedArray.mergeWithExtraSpaces();
+
+//Optimized approach
+
+Console.ReadLine();
