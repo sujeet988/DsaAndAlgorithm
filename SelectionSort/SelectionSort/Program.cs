@@ -1,21 +1,22 @@
 ﻿using System;
 
-namespace BubbleSort
+namespace SelectionSort
 {
     /*
-     * Bubble Sort-
+     *Selection sort -> select the greatest/lowest element and put it on right index
      */
     internal class Program
     {
-        public static void BubbleSortArrayAscendingOrder(int[] arr)
+
+        public static void SelectionSort(int[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
             {
-                for (int j = i+1; j < arr.Length; j++)
+                for (int j = i + 1; j < arr.Length; j++)
                 {
                     if (arr[i] > arr[j])
                     {
-                        int temp = arr[j]; 
+                        int temp = arr[j];
                         arr[j] = arr[i];
                         arr[i] = temp;
                     }
@@ -24,21 +25,18 @@ namespace BubbleSort
 
         }
 
-        // Expected Time Complexity: O(N^2).
-        // Expected Auxiliary Space: O(1).
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Bubble Sort Demo");
+            Console.WriteLine("Selection Sort Demo");
             //unsorted Array
-            int[] arr = new int[5] { 10, 50, 40, 30, 20 };
+            int[] arr = new int[5] { 4,5,1,2,3};
             Console.WriteLine("Array before sorted");
             foreach (var item in arr)
             {
                 Console.Write(item + " ");
             }
             Console.WriteLine();
-            BubbleSortArrayAscendingOrder(arr);
+            SelectionSort(arr);
             Console.WriteLine("Array after sorted");
             foreach (var item in arr)
             {
@@ -46,7 +44,5 @@ namespace BubbleSort
             }
             Console.ReadLine();
         }
-
-
     }
 }
