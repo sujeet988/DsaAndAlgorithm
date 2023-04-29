@@ -8,21 +8,64 @@ namespace SelectionSort
     internal class Program
     {
 
-        public static void SelectionSort(int[] arr)
+        public static void SelectionSortAscending(int[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
             {
-                for (int j = i + 1; j < arr.Length; j++)
-                {
-                    if (arr[i] > arr[j])
-                    {
-                        int temp = arr[j];
-                        arr[j] = arr[i];
-                        arr[i] = temp;
-                    }
-                }
+                // find the max item in the remaining array and swap with correct index
+                int lastIndex = arr.Length - i - 1;
+                int maxIndex =GetMaxIndex(arr, 0, lastIndex);
+                //swap
+                int temp = arr[maxIndex];
+                arr[maxIndex] = arr[lastIndex];
+                arr[lastIndex] = temp;
+
+
             }
 
+        }
+
+        public static void SelectionSortDescending(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                // find the max item in the remaining array and swap with correct index
+                int lastIndex = arr.Length - i - 1;
+                int minIndex = GetMinIndex(arr, 0, lastIndex);
+                //swap
+                int temp = arr[minIndex];
+                arr[minIndex] = arr[lastIndex];
+                arr[lastIndex] = temp;
+
+
+            }
+
+        }
+
+        private static int GetMaxIndex(int[] arr, int start, int end)
+        {
+            int max = start;
+            for(int i=start; i<= end; i++)
+            {
+                if ( arr[i] > arr[max])
+                {
+                    max = i;
+                }
+            }
+            return max;
+        }
+
+        private static int GetMinIndex(int[] arr, int start, int end)
+        {
+            int min = start;
+            for (int i = start; i <= end; i++)
+            {
+                if (arr[i] < arr[min])
+                {
+                    min = i;
+                }
+            }
+            return min;
         }
 
         static void Main(string[] args)
@@ -36,8 +79,15 @@ namespace SelectionSort
                 Console.Write(item + " ");
             }
             Console.WriteLine();
-            SelectionSort(arr);
-            Console.WriteLine("Array after sorted");
+            SelectionSortAscending(arr);
+            Console.WriteLine("Array after sorted in ascending");
+            foreach (var item in arr)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine() ;
+            SelectionSortDescending(arr);
+            Console.WriteLine("Array after sorted in descending");
             foreach (var item in arr)
             {
                 Console.Write(item + " ");
