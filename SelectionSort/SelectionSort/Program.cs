@@ -4,10 +4,13 @@ namespace SelectionSort
 {
     /*
      *Selection sort -> select the greatest/lowest element and put it on right index
+     * Expected Time Complexity: O(N^2).
+     * Expected space Complexity: O(1).
      */
     internal class Program
     {
-
+        // Expected Time Complexity: O(N^2).
+        // Expected Auxiliary Space: O(1).
         public static void SelectionSortAscending(int[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
@@ -25,6 +28,8 @@ namespace SelectionSort
 
         }
 
+        // Expected Time Complexity: O(N^2).
+        // Expected Auxiliary Space: O(1).
         public static void SelectionSortDescending(int[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
