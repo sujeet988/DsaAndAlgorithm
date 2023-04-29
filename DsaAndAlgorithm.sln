@@ -250,6 +250,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MergeSort", "MergeSort", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort\MergeSort.csproj", "{70849D32-A69E-4ED9-9648-ED6CF202284C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing Number", "CyclicSort\Missing Number\Missing Number.csproj", "{59A06C6F-4085-44E0-9421-E60C1B15C193}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -616,6 +618,10 @@ Global
 		{70849D32-A69E-4ED9-9648-ED6CF202284C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70849D32-A69E-4ED9-9648-ED6CF202284C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70849D32-A69E-4ED9-9648-ED6CF202284C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A06C6F-4085-44E0-9421-E60C1B15C193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A06C6F-4085-44E0-9421-E60C1B15C193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A06C6F-4085-44E0-9421-E60C1B15C193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A06C6F-4085-44E0-9421-E60C1B15C193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -710,6 +716,7 @@ Global
 		{34394249-6E88-4868-82A4-7511370A918B} = {6425D6FC-FB36-43D9-A2C3-6A4CF0599931}
 		{DECAF653-42E6-4EC7-8D29-756BF2094A72} = {5A1CEA5F-C49F-4175-A0F6-B41F520636CD}
 		{70849D32-A69E-4ED9-9648-ED6CF202284C} = {D0128D3B-6EA2-41DD-9A8B-4118A0BD05CE}
+		{59A06C6F-4085-44E0-9421-E60C1B15C193} = {5A1CEA5F-C49F-4175-A0F6-B41F520636CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
