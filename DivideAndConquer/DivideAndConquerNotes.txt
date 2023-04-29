@@ -1,0 +1,8 @@
+Divide and Conquer solver below given problems
+
+Binary Search
+Merge Sort
+quick Sort
+Finding Maximum and Minimum
+strasesss matrix problems
+

@@ -253,6 +253,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing Number", "CyclicSort\Missing Number\Missing Number.csproj", "{59A06C6F-4085-44E0-9421-E60C1B15C193}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DivideAndConquer", "DivideAndConquer", "{F7B7B13F-7D56-4ECC-9D31-88AD7F5E1AC4}"
+	ProjectSection(SolutionItems) = preProject
+		DivideAndConquer\DivideAndConquerNotes.txt = DivideAndConquer\DivideAndConquerNotes.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideAndConquer", "DivideAndConquer\DivideAndConquer\DivideAndConquer.csproj", "{D08D82BD-12EE-4766-AE0F-C966AA4594E4}"
 EndProject
