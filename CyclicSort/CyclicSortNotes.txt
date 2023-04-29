@@ -1,1 +1,4 @@
-1. When given number from range 1 to n- use cyclic sort
+When given number from range 1 to n- use cyclic sort
+if the range of array 0 To N then index=value or value=index; [0,1,2,3,4,5]
+if the range of array 1 To N then index=value-1 or value=index+1; [1,2,3,4,5]
+

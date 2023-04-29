@@ -18,7 +18,7 @@ namespace Missing_Number
             int i = 0;
             while (i < arr.Length)
             {
-                int correct = arr[i];
+                int correct = arr[i]; //array start from 0 to n so value=index
                 if (arr[i] < arr.Length && arr[i] != arr[correct])
                 {
                     swap(arr, i, correct);
