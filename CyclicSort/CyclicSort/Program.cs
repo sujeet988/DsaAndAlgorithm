@@ -12,22 +12,19 @@ namespace CyclicSort
         // Expected Auxiliary Space: O(1).
         public static void CyclicSortAscending(int[] arr)
         {
-           
 
-            for (int i = 0; i < arr.Length - 1; i++)
+
+            int i = 0;
+            while (i < arr.Length)
             {
-                for (int j = i + 1; j > 0; j--)
+                int correct = arr[i] - 1;
+                if (arr[i] != arr[correct])
                 {
-                    if (arr[j] < arr[j - 1])
-                    {
-                        int temp = arr[j];
-                        arr[j] = arr[j - 1];
-                        arr[j - 1] = temp;
-                    }
-                    else
-                    {
-                        break;
-                    }
+                    swap(arr, i, correct);
+                }
+                else
+                {
+                    i++;
                 }
             }
         }
@@ -54,6 +51,13 @@ namespace CyclicSort
                     }
                 }
             }
+        }
+
+        static void swap(int[] arr, int first, int second)
+        {
+            int temp = arr[first];
+            arr[first] = arr[second];
+            arr[second] = temp;
         }
         static void Main(string[] args)
         {

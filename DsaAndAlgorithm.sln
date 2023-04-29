@@ -240,6 +240,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort\InsertionSort.csproj", "{34394249-6E88-4868-82A4-7511370A918B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CyclicSort", "CyclicSort", "{5A1CEA5F-C49F-4175-A0F6-B41F520636CD}"
+	ProjectSection(SolutionItems) = preProject
+		CyclicSort\CyclicSortNotes.txt = CyclicSort\CyclicSortNotes.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicSort", "CyclicSort\CyclicSort\CyclicSort.csproj", "{DECAF653-42E6-4EC7-8D29-756BF2094A72}"
 EndProject

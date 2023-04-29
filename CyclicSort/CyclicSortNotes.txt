@@ -1,0 +1,1 @@
+1. When given number from range 1 to n- use cyclic sort
