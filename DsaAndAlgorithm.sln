@@ -262,6 +262,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideAndConquer", "DivideA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming\DynamicProgramming.csproj", "{E9E1F517-F0C1-4876-9FDE-6C4ABB56F9E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysInsertAtIndex", "Arrays\ArraysInsertAtIndex\ArraysInsertAtIndex.csproj", "{D81180DC-6BB8-4C2C-A79C-7040606CB5B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -636,6 +638,10 @@ Global
 		{E9E1F517-F0C1-4876-9FDE-6C4ABB56F9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9E1F517-F0C1-4876-9FDE-6C4ABB56F9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9E1F517-F0C1-4876-9FDE-6C4ABB56F9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81180DC-6BB8-4C2C-A79C-7040606CB5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81180DC-6BB8-4C2C-A79C-7040606CB5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81180DC-6BB8-4C2C-A79C-7040606CB5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81180DC-6BB8-4C2C-A79C-7040606CB5B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -732,6 +738,7 @@ Global
 		{59A06C6F-4085-44E0-9421-E60C1B15C193} = {5A1CEA5F-C49F-4175-A0F6-B41F520636CD}
 		{D08D82BD-12EE-4766-AE0F-C966AA4594E4} = {F7B7B13F-7D56-4ECC-9D31-88AD7F5E1AC4}
 		{E9E1F517-F0C1-4876-9FDE-6C4ABB56F9E4} = {AFBE8B91-1DFB-496F-829A-DD796FA95B29}
+		{D81180DC-6BB8-4C2C-A79C-7040606CB5B5} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
