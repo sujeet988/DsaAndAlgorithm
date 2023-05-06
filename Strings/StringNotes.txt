@@ -18,17 +18,62 @@
 	Output: Not Anagra  > length is same but all characters is not same.
 
 2. Substring of a string : 
-In computer programming, a substring is a contiguous sequence of characters within a larger string. 
-For example, in the string "hello world", the substring "world" is a part of the larger string.
+	In computer programming, a substring is a contiguous sequence of characters within a larger string. 
+	For example, in the string "hello world", the substring "world" is a part of the larger string.
 
-A substring is a subset or part of another string,
-or it is a contiguous sequence of characters within a string.For example, "Substring" is a substring of "Substring in c#." 
-example : string str = "abc";
-Substring output : a ,b ,c ,ab,bc ,abc
+	A substring is a subset or part of another string,
+	or it is a contiguous sequence of characters within a string.For example, "Substring" is a substring of "Substring in c#." 
+	example : string str = "abc";
+	Substring output : a ,b ,c ,ab,bc ,abc
 
-3. Permutation of a string
+3. Permutation of a string :
+   In the context of computer science and mathematics, a permutation of a string is 
+   a rearrangement of the characters in the string.
 
-4. Subsets of a string
+   Note : In general, if a string has n characters, there are n! (n factorial) possible permutations.
+   exmaple : abc - herel lenght n=3 then permutation of  a string would be : 3*2*1=6
+   For example, 
+   1. given the string "abc", the possible permutations are:
+
+	"abc"
+	"acb"
+	"bac"
+	"bca"
+	"cab"
+	"cba"
+   2. Input: str = "cd"  Output: cd dc, here length n=2 then 2! : 2*1=2 
+
+4. Subsets of a string :
+	In computer science and mathematics, a subset of a string is a collection of 
+	characters that can be obtained by selecting zero or more characters from the string, 
+	without changing the order of the characters.
+
+    For example, given the string "abc", the possible subsets are:
+
+	{}
+	{"a"}
+	{"b"}
+	{"c"}
+	{"a", "b"}
+	{"a", "c"}
+	{"b", "c"}
+	{"a", "b", "c"}
+	In general, if a string has n characters, 
+	there are 2^n possible subsets, including the empty set.
+	abc =len=3 then 2*2*2=8
+
+	Subsets are commonly used in various algorithms and data structures, 
+	such as in generating all possible combinations of a set of elements 
+	or in dynamic programming algorithms.
+
+	Power set : Set of all subset ; 8 : {}
+	{"a"}
+	{"b"}
+	{"c"}
+	{"a", "b"}
+	{"a", "c"}
+	{"b", "c"}
+	{"a", "b", "c"}
 
 5. subsequences of  a string
 
