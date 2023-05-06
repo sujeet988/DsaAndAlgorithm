@@ -15,7 +15,7 @@ namespace ValidAnagram
         //Approach: Sort both the string and compare each and every letter of both strings. If all letters matched then, print true. Otherwise, print false.
         public static bool isAnagram(string a, string b)
         {
-            // Case 1: when both of the strings have different lengths
+            // Case 1: when both of the strings have different length
             if (a.Length != b.Length)
             {
                 return false;
