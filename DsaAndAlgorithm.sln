@@ -272,6 +272,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnagramofString", "Strings\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsomorphicStrings", "Strings\IsomorphicStrings\IsomorphicStrings.csproj", "{65B264E6-9E2A-4351-9687-4C14C799EFBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsequenceOfString", "Strings\SubsequenceOfString\SubsequenceOfString.csproj", "{7B0C5DC4-F382-49AF-B244-04E5799EAB6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -658,6 +660,10 @@ Global
 		{65B264E6-9E2A-4351-9687-4C14C799EFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65B264E6-9E2A-4351-9687-4C14C799EFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65B264E6-9E2A-4351-9687-4C14C799EFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B0C5DC4-F382-49AF-B244-04E5799EAB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0C5DC4-F382-49AF-B244-04E5799EAB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0C5DC4-F382-49AF-B244-04E5799EAB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0C5DC4-F382-49AF-B244-04E5799EAB6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -757,6 +763,7 @@ Global
 		{5B39014B-61A6-451D-A6A8-8F106F45CFB7} = {DD00893C-53D1-4930-96F7-96AA5BA0C105}
 		{4F9DFD71-C8AE-4510-9591-D183819C04C9} = {DD00893C-53D1-4930-96F7-96AA5BA0C105}
 		{65B264E6-9E2A-4351-9687-4C14C799EFBD} = {DD00893C-53D1-4930-96F7-96AA5BA0C105}
+		{7B0C5DC4-F382-49AF-B244-04E5799EAB6C} = {DD00893C-53D1-4930-96F7-96AA5BA0C105}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
