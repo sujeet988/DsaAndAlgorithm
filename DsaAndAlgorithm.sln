@@ -15,6 +15,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{DD00893C-53D1-4930-96F7-96AA5BA0C105}"
 	ProjectSection(SolutionItems) = preProject
 		Strings\StringNotes.txt = Strings\StringNotes.txt
+		Strings\Subarray, Subset, and Subsequence.txt = Strings\Subarray, Subset, and Subsequence.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductOfArrayExceptSelf", "Arrays\ProductOfArrayExceptSelf\ProductOfArrayExceptSelf.csproj", "{2091F239-B258-4720-90E8-440BA8C3FAB5}"

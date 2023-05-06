@@ -1,3 +1,6 @@
+Note : https://www.techiedelight.com/difference-between-subarray-subsequence-subset/
+https://www.scaler.com/topics/difference-between-subarray-subset-and-subsequence/
+
 1. Anagram 
 	An anagram of a string is another string that contains the same characters, 
 	only the order of characters can be different. 
@@ -45,8 +48,8 @@
 
 4. Subsets of a string :
 	In computer science and mathematics, a subset of a string is a collection of 
-	characters that can be obtained by selecting zero or more characters from the string, 
-	without changing the order of the characters.
+	 characters that can be obtained by selecting zero or more characters from the string, 
+	 in any  order of the characters.
 
     For example, given the string "abc", the possible subsets are:
 
