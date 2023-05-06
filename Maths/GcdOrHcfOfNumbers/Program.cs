@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GCDOfANumber
+namespace GcdOrHcfOfNumbers
 {
     internal class Program
     {
