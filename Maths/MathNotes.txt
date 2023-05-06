@@ -1,1 +1,25 @@
-﻿
+﻿1. Remainder :
+        The Remainder is the value left after the division. If a number (dividend) is not completely 
+        divisible by another number (divisor) then we are left with a value once the division is done. 
+        This value is called the remainder.
+        For example, 10 is not exactly divided by 3. Since the closest value, we can get 3 x 3 = 9.
+        Hence, 10 ÷ 3 → 3 R 1, where 3 is the quotient and 1 is the remainder.
+        1%10 : 1 : if numerator  is less than denominator then by default numbertor is remainder. so answer is 1 
+        1%10 : 1 : if dividend  is less than divisor then by default numbertor is remainder. so answer is 1
+
+2. Divide
+
+   In division, we divide a number by any other number to get another number as a result. 
+   So, the number which is getting divided here is called the dividend. 
+   The number which divides a given number is the divisor. 
+   And the number which we get as a result is known as the quotient. 
+   Dividend / Divisor = Quotient
+  : 0/1 -0
+    0/10 -0 > 
+    1/2: 0
+    
+3. Quotient: 8/40 : 5 ans
+
+4. 8/40 :
+    8 > dividend -> the number which is getting divided here is called the dividend.
+    40 > divisor -> The number which divides a given number is the divisor.
