@@ -78,6 +78,20 @@ https://www.scaler.com/topics/difference-between-subarray-subset-and-subsequence
 	{"b", "c"}
 	{"a", "b", "c"}
 
+Notes : Subset vs permutation
+
+	A subset is a collection of elements that are selected from a larger set, where the order of 
+	the elements doesn't matter. For example, if you have a set of {1, 2, 3}, then some of its 
+	possible subsets are {1, 2}, {2, 3}, {1, 2, 3}, and so on.
+
+	On the other hand, a permutation is an arrangement of elements in a particular order. 
+	For example, if you have a set of {1, 2, 3}, then some of its possible permutations are {1, 2, 3}, {2, 1, 3}, {3, 2, 1}, and so on.
+
+	To summarize, the key difference between a subset and a permutation is that a subset is a 
+	collection of elements where the order doesn't matter, while a permutation is an arrangement 
+	of elements in a particular order
+	 Examepl: in subset 1,2 or 2,1 -> bothe are same  but in permutation both are different
+
 5. subsequences of  a string
 
 6  Isomorphic Strings
