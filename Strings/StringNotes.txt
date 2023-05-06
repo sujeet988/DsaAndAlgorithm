@@ -17,9 +17,20 @@
 	Input: s = "rat", t = "car"
 	Output: Not Anagra  > length is same but all characters is not same.
 
-2. Substring of a string
+2. Substring of a string : 
+In computer programming, a substring is a contiguous sequence of characters within a larger string. 
+For example, in the string "hello world", the substring "world" is a part of the larger string.
 
-3. Permutations
+A substring is a subset or part of another string,
+or it is a contiguous sequence of characters within a string.For example, "Substring" is a substring of "Substring in c#." 
+example : string str = "abc";
+Substring output : a ,b ,c ,ab,bc ,abc
 
-4. Subsets 
+3. Permutation of a string
+
+4. Subsets of a string
+
+5. subsequences of  a string
+
+6  Isomorphic Strings
   
