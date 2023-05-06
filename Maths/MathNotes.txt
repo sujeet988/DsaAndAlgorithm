@@ -46,6 +46,32 @@ Methods to Find GCD :
 	Long division method
 	Euclid’s division algorithm --used in coding majorly
 
+	One way to find the GCD of two numbers is to use the Euclidean algorithm. The Euclidean algorithm 
+	is based on the fact that the GCD of two numbers does not change if the smaller number is subtracted from the larger number. This process is repeated until one of the numbers becomes zero. The GCD is then the remaining non-zero number.
+
+    Here's a Java method that implements the Euclidean algorithm to find the GCD of two numbers:
+	   public static int gcd(int a, int b) {
+		if (b == 0) {
+			return a;
+		}
+		return gcd(b, a % b);
+		}
+
+		This method takes two integers a and b as input and returns their GCD. The method first checks 
+		if b is zero, as the GCD of a and 0 is a. If b is not zero, the method calls itself 
+		recursively with b as the first argument and a % b as the second argument. 
+		This continues until b becomes zero, at which point the method returns a.
+
+		Here's an example of using the gcd method to find the GCD of two numbers
+
+		int a = 24;
+		int b = 36;
+		int gcd = gcd(a, b);
+        System.out.println("GCD of " + a + " and " + b + " is " + gcd);
+		This will output: GCD of 24 and 36 is 12
+
+
+
 
 
 LCM :Least Common Multiple
