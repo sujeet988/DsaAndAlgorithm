@@ -1,0 +1,17 @@
+The Euclidean algorithm is an efficient method for computing the greatest common divisor (GCD) of two integers. It is based on the following property:
+
+If a and b are two positive integers with a > b, then the GCD of a and b is equal to the GCD of b and the remainder of a divided by b.
+This property can be written as follows:
+
+GCD(a, b) = GCD(b, a mod b)
+This formula can be applied recursively until the remainder becomes zero, at which point the GCD is the remaining non-zero number.
+
+Here's an example of using the Euclidean algorithm formula to find the GCD of two numbers:
+
+Suppose we want to find the GCD of 24 and 36.
+
+We start by applying the formula: GCD(24, 36) = GCD(36, 24 mod 36) = GCD(36, 24)
+We can apply the formula again: GCD(36, 24) = GCD(24, 36 mod 24) = GCD(24, 12)
+We continue: GCD(24, 12) = GCD(12, 24 mod 12) = GCD(12, 0)
+Since the remainder is zero, we have found the GCD, which is the remaining non-zero number: GCD(12, 0) = 12.
+Therefore, the GCD of 24 and 36 is 12

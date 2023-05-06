@@ -45,3 +45,31 @@ Methods to Find GCD :
 	Prime factorisation method
 	Long division method
 	Euclid’s division algorithm --used in coding majorly
+
+
+
+LCM :Least Common Multiple
+
+	LCM stands for "Least Common Multiple", which is the smallest positive integer that is divisible 
+	by two or more integers without a remainder. In other words, LCM is the smallest positive integer 
+	that is a multiple of all the given numbers.
+	For example, L.C.M of 16 and 20 will be 2 x 2 x 2 x 2 x 5 = 80, where 80 is the smallest common 
+	multiple for numbers 16 and 20. Now, if we consider the multiples of 16 and 20, we get;
+
+	16 → 16, 32, 48, 64, 80,… 
+
+	20 → 20, 40, 60, 80,…, 
+
+	We can see that the first common multiple for both numbers is 80.--ANS 
+	This proves the method of LCM as correct.
+
+
+
+	One way to find the LCM of two numbers is to use the formula:
+	LCM(a, b) = (a * b) / GCD(a, b)
+	where a and b are the two numbers and GCD(a, b) is their greatest common divisor.
+
+	To find the LCM of more than two numbers, we can use the fact that:
+		LCM(a, b, c) = LCM(LCM(a, b), c)
+
+
