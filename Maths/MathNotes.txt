@@ -13,7 +13,9 @@
    So, the number which is getting divided here is called the dividend. 
    The number which divides a given number is the divisor. 
    And the number which we get as a result is known as the quotient. 
+
    Dividend / Divisor = Quotient
+
   : 0/1 -0
     0/10 -0 > 
     1/2: 0
@@ -23,3 +25,14 @@
 4. 8/40 :
     8 > dividend -> the number which is getting divided here is called the dividend.
     40 > divisor -> The number which divides a given number is the divisor.
+
+Fraction : 
+   A numerator is the part of a fraction above the line, which signifies the number to be divided by 
+   another number below the line. In the example given below, the number that lies above the line 
+   is the numerator, i.e. in the fraction 1/8, 1 represents the numerator, and 8 represents the 
+   denominator.
+   If the numerator is equal to 0, then the entire fraction becomes zero irrespective of the 
+   denominator’s value. For example, 0⁄50 is 0, 0⁄3 is 0, and so on.
+
+   If the numerator’s value is equal to the denominator, then the fraction’s value will be equal to 1.
+   For example, 16/16 = 1, since numerator = 16 = denominator.
