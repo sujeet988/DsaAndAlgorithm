@@ -1,19 +1,25 @@
-1. Anagram
-An anagram of a string is another string that contains the same characters, 
-only the order of characters can be different. 
-For example, “abcd” and “dabc” are an anagram of each other.
+1. Anagram 
+	An anagram of a string is another string that contains the same characters, 
+	only the order of characters can be different. 
+	For example, “abcd” and “dabc” are an anagram of each other.
 
-Note : 
-1. Both string Length  Must be same
-2. Order  of characters can be different
+	Note : 
+	1. Both string Length  Must be same
+	2. Order  of characters can be different
 
-Input: str1 = "listen""  str2 = "silent"
-Output: "Anagram"
-Explanation: All characters of "listen"" and "silent"" are the same and length of strings are same
+	Input: str1 = "listen""  str2 = "silent"
+	Output: "Anagram"
+	Explanation: All characters of "listen"" and "silent"" are the same and length of strings are same
 
-Input: str1 = "gram" str2 = "arm"
-Output: "Not Anagram beacause length is not same"
+	Input: str1 = "gram" str2 = "arm"
+	Output: "Not Anagram beacause length is not same"
 
-Input: s = "rat", t = "car"
-Output: Not Anagra  > length is same but all characters is not same.
+	Input: s = "rat", t = "car"
+	Output: Not Anagra  > length is same but all characters is not same.
+
+2. Substring of a string
+
+3. Permutations
+
+4. Subsets 
   
