@@ -93,6 +93,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Maths", "Maths", "{21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}"
 	ProjectSection(SolutionItems) = preProject
 		Maths\Euclidean algorithm.txt = Maths\Euclidean algorithm.txt
+		Maths\GcdandLcmNotes.txt = Maths\GcdandLcmNotes.txt
 		Maths\MathNotes.txt = Maths\MathNotes.txt
 	EndProjectSection
 EndProject
