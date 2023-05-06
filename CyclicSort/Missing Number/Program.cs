@@ -13,6 +13,34 @@ namespace Missing_Number
      */
     internal class Program
     {
+
+        public int FirstMissingPositive(int[] arr)
+        {
+            Array.Sort(arr);
+
+            if (arr[0] > 1)
+            {
+                return 1;
+            }
+
+            for (int index = 0; index < arr.Length; index++)
+            {
+                if (arr[index] <= 0)
+                {
+                    continue;
+                }
+
+                if (arr[index] != index)
+                {
+                    return index;
+                }
+            }
+
+            // case 2
+            return arr.Length ;
+
+        }
+
         public int MissingNumber(int[] arr)
         {
             int i = 0;
@@ -55,9 +83,9 @@ namespace Missing_Number
         static void Main(string[] args)
         {
             Console.WriteLine("Find Missing Number using Cyclic Sort");
-            int[] arr = new int[3] { 3, 0, 1 };
+            int[] arr = new int[4] { 3, 4, -1, 1 };
             Program p = new Program();
-            var output = p.MissingNumber(arr);
+            var output = p.FirstMissingPositive(arr);
             Console.WriteLine(output); // output 2
             Console.ReadLine();
         }

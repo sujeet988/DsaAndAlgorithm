@@ -25,7 +25,7 @@ namespace CeilingOfANumber
                     start = mid + 1;
                 }
             }
-            return -1;
+            return start;
         }
         static void Main(string[] args)
         {
