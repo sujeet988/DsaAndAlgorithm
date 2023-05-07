@@ -64,7 +64,7 @@ namespace BubbleSort
 
             Console.WriteLine();
             BubbleSortArrayDescendingOrder(arr);
-            Console.WriteLine("Array after sorted in Ascending order");
+            Console.WriteLine("Array after sorted in Descending order");
             foreach (var item in arr)
             {
                 Console.Write(item + " ");
