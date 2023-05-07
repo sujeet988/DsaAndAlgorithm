@@ -126,6 +126,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp5", "Notes\ConsoleApp5\ConsoleApp5.csproj", "{CEC5BAEE-1A33-45B9-B6AA-8C2401990B68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bit", "Bit", "{0BB541AD-1DC0-4BDF-A150-EC281A48EE2F}"
+	ProjectSection(SolutionItems) = preProject
+		Bit\BitNotes.txt = Bit\BitNotes.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitWiseQuestions", "Bit\BitWiseQuestions\BitWiseQuestions.csproj", "{145340FB-0C99-4C68-B978-ED6757B17C50}"
 EndProject
@@ -234,8 +237,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicProgramming", "Dynam
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackTracking", "BackTracking", "{080D234D-439E-41D2-829E-DA4B31DD2C2E}"
+	ProjectSection(SolutionItems) = preProject
+		BackTracking\BackTrackNotes.txt = BackTracking\BackTrackNotes.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BubbleSort", "BubbleSort", "{174E3269-1604-466A-B958-045535030A0A}"
+	ProjectSection(SolutionItems) = preProject
+		BubbleSort\BubbleSortNotes.txt = BubbleSort\BubbleSortNotes.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SelectionSort", "SelectionSort", "{09E7E619-DCA2-4DA0-A29E-A9993C38D1CD}"
 EndProject
@@ -295,6 +304,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GcdOrHcfOfNumbers", "Maths\GcdOrHcfOfNumbers\GcdOrHcfOfNumbers.csproj", "{D14DD4A0-0B60-44DC-BB77-B71D530270D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackTrack", "BackTracking\BackTrack\BackTrack.csproj", "{88BCB65E-3606-4990-8699-C3FB3CE5520E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{A2D43D2F-7A57-4BFC-B670-945257F60EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph\Graph.csproj", "{500FEE19-396C-4B41-9DFF-46E2562EC322}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -678,6 +691,10 @@ Global
 		{88BCB65E-3606-4990-8699-C3FB3CE5520E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88BCB65E-3606-4990-8699-C3FB3CE5520E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88BCB65E-3606-4990-8699-C3FB3CE5520E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -776,6 +793,7 @@ Global
 		{70A9CFFC-3E63-41DE-8846-046BDBD73358} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{D14DD4A0-0B60-44DC-BB77-B71D530270D5} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{88BCB65E-3606-4990-8699-C3FB3CE5520E} = {080D234D-439E-41D2-829E-DA4B31DD2C2E}
+		{500FEE19-396C-4B41-9DFF-46E2562EC322} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
