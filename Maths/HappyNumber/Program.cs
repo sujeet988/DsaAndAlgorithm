@@ -4,6 +4,7 @@ using System.Collections.Generic;
 namespace HappyNumber
 {
     /*
+     * https://leetcode.com/problems/happy-number/
      *  A number is called happy if it leads to 1 after a sequence of steps wherein each step 
         number is replaced by the sum of squares of its digit that is if we start with Happy 
         Number and keep replacing it with digits square sum, we reach 1.
@@ -32,6 +33,7 @@ namespace HappyNumber
             HashSet<int> seen = new HashSet<int>();
             while (n != 1)
             {
+                //compute the sum of squares
                 int sum = 0;
                 while (n > 0)
                 {
@@ -39,7 +41,7 @@ namespace HappyNumber
                     sum += digit * digit;
                     n = n / 10;
                 }
-
+                // compute square until getting duplicate value
                 if (seen.Contains(sum))
                 {
                     return false;
@@ -60,7 +62,9 @@ namespace HappyNumber
             bool isHappy = IsHappy(num);
 
             Console.WriteLine($"{num} is{(isHappy ? " " : " not ")}a happy number."); //return true
-            num = 18;
+            
+            num = 2;
+             isHappy = IsHappy(num);
             Console.WriteLine($"{num} is{(isHappy ? " " : " not ")}a happy number."); //return false;
 
             Console.ReadLine();
