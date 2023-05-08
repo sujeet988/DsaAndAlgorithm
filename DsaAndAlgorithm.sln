@@ -273,6 +273,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyclicSort", "CyclicSort\CyclicSort\CyclicSort.csproj", "{DECAF653-42E6-4EC7-8D29-756BF2094A72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MergeSort", "MergeSort", "{D0128D3B-6EA2-41DD-9A8B-4118A0BD05CE}"
+	ProjectSection(SolutionItems) = preProject
+		MergeSort\MergeSortNotes.txt = MergeSort\MergeSortNotes.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSort", "MergeSort\MergeSort\MergeSort.csproj", "{70849D32-A69E-4ED9-9648-ED6CF202284C}"
 EndProject
@@ -308,6 +311,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{A2D43D2F-7A57-4BFC-B670-945257F60EEE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph\Graph.csproj", "{500FEE19-396C-4B41-9DFF-46E2562EC322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgoImPortant", "AlgoImPortant", "{88FF4A67-B3B1-4150-B902-337D24C4F33E}"
+	ProjectSection(SolutionItems) = preProject
+		AlgoImportant\KadanealgorithmNotes.txt = AlgoImportant\KadanealgorithmNotes.txt
+		AlgoImportant\SlidingWindowNotes.txt = AlgoImportant\SlidingWindowNotes.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindow", "AlgoImportant\SlidingWindow\SlidingWindow.csproj", "{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -695,6 +706,10 @@ Global
 		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -794,6 +809,7 @@ Global
 		{D14DD4A0-0B60-44DC-BB77-B71D530270D5} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{88BCB65E-3606-4990-8699-C3FB3CE5520E} = {080D234D-439E-41D2-829E-DA4B31DD2C2E}
 		{500FEE19-396C-4B41-9DFF-46E2562EC322} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
+		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839} = {88FF4A67-B3B1-4150-B902-337D24C4F33E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}

@@ -29,6 +29,8 @@ namespace MatrixMultiDimensionArray
 
         public static void Jagged2DArrays()
         {
+            int[][] jaggedArray1 = new int[2][] {  new int[]{1,2},new int[] { 3,4} };
+
             ////2d Array with 2 rows and 4 and 3 columns columns;
             int[][] jaggedArray = new int[2][] { new int[] { 1, 2, 3, 4 }, new int[] { 1, 2, 3 } };
             Console.WriteLine("Arrays Length"+jaggedArray.Length);
