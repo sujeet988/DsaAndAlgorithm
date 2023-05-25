@@ -71,7 +71,8 @@ namespace SubarraySumEqualsK
             return count;
         }
 
-        //Opytmized solution
+        //Optimized solution
+        // using Dictionary
         public static int SubarraySumByDictionary(int[] nums, int k)
         {
             int count = 0;
