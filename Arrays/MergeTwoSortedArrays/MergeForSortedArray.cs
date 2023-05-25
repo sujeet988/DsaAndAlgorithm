@@ -13,7 +13,7 @@ namespace MergeTwoSortedArrays
     /*
      * https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1
      */
-    internal class MergeForSortedArray
+    public class MergeForSortedArray
     {
         /*
          * Merge two Sorted Arrays Without Extra Space
@@ -100,6 +100,48 @@ namespace MergeTwoSortedArrays
         ////Time complexity: O(n* log(n))+O(n)+O(n)
         ////Space Complexity: O(n)
 
+
+
+        //Function to merge the arrays.
+        //O(n) time  complexity
+        public static int[] mergeExtraSpacesOnTimecomplexity(int[] arr1, int[] arr2, int n, int m)
+        {
+            // code here 
+
+            int[] ouputarray=new int[n+m];
+            int i = 0;
+            int j=0;
+            int k = 0;
+            while ( i < n &&  j <m)
+            {
+                if (arr1[i]< arr2[j])
+                {
+                    ouputarray[k] = arr1[i];
+                    i++;
+                }
+                else
+                {
+                    ouputarray[k] = arr2[j];
+                    j++;
+                }
+                k++;
+            }
+            while (i < n)
+            {
+                ouputarray[k] = arr1[i];
+                i++;
+                k++;
+            }
+
+            while (i < m)
+            {
+                ouputarray[k] = arr1[j];
+                j++;
+                k++;
+            }
+            return ouputarray;
+
+        }
 
         //Function to merge the arrays.
         public static void mergeWithoutExtraSpaces(int[] arr1, int[] arr2, int n, int m)

@@ -54,7 +54,7 @@ namespace MaxSubArray_KadaneAlgorithm_
                 }
                 else
                 {
-                    currentsum = nums[i];
+                    currentsum = nums[i]; // assigning new value again
                 }
                 if (currentsum > overallsum) //check current sum vs overllall sum
                 {
