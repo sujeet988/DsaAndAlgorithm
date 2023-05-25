@@ -292,25 +292,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming", "Dynam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysInsertAtIndex", "Arrays\ArraysInsertAtIndex\ArraysInsertAtIndex.csproj", "{D81180DC-6BB8-4C2C-A79C-7040606CB5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "Strings\GroupAnagrams\GroupAnagrams.csproj", "{5B39014B-61A6-451D-A6A8-8F106F45CFB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupAnagrams", "Strings\GroupAnagrams\GroupAnagrams.csproj", "{5B39014B-61A6-451D-A6A8-8F106F45CFB7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnagramofString", "Strings\AnagramofString\AnagramofString.csproj", "{4F9DFD71-C8AE-4510-9591-D183819C04C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsomorphicStrings", "Strings\IsomorphicStrings\IsomorphicStrings.csproj", "{65B264E6-9E2A-4351-9687-4C14C799EFBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsomorphicStrings", "Strings\IsomorphicStrings\IsomorphicStrings.csproj", "{65B264E6-9E2A-4351-9687-4C14C799EFBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsequenceOfString", "Strings\SubsequenceOfString\SubsequenceOfString.csproj", "{7B0C5DC4-F382-49AF-B244-04E5799EAB6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubsequenceOfString", "Strings\SubsequenceOfString\SubsequenceOfString.csproj", "{7B0C5DC4-F382-49AF-B244-04E5799EAB6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubStringOfString", "Strings\SubStringOfString\SubStringOfString.csproj", "{19F8F6BC-9F67-4F83-8836-F99CAEE9D310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubStringOfString", "Strings\SubStringOfString\SubStringOfString.csproj", "{19F8F6BC-9F67-4F83-8836-F99CAEE9D310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LcmOfNumbers", "Maths\LcmOfNumbers\LcmOfNumbers.csproj", "{70A9CFFC-3E63-41DE-8846-046BDBD73358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LcmOfNumbers", "Maths\LcmOfNumbers\LcmOfNumbers.csproj", "{70A9CFFC-3E63-41DE-8846-046BDBD73358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GcdOrHcfOfNumbers", "Maths\GcdOrHcfOfNumbers\GcdOrHcfOfNumbers.csproj", "{D14DD4A0-0B60-44DC-BB77-B71D530270D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GcdOrHcfOfNumbers", "Maths\GcdOrHcfOfNumbers\GcdOrHcfOfNumbers.csproj", "{D14DD4A0-0B60-44DC-BB77-B71D530270D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackTrack", "BackTracking\BackTrack\BackTrack.csproj", "{88BCB65E-3606-4990-8699-C3FB3CE5520E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackTrack", "BackTracking\BackTrack\BackTrack.csproj", "{88BCB65E-3606-4990-8699-C3FB3CE5520E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{A2D43D2F-7A57-4BFC-B670-945257F60EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph\Graph.csproj", "{500FEE19-396C-4B41-9DFF-46E2562EC322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph\Graph.csproj", "{500FEE19-396C-4B41-9DFF-46E2562EC322}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgoImPortant", "AlgoImPortant", "{88FF4A67-B3B1-4150-B902-337D24C4F33E}"
 	ProjectSection(SolutionItems) = preProject
@@ -318,11 +318,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgoImPortant", "AlgoImPort
 		AlgoImportant\SlidingWindowNotes.txt = AlgoImportant\SlidingWindowNotes.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindow", "AlgoImportant\SlidingWindow\SlidingWindow.csproj", "{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlidingWindow", "AlgoImportant\SlidingWindow\SlidingWindow.csproj", "{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomantoInteger", "Maths\RomantoInteger\RomantoInteger.csproj", "{3263F2BB-79C8-40DE-96B6-79869EBA063C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomantoInteger", "Maths\RomantoInteger\RomantoInteger.csproj", "{3263F2BB-79C8-40DE-96B6-79869EBA063C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToRoman", "Maths\IntegerToRoman\IntegerToRoman.csproj", "{140CD463-92D0-4167-8756-5DBA99141811}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerToRoman", "Maths\IntegerToRoman\IntegerToRoman.csproj", "{140CD463-92D0-4167-8756-5DBA99141811}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree", "Tree\BinarySearchTree\BinarySearchTree.csproj", "{AEC859A6-CBC6-4744-91A4-FDFDE5FF8E91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -722,6 +724,10 @@ Global
 		{140CD463-92D0-4167-8756-5DBA99141811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{140CD463-92D0-4167-8756-5DBA99141811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{140CD463-92D0-4167-8756-5DBA99141811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC859A6-CBC6-4744-91A4-FDFDE5FF8E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC859A6-CBC6-4744-91A4-FDFDE5FF8E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC859A6-CBC6-4744-91A4-FDFDE5FF8E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC859A6-CBC6-4744-91A4-FDFDE5FF8E91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -824,6 +830,7 @@ Global
 		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839} = {88FF4A67-B3B1-4150-B902-337D24C4F33E}
 		{3263F2BB-79C8-40DE-96B6-79869EBA063C} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{140CD463-92D0-4167-8756-5DBA99141811} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
+		{AEC859A6-CBC6-4744-91A4-FDFDE5FF8E91} = {8FF51505-BCB8-4CD8-A24C-239C877705C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
