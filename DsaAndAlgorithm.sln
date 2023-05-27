@@ -327,6 +327,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree", "Tree\BinarySearchTree\BinarySearchTree.csproj", "{AEC859A6-CBC6-4744-91A4-FDFDE5FF8E91}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuickSort", "QuickSort", "{4572BD6E-6273-432C-9E68-9B9AA955B229}"
+	ProjectSection(SolutionItems) = preProject
+		QuickSort\QuickSortNotes.txt = QuickSort\QuickSortNotes.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort\QuickSort.csproj", "{47A14FD6-3F49-46B3-B27F-7193B8B66FE1}"
 EndProject
