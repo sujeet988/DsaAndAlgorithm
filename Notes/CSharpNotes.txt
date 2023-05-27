@@ -1,14 +1,14 @@
 1.Data Types :
 
 
-data type min and maximum value
- int max = Int32.MinValue;
-  int min = Int32.MaxValue;
+ 2. data type min and maximum value
+  int max = Int32.MinValue; --For consider MAximum Value(Dsa Question)
+  int min = Int32.MaxValue; --For Consider Minimum value(Dsa Questions)
 
 
 2. Arrays:
 
- Length()->
+ Length-> Returns Number Elements
  Array.Sort(arryname);
 
 
