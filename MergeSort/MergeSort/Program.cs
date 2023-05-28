@@ -5,7 +5,23 @@ namespace MergeSort
 {
     internal class Program
     {
+        /*
+        * In this example, we use the merge sort algorithm to sort an array of integers. 
+        The Merge method is responsible for merging two sorted subarrays into one sorted array.
 
+        The MergeSort method is a recursive function that performs the divide and conquer strategy.
+        It takes an array (arr), the lower index (low), and the higher index (high) as parameters.
+
+        Inside the MergeSort method, we first check if low is less than high to ensure that the 
+        subarray has more than one element. Then, we calculate the mid index by averaging low and
+        high. We recursively call MergeSort twice to sort the left half and right half of the array.
+        Finally, we merge the two sorted halves using the Merge method.
+
+        In the Merge method, we create temporary arrays (leftArray and rightArray) to store the left and right subarrays. 
+        We copy the corresponding elements from the original array to the temporary arrays. 
+        Then, using three pointers (i, j, and k), we compare elements from the temporary arrays 
+        and merge them into the original array in sorted order.
+         */
 
         public static void Divide(int[] arr , int startIndex, int endIndex) 
         {
