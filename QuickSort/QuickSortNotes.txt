@@ -1,0 +1,38 @@
+Quick Sort is a divide-and-conquer algorithm like the Merge Sort. 
+But unlike Merge sort, this algorithm does not use any extra array for sorting
+(though it uses an auxiliary stack space). So, from that perspective, 
+Quick sort is slightly better than Merge sort.
+
+This algorithm is basically a repetition of two simple steps that are the following:
+
+Pick a pivot and place it in its correct place in the sorted array.
+Shift smaller elements(i.e. Smaller than the pivot) on the left of the pivot and larger ones to the right.
+Now, let’s discuss the steps in detail considering the array {4,6,2,5,7,9,1,3}:
+
+Step 1: The first thing is to choose the pivot. A pivot is basically a chosen element of the given array. The element or the pivot can be chosen by our choice. So, in an array a pivot can be any of the following:
+
+The first element of the array
+The last element of the array --Mostly used 
+Median of array
+Any Random element of the array
+
+---Time complexity
+Worst case : O(n)
+Worse case occurs when pivot is always the smallest or the largest Element
+
+Average case/best case : O(Nlogn)
+
+--------
+QuicK sort is a divide and conquer algorithm.
+it involved 3 steps 
+
+1.Pivot selection : We pick an element and mark it as (Pivot)
+the pivot element can be fisrt element, last element or any random element 
+
+2. partitioning : we reorder the array suhc that all elements greater then pivot comes after the pivot and all elements smaller than pivot comes before the pivot. the eleemnts equal to pivot can go  either  side of the pivot.
+After this partitioning the pivot is at its correct sorted position .  \
+
+3.Recursion: Recursively apply the above steps on the subaary formed to gthe left side of the 
+pivot and on the subaray formed on the right side of the pivot
+
+
