@@ -44,6 +44,26 @@ namespace SkipChracter
 
         }
 
+        public static string SkipWithReturnsTypeWithoutParamters(string unprocessed)
+        {
+            if (string.IsNullOrEmpty(unprocessed))
+            {
+
+                return "";
+            }
+
+            char ch = unprocessed[0];
+            if (ch == 'e')
+            {
+                return SkipWithReturnsTypeWithoutParamters(unprocessed.Substring(1));
+            }
+            else
+            {
+                return ch+ SkipWithReturnsTypeWithoutParamters(unprocessed.Substring(1));
+            }
+
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Skip a chracters in String");
@@ -56,6 +76,9 @@ namespace SkipChracter
              str = "deeemo";
             var ouput=SkipWithReturnsType("", str);
             Console.WriteLine(ouput);
+
+            str = "sujeeet";
+            Console.WriteLine(SkipWithReturnsTypeWithoutParamters(str));
             Console.ReadLine();
         }
     }
