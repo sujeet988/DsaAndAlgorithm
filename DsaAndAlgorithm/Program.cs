@@ -3,14 +3,14 @@
 namespace DsaAndAlgorithm
 {
 
-////1. Hcf 
-////2. LCM
-////3.Merge Sort
-////4 Quick Sort
+////1. Hcf --done
+////2. LCM  --done
+////3.Merge Sort --done
+////4 Quick Sort --done
 ////5.Subset of string
 ////6 permutaion of a string
-///Anagram of string 
-/// group of anagram
+/// Anagram of string --done
+/// group of anagram --done
 
 
     internal class Program
