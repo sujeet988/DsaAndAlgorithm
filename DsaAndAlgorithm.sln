@@ -354,6 +354,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignBookMyShow", "LLD\Des
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstMissingPositive", "Arrays\FirstMissingPositive\FirstMissingPositive.csproj", "{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashing", "Hashing", "{2431DCAD-ED14-4C6B-8DD1-816686CDEF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "Hashing\ConsoleApp2\ConsoleApp2.csproj", "{E0400334-A984-467F-A702-9A0D96A39633}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -788,6 +792,10 @@ Global
 		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0400334-A984-467F-A702-9A0D96A39633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0400334-A984-467F-A702-9A0D96A39633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0400334-A984-467F-A702-9A0D96A39633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0400334-A984-467F-A702-9A0D96A39633}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -900,6 +908,7 @@ Global
 		{02095358-24EB-4E71-9AD4-FBC6F1C42048} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{9D580377-4B69-4D4B-8197-8F6AFA007E58} = {B8E5BC79-7EFC-416D-9BD9-128765BB9D4A}
 		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
+		{E0400334-A984-467F-A702-9A0D96A39633} = {2431DCAD-ED14-4C6B-8DD1-816686CDEF31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
