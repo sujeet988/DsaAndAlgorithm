@@ -32,6 +32,7 @@ namespace LLD.DesignBookMyShow
             bookMyShow.createBooking(City.Bangalore, "BAAHUBALI");
             //user2
             bookMyShow.createBooking(City.Bangalore, "BAAHUBALI");
+            Console.ReadLine();
 
         }
 
@@ -56,10 +57,23 @@ namespace LLD.DesignBookMyShow
             //3. get all show of this movie in Bangalore location
             Dictionary<Theatre, List<Show>> showsTheatreWise = theatreController.getAllShow(interestedMovie, userCity);
 
+            /*
+             * //4. select the particular show user is interested in
+        Map.Entry<Theatre,List<Show>> entry = showsTheatreWise.entrySet().iterator().next();
+        List<Show> runningShows = entry.getValue();
+        Show interestedShow = runningShows.get(0);
+             */
+
             //4. select the particular show user is interested in
             //// var entry = showsTheatreWise.;
-            List<Show> runningShows = new List<Show>();
-            Show interestedShow = runningShows[0];
+            List<List<Show>> runningShows =new List<List<Show>> ();
+            foreach (var item in showsTheatreWise.Values)
+            {
+                runningShows.Add(item);
+            }
+
+              Show interestedShow = runningShows[0][0];
+            
 
             //5. select the seat
             int seatNumber = 30;

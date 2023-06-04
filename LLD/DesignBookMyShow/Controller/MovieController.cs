@@ -22,8 +22,14 @@ namespace LLD.DesignBookMyShow.Controller
         {
 
             allMovies.Add(movie);
-            List<Movie> movies = cityVsMovies[city];
+            // List<Movie> movies = cityVsMovies[city];
+          ///  List<Movie> movies = cityVsMovies.getOrDefault(city, new ArrayList<>());
+            List<Movie> movies = cityVsMovies.GetValueOrDefault(city,  new List<Movie>());
             movies.Add(movie);
+            if (cityVsMovies.ContainsKey(city))
+            {
+                cityVsMovies.Remove(city);
+            }
             cityVsMovies.Add(city, movies);
         }
 

@@ -21,9 +21,12 @@ namespace LLD.DesignBookMyShow.Controller
         {
 
             allTheatre.Add(theatre);
-
-            List<Theatre> theatres = cityVsTheatre[city];
+            List<Theatre> theatres = cityVsTheatre.GetValueOrDefault(city,new List<Theatre>());
             theatres.Add(theatre);
+            if (cityVsTheatre.ContainsKey(city))
+            {
+                cityVsTheatre.Remove(city);
+            }
             cityVsTheatre.Add(city, theatres);
         }
 
