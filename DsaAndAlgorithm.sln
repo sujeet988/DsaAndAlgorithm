@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33603.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DsaAndAlgorithm", "DsaAndAlgorithm\DsaAndAlgorithm.csproj", "{657F60E8-3530-4E3A-94BB-5FFF436C363B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}"
 	ProjectSection(SolutionItems) = preProject
 		Arrays\ArraysNotes.txt = Arrays\ArraysNotes.txt
@@ -354,7 +352,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LLD", "LLD", "{B8E5BC79-7EF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignBookMyShow", "LLD\DesignBookMyShow\DesignBookMyShow.csproj", "{9D580377-4B69-4D4B-8197-8F6AFA007E58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LowLevelDesign", "LowLevelDesign", "{B2539FA9-0432-44A6-A43A-9E71B20D8338}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstMissingPositive", "Arrays\FirstMissingPositive\FirstMissingPositive.csproj", "{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -362,10 +360,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{657F60E8-3530-4E3A-94BB-5FFF436C363B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{657F60E8-3530-4E3A-94BB-5FFF436C363B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{657F60E8-3530-4E3A-94BB-5FFF436C363B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{657F60E8-3530-4E3A-94BB-5FFF436C363B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2091F239-B258-4720-90E8-440BA8C3FAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2091F239-B258-4720-90E8-440BA8C3FAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2091F239-B258-4720-90E8-440BA8C3FAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -790,6 +784,10 @@ Global
 		{9D580377-4B69-4D4B-8197-8F6AFA007E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D580377-4B69-4D4B-8197-8F6AFA007E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D580377-4B69-4D4B-8197-8F6AFA007E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -901,6 +899,7 @@ Global
 		{BEFAFA83-3121-4F4F-8E0B-2E4EF69175AB} = {58C98126-66B4-4CFC-BCC4-285DA0ED389D}
 		{02095358-24EB-4E71-9AD4-FBC6F1C42048} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{9D580377-4B69-4D4B-8197-8F6AFA007E58} = {B8E5BC79-7EFC-416D-9BD9-128765BB9D4A}
+		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
