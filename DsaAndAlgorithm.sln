@@ -354,6 +354,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LLD", "LLD", "{B8E5BC79-7EF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignBookMyShow", "LLD\DesignBookMyShow\DesignBookMyShow.csproj", "{9D580377-4B69-4D4B-8197-8F6AFA007E58}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LowLevelDesign", "LowLevelDesign", "{B2539FA9-0432-44A6-A43A-9E71B20D8338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
