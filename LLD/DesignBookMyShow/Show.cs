@@ -6,7 +6,7 @@ namespace LLD.DesignBookMyShow
     public class Show
     {
         int showId;
-        Movie movie;
+        public Movie movie;
         Screen screen;
         int showStartTime;
         List<int> bookedSeatIds = new List<int>();
