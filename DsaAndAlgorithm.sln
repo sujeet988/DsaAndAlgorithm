@@ -11,6 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{4B107D
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matrix", "Matrix", "{58C98126-66B4-4CFC-BCC4-285DA0ED389D}"
+	ProjectSection(SolutionItems) = preProject
+		Matrix\MatrixNotes.txt = Matrix\MatrixNotes.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{DD00893C-53D1-4930-96F7-96AA5BA0C105}"
 	ProjectSection(SolutionItems) = preProject
