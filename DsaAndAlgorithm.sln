@@ -336,27 +336,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\Quic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkipChracter", "Recursion\SkipChracter\SkipChracter.csproj", "{CD4D2A2C-77A9-48BB-9185-7CE084DF6325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeSk", "Tree\BinaryTreeSk\BinaryTreeSk.csproj", "{99BB257E-FDEB-47E8-B91B-E0DF075A10AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeSk", "Tree\BinaryTreeSk\BinaryTreeSk.csproj", "{99BB257E-FDEB-47E8-B91B-E0DF075A10AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideArrayDynamicPrint", "Arrays\DivideArrayDynamicPrint\DivideArrayDynamicPrint.csproj", "{7E744B82-21DD-48F6-8B0B-469DE40B8DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideArrayDynamicPrint", "Arrays\DivideArrayDynamicPrint\DivideArrayDynamicPrint.csproj", "{7E744B82-21DD-48F6-8B0B-469DE40B8DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckMatrixIsSymmetric", "Matrix\CheckMatrixIsSymmetric\CheckMatrixIsSymmetric.csproj", "{0398197E-56B1-4AFB-8D9C-DE213C18E1BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckMatrixIsSymmetric", "Matrix\CheckMatrixIsSymmetric\CheckMatrixIsSymmetric.csproj", "{0398197E-56B1-4AFB-8D9C-DE213C18E1BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfZero", "Matrix\SumOfZero\SumOfZero.csproj", "{BEFAFA83-3121-4F4F-8E0B-2E4EF69175AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfZero", "Matrix\SumOfZero\SumOfZero.csproj", "{BEFAFA83-3121-4F4F-8E0B-2E4EF69175AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterViewAsked", "InterViewAsked", "{B0C0E045-3298-4887-88B4-83BA920B0629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeroToEnd", "InterViewAsked\MoveZeroToEnd\MoveZeroToEnd.csproj", "{02095358-24EB-4E71-9AD4-FBC6F1C42048}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveZeroToEnd", "InterViewAsked\MoveZeroToEnd\MoveZeroToEnd.csproj", "{02095358-24EB-4E71-9AD4-FBC6F1C42048}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LLD", "LLD", "{B8E5BC79-7EFC-416D-9BD9-128765BB9D4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignBookMyShow", "LLD\DesignBookMyShow\DesignBookMyShow.csproj", "{9D580377-4B69-4D4B-8197-8F6AFA007E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignBookMyShow", "LLD\DesignBookMyShow\DesignBookMyShow.csproj", "{9D580377-4B69-4D4B-8197-8F6AFA007E58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstMissingPositive", "Arrays\FirstMissingPositive\FirstMissingPositive.csproj", "{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstMissingPositive", "Arrays\FirstMissingPositive\FirstMissingPositive.csproj", "{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashing", "Hashing", "{2431DCAD-ED14-4C6B-8DD1-816686CDEF31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "Hashing\ConsoleApp2\ConsoleApp2.csproj", "{E0400334-A984-467F-A702-9A0D96A39633}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "Hashing\ConsoleApp2\ConsoleApp2.csproj", "{E0400334-A984-467F-A702-9A0D96A39633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicateFromSortedArray", "Arrays\RemoveDuplicateFromSortedArray\RemoveDuplicateFromSortedArray.csproj", "{A143F3E4-5282-4E14-B495-22E5540D8C4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -796,6 +798,10 @@ Global
 		{E0400334-A984-467F-A702-9A0D96A39633}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0400334-A984-467F-A702-9A0D96A39633}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0400334-A984-467F-A702-9A0D96A39633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A143F3E4-5282-4E14-B495-22E5540D8C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A143F3E4-5282-4E14-B495-22E5540D8C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A143F3E4-5282-4E14-B495-22E5540D8C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A143F3E4-5282-4E14-B495-22E5540D8C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -909,6 +915,7 @@ Global
 		{9D580377-4B69-4D4B-8197-8F6AFA007E58} = {B8E5BC79-7EFC-416D-9BD9-128765BB9D4A}
 		{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 		{E0400334-A984-467F-A702-9A0D96A39633} = {2431DCAD-ED14-4C6B-8DD1-816686CDEF31}
+		{A143F3E4-5282-4E14-B495-22E5540D8C4D} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
