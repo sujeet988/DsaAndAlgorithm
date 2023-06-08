@@ -2,9 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _3SumArrays
+namespace DsaAndAlgorithm.Arrays._3SumArrays
 {
-    internal class _3SumOptimizedPepCoding
+
+    public class _3SumOptimizedPepCoding
     {
+
+        public int ThreeSum()
+        {
+            return 10;
+
+        }
+
+
     }
+
 }
