@@ -13,7 +13,7 @@ namespace MajorityElement
         /*
          * https://leetcode.com/problems/majority-element/
          * https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=majority-element
-         * The majority element is the element that appears more than ⌊n / 2⌋ times.
+         * The majority element is the element that appears more than n / 2 times.
          * 
          */
         public static int majorityElement(int[] arr)

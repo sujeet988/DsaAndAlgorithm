@@ -35,7 +35,8 @@ namespace DivideArrayDynamicPrint
         {
             Console.WriteLine("Divide Array Demo");
             int[] arr=new int[7] { 10,20,30,40,50,60,70};
-            arraySplit(arr, 2);
+            int k = 2;
+            arraySplit(arr, k);
             Console.ReadLine();
         }
     }
