@@ -48,15 +48,68 @@ namespace DsaAndAlgorithm.Graph.BFSConnectGraphOnly
 
             for (int i = 0; i < graphAdjacenyList.Count; i++)
             {
-
+                Console.Write(i + " -> ");
                 for (int j = 0; j < graphAdjacenyList[i].Count; j++)
                 {
-                    Console.Write(graphAdjacenyList[i][j].Destination);
+                    Console.Write(graphAdjacenyList[i][j].Destination + " ");
 
                 }
                 Console.WriteLine();
 
             }
+        }
+
+        public static void BFS(List<List<Edge>> graphAdjacenyList, int numofVertices)
+        {
+            Queue<int> queue = new Queue<int>();
+            bool[] visited = new bool[numofVertices];
+
+            //Set starting point  of queue. as i taken 0  we can take any value like 0 or 1 or 2 etc.
+            queue.Enqueue(0);
+            while (queue.Count > 0) //check queue is empty or not
+            {
+                int currentVertex = queue.Dequeue(); //get current vertex
+
+                if (visited[currentVertex] == false) // check current vetex is visited or not
+                {
+                    Console.Write(currentVertex + " "); // print current vertex
+                    visited[currentVertex] = true; // mark visited as  true
+
+                    for (int i = 0; i < graphAdjacenyList[currentVertex].Count; i++) //get all Neighbours of current vetex and add in queue
+                    {
+                        Edge e = graphAdjacenyList[currentVertex][i];
+                        queue.Enqueue(e.Destination);
+
+                    }
+                }
+
+            }
+
+        }
+
+        public static void BFSSecondWay(List<List<Edge>> graphAdjacenyList, int numofVertices)
+        {
+            Queue<int> queue = new Queue<int>();
+            bool[] visited = new bool[numofVertices];
+
+            //Set starting point  of queue. as i taken 0  we can take any value like 0 or 1 or 2 etc.
+            visited[0]=true; // in this make visted first
+            queue.Enqueue(0);
+
+            while (queue.Count > 0) //check queue is empty or not
+            {
+                int currentVertex = queue.Dequeue(); //Delete and get  current vertex
+                Console.Write(currentVertex + " ");
+                foreach (var neighbor in graphAdjacenyList[currentVertex])
+                {
+                    if (visited[neighbor.Destination] == false)
+                    {
+                        visited[neighbor.Destination] = true;
+                        queue.Enqueue(neighbor.Destination);
+                    }
+                }
+            }
+
         }
 
 
@@ -69,6 +122,14 @@ namespace DsaAndAlgorithm.Graph.BFSConnectGraphOnly
             CreateAdjacenyList(graphAdjacenyList, numofVertices);
             //Print AdjacenyList
             PrintAdjacenyList(graphAdjacenyList, numofVertices);
+            Console.WriteLine();
+
+            //BFS Traversal Way 1 
+            BFS(graphAdjacenyList, numofVertices);// ouput 0 1 2 3 4
+            Console.WriteLine();
+            //BFS Traversal Way 2 
+            BFSSecondWay(graphAdjacenyList, numofVertices);// ouput 0 1 2 3 4
+
             Console.ReadLine();
 
         }
