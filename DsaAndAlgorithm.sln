@@ -310,6 +310,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackTrack", "BackTracking\BackTrack\BackTrack.csproj", "{88BCB65E-3606-4990-8699-C3FB3CE5520E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{A2D43D2F-7A57-4BFC-B670-945257F60EEE}"
+	ProjectSection(SolutionItems) = preProject
+		Graph\GraphBFSNotes.txt = Graph\GraphBFSNotes.txt
+		Graph\GraphDfsNotes.txt = Graph\GraphDfsNotes.txt
+		Graph\GraphNotes.txt = Graph\GraphNotes.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph\Graph.csproj", "{500FEE19-396C-4B41-9DFF-46E2562EC322}"
 EndProject
