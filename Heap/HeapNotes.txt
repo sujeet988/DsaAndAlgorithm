@@ -28,10 +28,33 @@ A binary heap is one way to implement a priority queue. Its advantages are ease 
 A heap typically implements more functionality than is required by a priority queue. For example, heaps commonly have a constructor that will build the internal data structure very quickly, without having to call the insert method for each item. Heap also commonly implements a peek method, that will return the first item, without removing it. Both of these functions are not part of the priority queue definition.
 
 -------------------------
+Min Heap(Default):
+--Lower element getting first rank
+ PriorityQueue<int,int> minHeap= new PriorityQueue<int,int>();
+ For Max Heap:
+ --Changing Default order
+ ----higher element getting first rank
+   PriorityQueue<int, int> maxPriorityQueue = new PriorityQueue<int, int>(Comparer<int>.Create((x, y) => y - x));
+
 
 
 Regenerate response
+---------
+The main difference between a MaxPriorityQueue and a MinPriorityQueue lies in the ordering of elements and the priority they represent:
 
+MaxPriorityQueue:
+
+In a MaxPriorityQueue, elements are ordered based on their priority, where higher-priority elements have a greater value.
+The element with the highest priority (maximum value) is accessible and removable in constant time.
+MaxPriorityQueue is often used when you want to access or remove the element with the highest priority first.
+MinPriorityQueue:
+
+In a MinPriorityQueue, elements are ordered based on their priority, where lower-priority elements have a smaller value.
+The element with the lowest priority (minimum value) is accessible and removable in constant time.
+MinPriorityQueue is used when you want to access or remove the element with the lowest priority first.
+Both MaxPriorityQueue and MinPriorityQueue are implementations of a priority queue data structure. The choice between using a MaxPriorityQueue or a MinPriorityQueue depends on the specific requirements of your problem, whether you need to prioritize higher-priority elements or lower-priority elements.
+
+It's worth noting that the choice of priority queue implementation may vary based on the programming language or library you are using. Some libraries may offer priority queue implementations with specific names, while others provide options to configure the ordering (max or min) based on the specific use case.
 
 
 ----Links for Study
