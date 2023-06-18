@@ -14,8 +14,9 @@ Console.WriteLine("kth-largest-element-in-an-array");
     Output: 4
  */
 
-int[] nums = new int[] { 3, 2, 1, 5, 6, 4 };
-int k = 2;
+int[] nums = new int[] { 7, 10, 4, 3, 20, 15 };
+int k = 3;
 
 int ouput= KthLargestElement.FindKthLargest(nums, k);
-Console.WriteLine("Kth largest element is " + ouput); //// 5;
+Console.WriteLine("Kth largest element is " + ouput); //// 10;
+Console.ReadLine(); 
