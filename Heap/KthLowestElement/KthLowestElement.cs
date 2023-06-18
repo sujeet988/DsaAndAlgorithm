@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KthLowestElement
+namespace DsaAndAlgorithm.Heap.KthLowestElement
 {
-    internal class Kth
+    internal class KthLowestElement
     {
         public int FindKthLowest(int[] nums, int k)
         {
