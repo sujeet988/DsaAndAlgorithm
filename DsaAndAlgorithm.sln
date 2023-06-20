@@ -370,9 +370,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdjacencyList", "Graph\Adja
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BFSConnectGraphOnly", "Graph\BFSConnectGraphOnly\BFSConnectGraphOnly.csproj", "{69299D34-77D1-4C1D-98F6-A5E02EB3C92B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueueDemo", "Heap\PriorityQueueDemo\PriorityQueueDemo.csproj", "{57411B5C-169E-423A-8C0E-8E0C7978A8AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriorityQueueDemo", "Heap\PriorityQueueDemo\PriorityQueueDemo.csproj", "{57411B5C-169E-423A-8C0E-8E0C7978A8AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthLargestElement", "Heap\KthLargestElement\KthLargestElement.csproj", "{442B1678-FD58-4202-BB79-10AF7479205B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthLargestElement", "Heap\KthLargestElement\KthLargestElement.csproj", "{442B1678-FD58-4202-BB79-10AF7479205B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountEveryCharacterInAString", "InterViewAsked\CountEveryCharacterInAString\CountEveryCharacterInAString.csproj", "{00B85198-1335-4B21-978F-433E62366FA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -828,6 +830,10 @@ Global
 		{442B1678-FD58-4202-BB79-10AF7479205B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{442B1678-FD58-4202-BB79-10AF7479205B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{442B1678-FD58-4202-BB79-10AF7479205B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B85198-1335-4B21-978F-433E62366FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B85198-1335-4B21-978F-433E62366FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B85198-1335-4B21-978F-433E62366FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B85198-1335-4B21-978F-433E62366FA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -945,6 +951,7 @@ Global
 		{69299D34-77D1-4C1D-98F6-A5E02EB3C92B} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
 		{57411B5C-169E-423A-8C0E-8E0C7978A8AD} = {0E070469-0F76-464A-80C7-4E5DBAA82A8B}
 		{442B1678-FD58-4202-BB79-10AF7479205B} = {0E070469-0F76-464A-80C7-4E5DBAA82A8B}
+		{00B85198-1335-4B21-978F-433E62366FA2} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}

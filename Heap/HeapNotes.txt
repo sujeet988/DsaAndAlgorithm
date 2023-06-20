@@ -59,3 +59,7 @@ It's worth noting that the choice of priority queue implementation may vary base
 
 ----Links for Study
 https://medium.com/@dorlugasigal/c-10-priorityqueue-is-here-5067e2628470
+
+---Java for max heap
+PriorityQueue<Integer> maxPQ = new PriorityQueue<>(Collections.reverseOrder()); 
+
