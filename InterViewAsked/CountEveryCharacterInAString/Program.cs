@@ -17,8 +17,8 @@ foreach (char c in str)
     }
 }
 
-foreach(var item in dic.Keys)
+foreach(var item in dic)
 {
-    Console.WriteLine("count of charcater : {0} is {1}", item, dic[item]);
+    Console.WriteLine("count of charcater : {0} is {1}", item.Key,  item.Value);
 }
 Console.ReadLine();
