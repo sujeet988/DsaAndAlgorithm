@@ -10,36 +10,35 @@ namespace KthLowestElement
     {
         public int FindKthLargest(int[] nums, int k)
         {
-            PriorityQueue<int, int> queue = new PriorityQueue<int, int>();
-
-            for (var i = 0; i < nums.Length; i++)
+            PriorityQueue<int, int> minHeap = new PriorityQueue<int, int>();
+            foreach (var item in nums)
             {
-                if (queue.Count < k)
-                    queue.Enqueue(nums[i], nums[i]);
-                else
+                minHeap.Enqueue(item, item);
+                if (minHeap.Count > k)
                 {
-                    if (nums[i] <= queue.Peek()) continue;
-
-                    queue.Dequeue();
-                    queue.Enqueue(nums[i], nums[i]);
+                    minHeap.Dequeue();
                 }
             }
-            return queue.Dequeue();
+            return minHeap.Peek();
         }
 
         public int FindKthLowest(int[] nums, int k)
         {
-            PriorityQueue<int, int> maxHeap = new PriorityQueue<int, int>();
+            PriorityQueue<int, int> maxPriorityQueue = new PriorityQueue<int, int>();
 
             for (var i = 0; i < nums.Length; i++)
             {
-                    maxHeap.Enqueue(nums[i], nums[i]);
-                if (maxHeap.Count > k)
-                {
-                    maxHeap.Dequeue();  
-                }
+                maxPriorityQueue.Enqueue(nums[i], nums[i]);
+
             }
-            return maxHeap.Peek();
+
+            // Dequeue the k-1 largest elements
+            for (int i = 0; i < k - 1; i++)
+            {
+                maxPriorityQueue.Dequeue();
+            }
+            // Return the kth lowest element
+            return maxPriorityQueue.Dequeue();
         }
     }
 }

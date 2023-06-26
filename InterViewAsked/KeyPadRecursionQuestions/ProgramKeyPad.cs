@@ -8,12 +8,12 @@ namespace DsaAndAlgorithm.InterViewAsked.KeyPadRecursionQuestions
 {
     public class ProgramKeyPad
     {
-       public static string[] keypad = {
+        public static string[] keypad = {
         "0", "1", "ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ" };
 
-       public static List<string> GetPhoneNumberCombinations(string phoneNumber)
+        public static List<string> GetPhoneNumberCombinations(string phoneNumber)
         {
-   
+
             List<string> combinations = new List<string>();
             GenerateCombinations(phoneNumber, "", combinations, 0);
             return combinations;
