@@ -7,7 +7,7 @@ namespace SkipChracter
         public static void Skip(string processed, string unprocessed)
         {
             if (string.IsNullOrEmpty(unprocessed))
-             {
+            {
                 Console.WriteLine(processed);
 
                 return;
@@ -19,7 +19,7 @@ namespace SkipChracter
             }
             else
             {
-                Skip(processed+ch, unprocessed.Substring(1));
+                Skip(processed + ch, unprocessed.Substring(1));
             }
 
         }
@@ -28,18 +28,18 @@ namespace SkipChracter
         {
             if (string.IsNullOrEmpty(unprocessed))
             {
-             
+
                 return processed;
             }
 
             char ch = unprocessed[0];
             if (ch == 'e')
             {
-               return SkipWithReturnsType(processed, unprocessed.Substring(1));
+                return SkipWithReturnsType(processed, unprocessed.Substring(1));
             }
             else
             {
-                return SkipWithReturnsType(processed+ch,unprocessed.Substring(1));
+                return SkipWithReturnsType(processed + ch, unprocessed.Substring(1));
             }
 
         }
@@ -59,7 +59,7 @@ namespace SkipChracter
             }
             else
             {
-                return ch+ SkipWithReturnsTypeWithoutParamters(unprocessed.Substring(1));
+                return ch + SkipWithReturnsTypeWithoutParamters(unprocessed.Substring(1));
             }
 
         }
@@ -73,8 +73,8 @@ namespace SkipChracter
             Skip("", str);
 
             //With return types
-             str = "deeemo";
-            var ouput=SkipWithReturnsType("", str);
+            str = "deeemo";
+            var ouput = SkipWithReturnsType("", str);
             Console.WriteLine(ouput);
 
             str = "sujeeet";
