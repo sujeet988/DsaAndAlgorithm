@@ -376,6 +376,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountEveryCharacterInAStrin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyPadRecursionQuestions", "InterViewAsked\KeyPadRecursionQuestions\KeyPadRecursionQuestions.csproj", "{4F1AED1D-4E8F-4FCB-9EAB-AFB23EA98DA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipCharacters", "Recursion\SkipCharacters\SkipCharacters.csproj", "{673DDBB0-F8E5-4096-8B94-535DBDBBF821}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -834,6 +836,10 @@ Global
 		{4F1AED1D-4E8F-4FCB-9EAB-AFB23EA98DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F1AED1D-4E8F-4FCB-9EAB-AFB23EA98DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F1AED1D-4E8F-4FCB-9EAB-AFB23EA98DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673DDBB0-F8E5-4096-8B94-535DBDBBF821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673DDBB0-F8E5-4096-8B94-535DBDBBF821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673DDBB0-F8E5-4096-8B94-535DBDBBF821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673DDBB0-F8E5-4096-8B94-535DBDBBF821}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -952,6 +958,7 @@ Global
 		{442B1678-FD58-4202-BB79-10AF7479205B} = {0E070469-0F76-464A-80C7-4E5DBAA82A8B}
 		{00B85198-1335-4B21-978F-433E62366FA2} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{4F1AED1D-4E8F-4FCB-9EAB-AFB23EA98DA6} = {B0C0E045-3298-4887-88B4-83BA920B0629}
+		{673DDBB0-F8E5-4096-8B94-535DBDBBF821} = {BC47D8BA-2DF0-4B5D-8832-5690243D08F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
