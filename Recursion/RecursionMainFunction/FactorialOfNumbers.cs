@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecursionMainFunction
+namespace DsaAndAlgorithm.Recursion.RecursionMainFunction
 {
     public class FactorialOfNumbers
     {

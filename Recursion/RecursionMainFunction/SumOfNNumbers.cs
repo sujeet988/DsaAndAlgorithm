@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecursionMainFunction
+namespace DsaAndAlgorithm.Recursion.RecursionMainFunction
 {
-    internal class SumOfNNumbers
+    public class SumOfNNumbers
     {
        
 

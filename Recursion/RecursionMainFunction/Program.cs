@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using RecursionMainFunction;
+using DsaAndAlgorithm.Recursion.RecursionMainFunction;
 
 ////Console.WriteLine("Sum of n Natural numbers");
 ////SumOfNaturalNumbers.SumOfNaturalNumbersWithoutRecursion();
@@ -28,10 +28,6 @@ Console.WriteLine(SumOFDigits.ProdofDigits(505));
 //Reverse.rev1(1342);
 //Console.WriteLine(Reverse.sum);
 ///Console.WriteLine(Reverse.rev2(3452));
-
-//Subset
-int[] nums = { 1, 2, 3 };
-var output=SubsetsLove.Subsets(nums);
 
 
 Console.ReadLine();

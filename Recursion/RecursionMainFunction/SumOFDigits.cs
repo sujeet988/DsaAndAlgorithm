@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecursionMainFunction
+namespace DsaAndAlgorithm.Recursion.RecursionMainFunction
 {
-    internal class SumOFDigits
+    public class SumOFDigits
     {
 
         public static int SumOfDigitRecursion(int n)

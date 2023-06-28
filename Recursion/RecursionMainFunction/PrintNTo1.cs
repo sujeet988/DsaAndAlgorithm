@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecursionMainFunction
+namespace DsaAndAlgorithm.Recursion.RecursionMainFunction
 {
 
-    internal class PrintNTo1
+    public class PrintNTo1
     {
         public static void DisplayNto1(int n)
         {
