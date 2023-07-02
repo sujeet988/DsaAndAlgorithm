@@ -7,8 +7,11 @@
          * output : {4,2,3,1} , Lower element have lower priority
          */
 
-        public static void ArrayPriorityOrder(int[] arr)
-        { 
+        public static int[]  ArrayPriorityOrder(int[] arr)
+        {
+            int[] temp = new int[arr.Length];
+            arr.CopyTo(temp, 0);
+
             Array.Sort(arr);
             Dictionary<int,int> dic = new Dictionary<int,int>();
             int prioritynumber = 0;
@@ -18,17 +21,26 @@
                 dic[arr[i]] = prioritynumber;
             }
 
-            foreach(var item in dic)
+            int[] arrouput = new int[arr.Length];
+
+            for(int i=0; i < temp.Length; i++)
             {
-                Console.Write(item.Value+" ");
+                arrouput[i] = dic[temp[i]];
             }
+            return arrouput;
+
         }
 
         static void Main(string[] args)
         {
             Console.WriteLine("Array Priority Order");
             int[] arr = new int[] { 40,20,30,10};
-            ArrayPriorityOrder(arr);
+            var output=ArrayPriorityOrder(arr);
+            foreach(var item in output)
+            {
+                Console.Write(item +" ");
+            }
+            //ouput  4 2 3 1
             Console.ReadLine();
 
         }
