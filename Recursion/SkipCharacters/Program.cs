@@ -2,6 +2,11 @@
 {
     internal class Program
     {
+        /*
+         * Unprocessed -> original string
+         */
+
+
         public static void SkipCharacters(string processed, string unprocessed)
         {
             if (unprocessed.Length == 0)

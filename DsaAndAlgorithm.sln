@@ -374,7 +374,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountEveryCharacterInAStrin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyPadRecursionQuestions", "InterViewAsked\KeyPadRecursionQuestions\KeyPadRecursionQuestions.csproj", "{4F1AED1D-4E8F-4FCB-9EAB-AFB23EA98DA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipCharacters", "Recursion\SkipCharacters\SkipCharacters.csproj", "{673DDBB0-F8E5-4096-8B94-535DBDBBF821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkipCharacters", "Recursion\SkipCharacters\SkipCharacters.csproj", "{673DDBB0-F8E5-4096-8B94-535DBDBBF821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayPriorityOrder", "InterViewAsked\ArrayPriorityOrder\ArrayPriorityOrder.csproj", "{A27ECA9A-A929-463E-BF1F-B0D1C9F8D7F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -834,6 +836,10 @@ Global
 		{673DDBB0-F8E5-4096-8B94-535DBDBBF821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673DDBB0-F8E5-4096-8B94-535DBDBBF821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673DDBB0-F8E5-4096-8B94-535DBDBBF821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27ECA9A-A929-463E-BF1F-B0D1C9F8D7F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27ECA9A-A929-463E-BF1F-B0D1C9F8D7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27ECA9A-A929-463E-BF1F-B0D1C9F8D7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27ECA9A-A929-463E-BF1F-B0D1C9F8D7F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -952,6 +958,7 @@ Global
 		{00B85198-1335-4B21-978F-433E62366FA2} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{4F1AED1D-4E8F-4FCB-9EAB-AFB23EA98DA6} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{673DDBB0-F8E5-4096-8B94-535DBDBBF821} = {BC47D8BA-2DF0-4B5D-8832-5690243D08F8}
+		{A27ECA9A-A929-463E-BF1F-B0D1C9F8D7F3} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
