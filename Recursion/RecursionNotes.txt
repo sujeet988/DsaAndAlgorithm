@@ -1,2 +1,12 @@
-Subset patterns : This pattern of taking some elements and removing
+Subset patterns : 
+This pattern of taking some elements and removing
 some elements refered  as subset patterns
+
+Subsequences/Subset :
+
+Subsequences : For String
+Subset : for array
+
+-----------------
+
+	

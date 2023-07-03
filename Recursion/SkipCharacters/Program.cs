@@ -4,6 +4,7 @@
     {
         /*
          * Unprocessed -> original string
+         * processed -> output/modified string
          */
 
 
