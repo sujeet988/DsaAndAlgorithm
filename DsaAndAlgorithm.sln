@@ -158,6 +158,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp9", "LinkedList\ConsoleApp9\ConsoleApp9.csproj", "{6F840C19-8E01-4394-AAE1-9707E45DD95F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{BC47D8BA-2DF0-4B5D-8832-5690243D08F8}"
+	ProjectSection(SolutionItems) = preProject
+		Recursion\RecursionNotes.txt = Recursion\RecursionNotes.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "Recursion\Factorial\Factorial.csproj", "{483BE248-C1A5-4E9A-813B-EE9BA04FDA63}"
 EndProject
@@ -376,7 +379,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyPadRecursionQuestions", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkipCharacters", "Recursion\SkipCharacters\SkipCharacters.csproj", "{673DDBB0-F8E5-4096-8B94-535DBDBBF821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayPriorityOrder", "InterViewAsked\ArrayPriorityOrder\ArrayPriorityOrder.csproj", "{A27ECA9A-A929-463E-BF1F-B0D1C9F8D7F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayPriorityOrder", "InterViewAsked\ArrayPriorityOrder\ArrayPriorityOrder.csproj", "{A27ECA9A-A929-463E-BF1F-B0D1C9F8D7F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

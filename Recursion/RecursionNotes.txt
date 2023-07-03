@@ -1,0 +1,2 @@
+Subset patterns : This pattern of taking some elements and removing
+some elements refered  as subset patterns
