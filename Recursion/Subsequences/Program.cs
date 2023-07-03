@@ -46,6 +46,21 @@
           return left;
         }
 
+        public static List<string> SubSeqListusingLoop(string str)
+        {
+            List<string> Subsequences = new List<string>();
+            Subsequences.Add(""); // Add an empty string as the initial subsequence
+            foreach (char ch in str)
+            {
+                int count = Subsequences.Count;
+                for (int i = 0; i < count; i++)
+                {
+                    Subsequences.Add(Subsequences[i] + ch); // Include the current character
+                }
+            }
+            return Subsequences;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Subsequences using recursion Demo");
@@ -66,6 +81,14 @@
             Console.WriteLine("Subsequences using  List return type ");
             var ouput = Program.SubSeqListReturn(processed, input);
             foreach (var item in ouput)
+            {
+                Console.WriteLine(item);
+            }
+
+            //using Loop
+            Console.WriteLine("Subsequences using  Loop ");
+            var outputloop = Program.SubSeqListusingLoop(input);
+            foreach (var item in outputloop)
             {
                 Console.WriteLine(item);
             }
