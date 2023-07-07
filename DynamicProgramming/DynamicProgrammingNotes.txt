@@ -1,1 +1,49 @@
 Dynamic Programming Notes
+---it is enhanced version of recursion
+
+->Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a 
+recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic
+Programming. The idea is to simply store the results of subproblems, so that we do not have 
+to re-compute them when needed later.
+
+->This simple optimization reduces time complexities from exponential to polynomial.
+For example:  if we write simple recursive solution for Fibonacci Numbers, 
+we get exponential 
+time complexity and if we optimize it by 
+storing solutions of subproblems, time complexity reduces to linear.
+
+->Dynamic programming is a problem-solving technique that involves breaking down a 
+complex problem into simpler overlapping subproblems and solving each subproblem only once.
+
+
+Dynamic Programming  implemented using 2 apporach
+-------------------------------------------------
+1. Top Down approaches => Recursion+ Memoization
+2. Bottom-up =>Tabulation
+
+1. Memoization :
+
+Memoization is a top-down approach where we cache the results of function calls and return 
+the cached result if the function is called again with the same inputs. It is used when we 
+can divide the problem into subproblems and the subproblems have overlapping subproblems. 
+Memoization is typically implemented using recursion and is well-suited for problems that 
+have a relatively small set of inputs.
+
+Top-down approach :
+1. Caches the results of function calls
+2. Recursive implementation
+3. Well-suited for problems with a relatively small set of inputs
+4. Used when the subproblems have overlapping subproblems
+
+2. Tabulation : 
+
+It is a bottom-up approach where we store the results of the subproblems in a table 
+and use these results to solve larger subproblems until we solve the entire problem. 
+It is used when we can define the problem as a sequence of subproblems and the subproblems 
+do not overlap. Tabulation is typically implemented using iteration and is well-suited for 
+problems that have a large set of inputs.
+
+Tabulation, also known as bottom-up dynamic programming, involves solving the subproblems 
+iteratively in a systematic manner. Instead of using recursion and memoization, 
+it relies on building a table or an array to store the results of subproblems in a 
+specific order. Here's how tabulation works:
