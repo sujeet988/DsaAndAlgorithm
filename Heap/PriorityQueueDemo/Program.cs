@@ -1,10 +1,5 @@
 ﻿
-// See https://aka.ms/new-console-template for more information
-
-
 Console.WriteLine("PriorityQueue Example");
-
-
 var  priorityQueue = new PriorityQueue<int,int>();
 priorityQueue.Enqueue(3, 3);
 priorityQueue.Enqueue(4, 4);

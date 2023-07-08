@@ -1,0 +1,55 @@
+Backtracking:
+https://www.interviewbit.com/courses/programming/backtracking/
+=> Backtracking is an algorithmic technique that considers searching in every possible 
+combination for solving a computational problem.
+
+=> It is known for solving problems recursively one step at a time and removing those 
+solutions that that do not satisfy the problem constraints at any point of time.
+
+=> It is a refined brute force approach that tries out all the possible solutions and chooses 
+the best possible ones out of them.
+
+=> The backtracking approach is generally used in the cases where there are
+possibilities of multiple solutions.
+
+=> The term backtracking implies - if the current solution is not suitable, 
+then eliminate that and backtrack (go back) and check for other solutions.
+
+There are three types of problems in backtracking –  
+
+Decision Problem – In this, we search for a feasible solution.
+Optimization Problem – In this, we search for the best solution.
+Enumeration Problem – In this, we find all feasible solutions.
+
+--
+Backtracking Problem Identification
+Every problem that has clear and well established constraints on any objective solution 
+which incrementally aids candidate to the solution and abandons a candidate (“backtracks”)
+whenever it determines that the candidate is not able to reach a feasible solution. 
+Such problems can be solved by Backtracking. The backtracking algorithms are generally 
+exponential in nature with regards to both time and space.
+
+However, most of the commonly discussed problems, can be solved using other popular 
+algorithms like Dynamic Programming or Greedy Algorithms in O(n), O(logn) or O(n* logn) 
+time complexities in order of input size. Hence, in such cases, usage of 
+backtracking becomes an overkill.
+
+But, there still remain some problems that only have backtracking algorithms as the means
+of solving them till date.
+
+Example : 
+Consider a real life scenario. We have three boxes and we are told that only one of 
+them has a gold coin in it and we do not know exactly which box has it. 
+So, in order to identify which box has the coin, we will have no other option 
+than opening all the boxes one by one.
+
+The first box is checked first. If it does not contain the coin, we close it and check 
+the second box and so on until we find the coin. This is nothing but utilisation of 
+backtracking algorithm in real life. It is the process of solving all
+sub-problems one by one to reach the best possible solution for any given problem.
+
+Examples of BackTrack: BackTracking can be used to solve wide range of Problems
+1. Permutation of a set
+2. Subset of a array/string
+3. N-Queens Problem:
+4. Maze Problems: and many more.
