@@ -6,6 +6,8 @@
         /*
          * https://www.codingninjas.com/studio/problems/rat-in-a-maze-_8842357?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
          * https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+         * https://takeuforward.org/data-structure/rat-in-a-maze/
+         * https://www.youtube.com/watch?v=wjqSZy4pMT4&t=1431s
          * Consider a rat placed at (0, 0) in a square matrix of order N * N. It has to reach the destination at (N - 1, N - 1). Find all possible paths that the rat can take to reach from source to destination. 
          * The directions in which the rat can move are 'U'(up), 'D'(down), 'L' (left), 'R' (right). Value 0 at a cell in the matrix represents that it is blocked and rat cannot move to it while value 1 at a cell in the matrix represents that rat can be travel through it.
            Note: In a path, no cell can be visited more than one time. If the source cell is 0, the rat cannot move to any other cell.
@@ -56,15 +58,42 @@
                 Console.WriteLine();
             }
 
+            Console.WriteLine(" Path for matrix 4*4 is given below");
             int n = 4;
-           var result= findPath(maze, 4);
+            var result= findPath(maze, n);
             foreach(var item in result)
             {
                 Console.WriteLine(item);
             }
+            // Output :
+            // DDRDRR
+            // DRDDRR
 
+            //negative test cases
+            Console.WriteLine(" Path for matrix 2*2  and destination cell is blocked. is given below");
+            int[][] maze1 = new int[2][] { new int[] { 1,0}, new int[] { 1,0 } };
+            /*
+             * {
+            { 1, 0},
+            { 1, 0}
+            }
+             */
 
-            Console.ReadLine();
+            n = 2;
+            var result1 = findPath(maze1, n);
+            if (result1.Count > 0)
+            {
+                foreach (var item in result1)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+            else
+            {
+                Console.WriteLine(-1);
+            }
+            // output is -1  : No path exists and destination cell is  blocked.
+                        Console.ReadLine();
         }
 
         public static List<String> findPath(int[][] m, int n)
