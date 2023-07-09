@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace ReverseAString
+namespace DsaAndAlgorithm.Strings.ReverseAString
 {
     internal class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AnagramofString
+namespace DsaAndAlgorithm.Strings.AnagramofString
 {
     internal class Program
     {

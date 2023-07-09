@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PrintAllSubstringsforaString
+namespace DsaAndAlgorithm.Strings.PrintAllSubstringsforaString
 {
     internal class Program
     {

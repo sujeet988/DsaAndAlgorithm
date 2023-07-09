@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IsomorphicStrings
+namespace DsaAndAlgorithm.Strings.IsomorphicStrings
 {
     internal class Program
     {

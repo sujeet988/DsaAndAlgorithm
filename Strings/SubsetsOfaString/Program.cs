@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SubsetsOfaString
+namespace DsaAndAlgorithm.Strings.SubsetsOfaString
 {
     internal class Program
     {

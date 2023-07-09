@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
-// See https://aka.ms/new-console-template for more information
-
-
-namespace GroupAnagrams
+namespace DsaAndAlgorithm.Strings.GroupAnagrams
 {
     /*
      * https://leetcode.com/problems/group-anagrams/

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SubsequenceOfString
+namespace DsaAndAlgorithm.Strings.SubsequenceOfString
 {
     internal class Program
     {

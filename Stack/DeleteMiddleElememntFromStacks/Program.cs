@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Net.Http.Headers;
 using System.Reflection;
 
-namespace DeleteMiddleElememntFromStacks
+namespace DsaAndAlgorithm.Stack.DeleteMiddleElememntFromStacks
 {
     internal class Program
     {
