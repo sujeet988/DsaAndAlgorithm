@@ -402,6 +402,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinCostClimbingStairs", "Dy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRobber", "DynamicProgramming\HouseRobber\HouseRobber.csproj", "{340A1F88-1D4D-4A91-98D4-49E7903EF47E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print1ToNUsingBackTracking", "BackTracking\Print1ToNUsingBackTracking\Print1ToNUsingBackTracking.csproj", "{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -904,6 +906,10 @@ Global
 		{340A1F88-1D4D-4A91-98D4-49E7903EF47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{340A1F88-1D4D-4A91-98D4-49E7903EF47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{340A1F88-1D4D-4A91-98D4-49E7903EF47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1033,6 +1039,7 @@ Global
 		{F2D7D373-BE88-46CB-BA9B-6831B5C0A89A} = {AFBE8B91-1DFB-496F-829A-DD796FA95B29}
 		{BE55609F-4EBA-4BAC-8320-811701BA2BF7} = {AFBE8B91-1DFB-496F-829A-DD796FA95B29}
 		{340A1F88-1D4D-4A91-98D4-49E7903EF47E} = {AFBE8B91-1DFB-496F-829A-DD796FA95B29}
+		{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92} = {080D234D-439E-41D2-829E-DA4B31DD2C2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
