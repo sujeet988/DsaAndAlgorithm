@@ -1,0 +1,42 @@
+
+
+// User function Template for Java
+
+// m is the given matrix and n is the order of matrix
+class Solution {
+    public static void dfs(int[][] m, int row, int col, String temp, ArrayList<String> ans, int n) {
+        if(row == n-1 && col == n-1) {
+            ans.add(temp);
+            return;
+        }
+        char[] directions = {'U', 'D', 'L', 'R'};
+        int[] delRow = {-1, 1, 0, 0};
+        int[] delCol = {0, 0, -1, 1};
+        m[row][col] = -1;
+        for(int i = 0; i < 4; i++) {
+            int newRow = row + delRow[i];
+            int newCol = col + delCol[i];
+            
+            if(newRow >= 0 && newRow < n && newCol >= 0 && newCol < n && m[newRow][newCol] == 1 ) {
+                dfs(m, newRow, newCol, temp + directions[i], ans, n);
+            }
+        }
+        
+        m[row][col] = 1;
+    }
+    
+    public static ArrayList<String> findPath(int[][] m, int n) {
+        // Your code here
+        
+        
+        ArrayList<String> ans = new ArrayList<>();
+        if(m[0][0] == 0 || m[n-1][n-1] == 0) {
+            ans.add("-1");
+            return ans;
+        }
+        dfs(m, 0, 0, "", ans, n);
+        
+        return ans;
+        
+    }
+}

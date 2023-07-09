@@ -242,6 +242,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackTracking", "BackTracking", "{080D234D-439E-41D2-829E-DA4B31DD2C2E}"
 	ProjectSection(SolutionItems) = preProject
 		BackTracking\BackTrackNotes.txt = BackTracking\BackTrackNotes.txt
+		BackTracking\RateinMaza.txt = BackTracking\RateinMaza.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BubbleSort", "BubbleSort", "{174E3269-1604-466A-B958-045535030A0A}"
