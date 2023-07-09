@@ -142,7 +142,7 @@
             // X=> stand for row
             // Y=> stand for column
 
-            //Down
+            //Move Down
             if(IsSafe(x+1, y, visited, arr, n))
             {
                 visited[x, y] = 1;
@@ -150,7 +150,7 @@
                 visited[x, y] = 0;
             }
 
-            //Left
+            //Move Left
             if (IsSafe(x, y-1, visited, arr, n))
             {
                 visited[x, y] = 1;
@@ -158,7 +158,7 @@
                 visited[x, y] = 0;
             }
 
-            //Right
+            //Move Right
             if (IsSafe(x, y+1, visited, arr, n))
             {
                 visited[x, y] = 1;
@@ -166,7 +166,7 @@
                 visited[x, y] = 0;
             }
 
-            //Upward
+            //Move Upward
             if (IsSafe(x -1, y, visited, arr, n))
             {
                 visited[x, y] = 1;
