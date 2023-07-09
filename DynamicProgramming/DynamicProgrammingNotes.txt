@@ -1,5 +1,9 @@
 Dynamic Programming Notes
 ---it is enhanced version of recursion
+-Optimization over recursion
+
+Condition:
+--Overlapping subproblem
 
 ->Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a 
 recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic
