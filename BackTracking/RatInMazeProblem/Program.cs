@@ -73,13 +73,19 @@
             //create visited array with default value zero
             int[,] visited = new int[n, n];
             string path = "";
+            // check edge cases , if starting poistion is zero then there is no need to check further
+            if (m[0][0] == 0)
+            {
+                return ans; // return empty
+            }
 
             Solve(0, 0, m, n, ans, visited, path);
             return ans;
         }
-        public static void Solve(int x, int y, int[][] arr, int n, List<string> ans, int[,] visited, string path)
+        private static void Solve(int x, int y, int[][] arr, int n, List<string> ans, int[,] visited, string path)
         {
             //Base case
+            // once row and colum reached at the end of matrix
             if (x == n - 1 && y == n - 1)
             {
                 ans.Add(path);
@@ -127,7 +133,7 @@
             }
         }
 
-        public static bool IsSafe(int newX, int newY,int[,] visited, int[][] arr, int n)
+        private static bool IsSafe(int newX, int newY,int[,] visited, int[][] arr, int n)
         {
             // Check if newX, newY is within the maze bounds and the cell is not blocked
             if ((newX >= 0 && newX < n) && (newY>=0 && newY<n) 
