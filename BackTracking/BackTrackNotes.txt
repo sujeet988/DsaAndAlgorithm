@@ -53,3 +53,11 @@ Examples of BackTrack: BackTracking can be used to solve wide range of Problems
 2. Subset of a array/string
 3. N-Queens Problem:
 4. Maze Problems: and many more.
+
+Difference between the Backtracking and Recursion :
+----------------------------------------------
+Recursion is a technique that calls the same function again and again until you reach 
+the base case. Backtracking is an algorithm that finds all the possible solutions and 
+selects the desired solution from the given set of solutions.
+
+-----
