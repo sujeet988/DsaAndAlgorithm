@@ -37,6 +37,18 @@
             blocked.
 
          */
+        /*
+         * Approach:
+
+            Start at the source(0,0) with an empty string and try every possible path i.e upwards(U), downwards(D), leftwards(L) and rightwards(R).
+            As the answer should be in lexicographical order so it’s better to try the directions in lexicographical order i.e (D,L,R,U)
+            Declare a 2D-array named visited because the question states that a single cell should be included only once in the path,so it’s important to keep track of the visited cells in a particular path.
+            If a cell is in path, mark it in the visited array.
+            Also keep a check of the “out of bound” conditions while going in a particular direction in the matrix. 
+            Whenever you reach the destination(n,n) it’s very important to get back as shown in the recursion tree.
+            While getting back, keep on unmarking the visited array for the respective direction.Also check whether there is a different path possible while getting back and if yes, then mark that cell in the visited array.
+         */
+
         static void Main(string[] args)
         {
             Console.WriteLine("Rat in a Maze Problem using BackTrack");
@@ -73,10 +85,8 @@
             Console.WriteLine(" Path for matrix 2*2  and destination cell is blocked. is given below");
             int[][] maze1 = new int[2][] { new int[] { 1,0}, new int[] { 1,0 } };
             /*
-             * {
             { 1, 0},
             { 1, 0}
-            }
              */
 
             n = 2;
@@ -96,7 +106,10 @@
                         Console.ReadLine();
         }
 
-        public static List<String> findPath(int[][] m, int n)
+
+        //Time Complexity: O(4^(m*n)), because on every cell we need to try 4 different directions.
+       // Space Complexity:  O(m* n), Maximum Depth of the recursion tree(auxiliary space).
+        private static List<String> findPath(int[][] m, int n)
         {
             List<String> ans = new List<String>();
             //create visited array with default value zero
