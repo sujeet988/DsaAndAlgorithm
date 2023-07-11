@@ -1,6 +1,6 @@
 ﻿namespace SortAnArrayUsingRecursion
 {
-    internal class Program
+    public class Program
     {
         public static void Sort(List<int> array)
         {

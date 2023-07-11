@@ -411,6 +411,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Av", "Av", "{54F377C8-0B0B-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAnArrayUsingRecursion", "Av\SortAnArrayUsingRecursion\SortAnArrayUsingRecursion.csproj", "{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteMiddleElementOfStack", "DeleteMiddleElementOfStack\DeleteMiddleElementOfStack.csproj", "{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -925,6 +927,10 @@ Global
 		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1057,6 +1063,7 @@ Global
 		{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92} = {080D234D-439E-41D2-829E-DA4B31DD2C2E}
 		{26A9F313-4590-45EE-947C-D1A428C651CF} = {AFBE8B91-1DFB-496F-829A-DD796FA95B29}
 		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C} = {54F377C8-0B0B-4E81-8629-66EE037BF660}
+		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152} = {54F377C8-0B0B-4E81-8629-66EE037BF660}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
