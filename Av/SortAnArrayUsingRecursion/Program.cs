@@ -38,7 +38,7 @@
             list.Add(1);
             list.Add(5);
             list.Add(0);
-            list.Add(100);
+            list.Add(2);
             Sort(list);
             foreach(var item in list)
             {
