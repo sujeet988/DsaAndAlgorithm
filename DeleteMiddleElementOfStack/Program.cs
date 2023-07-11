@@ -22,7 +22,8 @@
                 stack.Pop();
                 return;
             }
-            int temp = stack.Pop();
+            int temp = stack.Peek(); // Temp hold values
+            stack.Pop(); // Pop values
             DeleteMiddleElementOfStack2(stack, mid-1);
             stack.Push(temp);
 
