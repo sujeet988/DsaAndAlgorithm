@@ -383,29 +383,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subsequences", "Recursion\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subset", "Recursion\Subset\Subset.csproj", "{D378929F-DBEA-4624-B797-3F3E0FC439E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSeriesUsingDp", "DynamicProgramming\FibonacciSeriesUsingDp\FibonacciSeriesUsingDp.csproj", "{1DA741AE-78FB-4DBF-93D4-1DC416D330D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciSeriesUsingDp", "DynamicProgramming\FibonacciSeriesUsingDp\FibonacciSeriesUsingDp.csproj", "{1DA741AE-78FB-4DBF-93D4-1DC416D330D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatInMazeProblem", "BackTracking\RatInMazeProblem\RatInMazeProblem.csproj", "{F002496A-EA78-4A5B-B5D4-A4FB31682D89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RatInMazeProblem", "BackTracking\RatInMazeProblem\RatInMazeProblem.csproj", "{F002496A-EA78-4A5B-B5D4-A4FB31682D89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NQueens", "BackTracking\NQueens\NQueens.csproj", "{8C63C3FC-1A6A-41F8-A911-A2FBB523A30A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NQueens", "BackTracking\NQueens\NQueens.csproj", "{8C63C3FC-1A6A-41F8-A911-A2FBB523A30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations", "BackTracking\Permutations\Permutations.csproj", "{A267D4A1-9C74-4F3F-B486-C3DBCE09C91A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Permutations", "BackTracking\Permutations\Permutations.csproj", "{A267D4A1-9C74-4F3F-B486-C3DBCE09C91A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightTour", "BackTracking\KnightTour\KnightTour.csproj", "{5C367988-D28D-4C93-ADD3-014A3FF0C21E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnightTour", "BackTracking\KnightTour\KnightTour.csproj", "{5C367988-D28D-4C93-ADD3-014A3FF0C21E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver", "BackTracking\SudokuSolver\SudokuSolver.csproj", "{5AD0F28E-E9BD-4FBC-8317-FFDAF7E56966}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuSolver", "BackTracking\SudokuSolver\SudokuSolver.csproj", "{5AD0F28E-E9BD-4FBC-8317-FFDAF7E56966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinChange", "DynamicProgramming\CoinChange\CoinChange.csproj", "{6807BC8A-A385-44CE-8050-2485E631B0F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinChange", "DynamicProgramming\CoinChange\CoinChange.csproj", "{6807BC8A-A385-44CE-8050-2485E631B0F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbingStairs", "DynamicProgramming\ClimbingStairs\ClimbingStairs.csproj", "{F2D7D373-BE88-46CB-BA9B-6831B5C0A89A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClimbingStairs", "DynamicProgramming\ClimbingStairs\ClimbingStairs.csproj", "{F2D7D373-BE88-46CB-BA9B-6831B5C0A89A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinCostClimbingStairs", "DynamicProgramming\MinCostClimbingStairs\MinCostClimbingStairs.csproj", "{BE55609F-4EBA-4BAC-8320-811701BA2BF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinCostClimbingStairs", "DynamicProgramming\MinCostClimbingStairs\MinCostClimbingStairs.csproj", "{BE55609F-4EBA-4BAC-8320-811701BA2BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRobber", "DynamicProgramming\HouseRobber\HouseRobber.csproj", "{340A1F88-1D4D-4A91-98D4-49E7903EF47E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRobber", "DynamicProgramming\HouseRobber\HouseRobber.csproj", "{340A1F88-1D4D-4A91-98D4-49E7903EF47E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print1ToNUsingBackTracking", "BackTracking\Print1ToNUsingBackTracking\Print1ToNUsingBackTracking.csproj", "{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Print1ToNUsingBackTracking", "BackTracking\Print1ToNUsingBackTracking\Print1ToNUsingBackTracking.csproj", "{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbingStairsUsinghBottom_UP", "DynamicProgramming\ClimbingStairsUsinghBottom_UP\ClimbingStairsUsinghBottom_UP.csproj", "{26A9F313-4590-45EE-947C-D1A428C651CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClimbingStairsUsinghBottom_UP", "DynamicProgramming\ClimbingStairsUsinghBottom_UP\ClimbingStairsUsinghBottom_UP.csproj", "{26A9F313-4590-45EE-947C-D1A428C651CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Av", "Av", "{54F377C8-0B0B-4E81-8629-66EE037BF660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAnArrayUsingRecursion", "Av\SortAnArrayUsingRecursion\SortAnArrayUsingRecursion.csproj", "{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -917,6 +921,10 @@ Global
 		{26A9F313-4590-45EE-947C-D1A428C651CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26A9F313-4590-45EE-947C-D1A428C651CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26A9F313-4590-45EE-947C-D1A428C651CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1048,6 +1056,7 @@ Global
 		{340A1F88-1D4D-4A91-98D4-49E7903EF47E} = {AFBE8B91-1DFB-496F-829A-DD796FA95B29}
 		{C5F5D6F6-C78B-4266-BA7C-90642FDDDF92} = {080D234D-439E-41D2-829E-DA4B31DD2C2E}
 		{26A9F313-4590-45EE-947C-D1A428C651CF} = {AFBE8B91-1DFB-496F-829A-DD796FA95B29}
+		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C} = {54F377C8-0B0B-4E81-8629-66EE037BF660}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
