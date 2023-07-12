@@ -413,6 +413,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAnArrayUsingRecursion",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteMiddleElementOfStack", "DeleteMiddleElementOfStack\DeleteMiddleElementOfStack.csproj", "{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseAStackUsingRecursion", "Av\ReverseAStackUsingRecursion\ReverseAStackUsingRecursion.csproj", "{1B536C25-9C81-447B-9E91-9AD355285D35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -931,6 +933,10 @@ Global
 		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B536C25-9C81-447B-9E91-9AD355285D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B536C25-9C81-447B-9E91-9AD355285D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B536C25-9C81-447B-9E91-9AD355285D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B536C25-9C81-447B-9E91-9AD355285D35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1064,6 +1070,7 @@ Global
 		{26A9F313-4590-45EE-947C-D1A428C651CF} = {AFBE8B91-1DFB-496F-829A-DD796FA95B29}
 		{D005A45E-4E89-4A14-AA3F-C9A032D4A16C} = {54F377C8-0B0B-4E81-8629-66EE037BF660}
 		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152} = {54F377C8-0B0B-4E81-8629-66EE037BF660}
+		{1B536C25-9C81-447B-9E91-9AD355285D35} = {54F377C8-0B0B-4E81-8629-66EE037BF660}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
