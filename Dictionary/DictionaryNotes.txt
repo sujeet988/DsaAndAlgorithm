@@ -1,0 +1,77 @@
+Dictionary:
+----------------->
+ Dictionary is a collection that stores key-value pairs where each key must be unique. 
+ It is part of the System.Collections.Generic namespace. Dictionaries provide fast access to 
+ elements based on their keys, making them ideal for scenarios where quick lookup operations 
+ are required. Here's how you can use a Dictionary in C# with examples:
+
+     using System;
+     using System.Collections.Generic;
+
+    class Program
+    {
+        static void Main()
+        {
+            // Creating a dictionary to store country names and their capitals
+            Dictionary<string, string> capitals = new Dictionary<string, string>();
+
+            // Adding key-value pairs to the dictionary
+            capitals.Add("USA", "Washington, D.C.");
+            capitals.Add("Canada", "Ottawa");
+            capitals.Add("UK", "London");
+            capitals.Add("France", "Paris");
+
+            // Accessing elements in the dictionary
+            Console.WriteLine("The capital of USA is: " + capitals["USA"]);
+            Console.WriteLine("The capital of France is: " + capitals["France"]);
+
+            // Checking if a key exists in the dictionary
+            string country = "Germany";
+            if (capitals.ContainsKey(country))
+            {
+                Console.WriteLine("The capital of " + country + " is: " + capitals[country]);
+            }
+            else
+            {
+                Console.WriteLine("The capital of " + country + " is not found in the dictionary.");
+            }
+
+            // Updating the value of a key
+            capitals["USA"] = "New York";
+            Console.WriteLine("The updated capital of USA is: " + capitals["USA"]);
+
+            // Removing a key-value pair from the dictionary
+            string countryToRemove = "Canada";
+            capitals.Remove(countryToRemove);
+            Console.WriteLine(countryToRemove + " has been removed from the dictionary.");
+
+            // Iterating through the dictionary
+            foreach (KeyValuePair<string, string> kvp in capitals)
+            {
+                Console.WriteLine("Country: " + kvp.Key + ", Capital: " + kvp.Value);
+            }
+
+            // Clearing the dictionary
+            capitals.Clear();
+            Console.WriteLine("Dictionary has been cleared. Count: " + capitals.Count);
+        }
+    }
+
+ Output: 
+
+The capital of USA is: Washington, D.C.
+The capital of France is: Paris
+The capital of Germany is not found in the dictionary.
+The updated capital of USA is: New York
+Canada has been removed from the dictionary.
+Country: USA, Capital: New York
+Country: UK, Capital: London
+Country: France, Capital: Paris
+Dictionary has been cleared. Count: 0
+
+In this example, we created a Dictionary called capitals and added key-value pairs representing 
+country names and their corresponding capitals. We demonstrated how to access elements, check for
+the existence of keys, update values, remove items, iterate through the dictionary, and clear it.
+Remember that dictionaries are not ordered, so the order of elements during iteration may not be 
+the same as the order in which they were added.
+
