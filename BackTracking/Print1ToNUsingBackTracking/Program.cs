@@ -17,6 +17,18 @@
             Console.WriteLine(n);
         }
 
+        static void Print1TNApproach2(int n)
+        {
+            if (n == 1)
+            {
+                Console.WriteLine(n);
+                return
+;            }
+
+            Print1ToN(n - 1);
+            Console.WriteLine(n);
+        }
+
 
         static void Main(string[] args)
         {
@@ -24,6 +36,8 @@
             Console.WriteLine("Enter number");
             int n = Convert.ToInt32(Console.ReadLine());
             Print1ToN(n);
+            Console.WriteLine("Print 1 To N using Backtracking approch2 ");
+            Print1TNApproach2(n);
             Console.ReadLine();
         }
     }

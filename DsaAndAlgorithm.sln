@@ -166,8 +166,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "Recursion\Fact
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionMainFunction", "Recursion\RecursionMainFunction\RecursionMainFunction.csproj", "{92456006-E266-4714-86EE-B02B9122834E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecusionPeyushDemo", "Recursion\RecusionPeyushDemo\RecusionPeyushDemo.csproj", "{4B34F21E-67B4-401E-A1E0-87D3A9442713}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListApnaCollege", "LinkedList\LinkedListApnaCollege\LinkedListApnaCollege.csproj", "{7A7A07AB-18C3-43BB-BBDB-4F2926D8DC15}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListDinesh", "LinkedList\LinkedListDinesh\LinkedListDinesh.csproj", "{F79C0574-B947-4494-9CD9-31EEEDA54D28}"
@@ -409,13 +407,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClimbingStairsUsinghBottom_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Av", "Av", "{54F377C8-0B0B-4E81-8629-66EE037BF660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAnArrayUsingRecursion", "Av\SortAnArrayUsingRecursion\SortAnArrayUsingRecursion.csproj", "{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortAnArrayUsingRecursion", "Av\SortAnArrayUsingRecursion\SortAnArrayUsingRecursion.csproj", "{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteMiddleElementOfStack", "DeleteMiddleElementOfStack\DeleteMiddleElementOfStack.csproj", "{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteMiddleElementOfStack", "DeleteMiddleElementOfStack\DeleteMiddleElementOfStack.csproj", "{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseAStackUsingRecursion", "Av\ReverseAStackUsingRecursion\ReverseAStackUsingRecursion.csproj", "{1B536C25-9C81-447B-9E91-9AD355285D35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseAStackUsingRecursion", "Av\ReverseAStackUsingRecursion\ReverseAStackUsingRecursion.csproj", "{1B536C25-9C81-447B-9E91-9AD355285D35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAStackUsingRecursion", "SortAStackUsingRecursion\SortAStackUsingRecursion.csproj", "{1113A2CF-46FF-456D-A350-88982FE18283}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortAStackUsingRecursion", "SortAStackUsingRecursion\SortAStackUsingRecursion.csproj", "{1113A2CF-46FF-456D-A350-88982FE18283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinearySearchComplexType", "InterViewAsked\BinearySearchComplexType\BinearySearchComplexType.csproj", "{9A90CB11-6C2D-4710-8336-3134BEAE7C82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -615,10 +615,6 @@ Global
 		{92456006-E266-4714-86EE-B02B9122834E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92456006-E266-4714-86EE-B02B9122834E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92456006-E266-4714-86EE-B02B9122834E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B34F21E-67B4-401E-A1E0-87D3A9442713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B34F21E-67B4-401E-A1E0-87D3A9442713}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B34F21E-67B4-401E-A1E0-87D3A9442713}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B34F21E-67B4-401E-A1E0-87D3A9442713}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A7A07AB-18C3-43BB-BBDB-4F2926D8DC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A7A07AB-18C3-43BB-BBDB-4F2926D8DC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A7A07AB-18C3-43BB-BBDB-4F2926D8DC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -943,6 +939,10 @@ Global
 		{1113A2CF-46FF-456D-A350-88982FE18283}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1113A2CF-46FF-456D-A350-88982FE18283}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1113A2CF-46FF-456D-A350-88982FE18283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A90CB11-6C2D-4710-8336-3134BEAE7C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A90CB11-6C2D-4710-8336-3134BEAE7C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A90CB11-6C2D-4710-8336-3134BEAE7C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A90CB11-6C2D-4710-8336-3134BEAE7C82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -996,7 +996,6 @@ Global
 		{6F840C19-8E01-4394-AAE1-9707E45DD95F} = {6C616764-9E2A-4DFD-9EAC-2506F15DF155}
 		{483BE248-C1A5-4E9A-813B-EE9BA04FDA63} = {BC47D8BA-2DF0-4B5D-8832-5690243D08F8}
 		{92456006-E266-4714-86EE-B02B9122834E} = {BC47D8BA-2DF0-4B5D-8832-5690243D08F8}
-		{4B34F21E-67B4-401E-A1E0-87D3A9442713} = {BC47D8BA-2DF0-4B5D-8832-5690243D08F8}
 		{7A7A07AB-18C3-43BB-BBDB-4F2926D8DC15} = {6C616764-9E2A-4DFD-9EAC-2506F15DF155}
 		{F79C0574-B947-4494-9CD9-31EEEDA54D28} = {6C616764-9E2A-4DFD-9EAC-2506F15DF155}
 		{5664304E-4AC5-471B-8D4F-C6C85266F23D} = {6C616764-9E2A-4DFD-9EAC-2506F15DF155}
@@ -1078,6 +1077,7 @@ Global
 		{909498C4-D5C7-42D7-A7CD-3F2CE0FA4152} = {54F377C8-0B0B-4E81-8629-66EE037BF660}
 		{1B536C25-9C81-447B-9E91-9AD355285D35} = {54F377C8-0B0B-4E81-8629-66EE037BF660}
 		{1113A2CF-46FF-456D-A350-88982FE18283} = {54F377C8-0B0B-4E81-8629-66EE037BF660}
+		{9A90CB11-6C2D-4710-8336-3134BEAE7C82} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
