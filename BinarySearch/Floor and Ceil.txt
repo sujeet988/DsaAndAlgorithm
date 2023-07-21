@@ -24,6 +24,10 @@
 
 	So, ceil(0.34) is 1.
 
+	Example 3: What is ceil of 5?
+
+	So, ceil of 5 is 5.
+
 ------------------------------------
 2. Floor function
 
@@ -49,3 +53,7 @@
 	Solution: floor of 67.212 is integer just lesser than 67.212 that is 67.
 
 	So, floor of 67.212 is 67.
+
+	Example 3: What is floor of 5?
+
+	So, floor of 5 is 5.

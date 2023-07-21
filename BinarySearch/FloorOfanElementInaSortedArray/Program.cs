@@ -2,9 +2,67 @@
 {
     internal class Program
     {
+        /*
+         * https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
+         * Given a sorted array arr[] of size N without duplicates, and given a value x. 
+         * Floor of x is defined as the largest element K in arr[] such that K is smaller than 
+         * or equal to x. Find the index of K(0-based indexing).
+         * 
+         * Input:
+            N = 7, x = 5 
+            arr[] = {1,2,8,10,11,12,19}
+            Output: 1
+            Explanation: Largest Number less than 5 is
+            2 (i.e K = 2), whose index is 1(0-based 
+            indexing).
+
+        Input : 
+        N = 7, x = 0 
+        arr[] = {1,2,8,10,11,12,19}
+        Output: -1
+        Explanation: No element less 
+        than 0 is found. So output 
+        is "-1".
+
+        Floor : Note : Greatest Element smaller than given number N=7
+         */
+
+        // Find Floor using Linear Search o(n)
+        public static int findFloorUsingLinearSearch(int[] arr, int n, int x)
+        {
+            //code here
+            int result = -1;
+
+            for (int i = 0; i < n; i++)
+            {
+                if (arr[i] <= x)
+                {
+                    result = i;
+
+                }
+            }
+
+            return result;
+        }
+
+        // Find Floor using Binary Search o(logn)
+        public int findFloorUsingBinarySearch(int[] arr, int n, int x)
+        {
+            //code here
+            int result = -1;
+            return result;
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(" index of Floor of a number using Linear Search");
+            int[] arr = { 1, 2, 8, 10, 11, 12, 19 };
+            int n = 7;
+            int x = 5;
+            int output = findFloorUsingLinearSearch(arr, n, x);
+            Console.WriteLine(output); // and : 1
+            Console.WriteLine("Floor of a number using Binary Search");
+
+            Console.ReadLine();
         }
     }
 }
