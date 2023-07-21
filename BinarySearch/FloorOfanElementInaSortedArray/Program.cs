@@ -49,7 +49,28 @@
         public int findFloorUsingBinarySearch(int[] arr, int n, int x)
         {
             //code here
+            int start = 0;
+            int end = n - 1;
             int result = -1;
+            while (start <= end)
+            {
+                int mid = start + (end - start) / 2;
+                if (arr[mid] == x)
+                {
+                    return mid;
+                }
+                if(x > arr[mid])
+                {
+                    result = mid; //before move to righ side , store value  in result
+                    start = mid + 1;
+                }
+                else
+                {
+                    end = mid - 1;
+                }
+
+            }
+
             return result;
         }
         static void Main(string[] args)
@@ -59,9 +80,10 @@
             int n = 7;
             int x = 5;
             int output = findFloorUsingLinearSearch(arr, n, x);
-            Console.WriteLine(output); // and : 1
+            Console.WriteLine(output); // ouput : 1
             Console.WriteLine("Floor of a number using Binary Search");
-
+            int output1 = findFloorUsingLinearSearch(arr, n, x);
+            Console.WriteLine(output1);// ouput : -1
             Console.ReadLine();
         }
     }
