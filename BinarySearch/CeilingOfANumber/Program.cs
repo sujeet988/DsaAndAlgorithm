@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CeilingOfANumber
+namespace DsaAndAlgorithm.BinarySearch.CeilingOfANumber
 {
     internal class Program
     {

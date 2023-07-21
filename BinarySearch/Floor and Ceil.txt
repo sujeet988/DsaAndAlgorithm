@@ -1,0 +1,51 @@
+1.Ceil Function
+-----------------
+	Ceil means ceiling of our home. So, we can pick out some similarities from here. 
+	That is ceil function returns an integer that is just greater than a certain rational value.
+
+	Ceil function is used in situations where exact integer values are required which is just 
+	greater than or equal to the given value.
+
+	For example, ceil value of 3.138 is 4.
+
+	It should be noted that this does not return the round-off value which is 3. 
+	It just returns an integer that is just greater than a certain rational value.
+
+	Example 1: Find ceil value of 5.534.
+
+	Solution: Ceil value of 5.534 is an just greater than 5.534 i.e. 6.
+
+
+	So, the ceil value of 5.534 is 6.
+
+	Example 2: What is ceil(0.34).
+
+	Solution: Ceil value of 0.34 is integer just greater than 0.34 i.e. 1.
+
+	So, ceil(0.34) is 1.
+
+------------------------------------
+2. Floor function
+
+	Floor means the floor of our home. So, we can pick out some similarities from here. That is 
+	floor function returns an integer that is just lesser than a certain rational value.
+
+	Floor function is used in situations where exact integer values are required which is just 
+	lesser than or equal to the given value.
+
+	For example, ceil value of 3.883 is 3.
+
+	It should be noted that this does not return the round-off value which is 4. It just returns 
+	an integer that is just lesser than a certain rational value.
+
+	Example 1: What is value of floor(86.43)?
+
+    Solution: floor value of 86.43 is integer value just lesser than 86.43 that is 86.
+
+	So, the value of floor(86.43) is 86.
+
+	Example 2: What is floor of 67.212?
+
+	Solution: floor of 67.212 is integer just lesser than 67.212 that is 67.
+
+	So, floor of 67.212 is 67.
