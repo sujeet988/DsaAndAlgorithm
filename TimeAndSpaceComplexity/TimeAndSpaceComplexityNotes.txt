@@ -2,10 +2,13 @@ Below are some common Big-O functions while analyzing algorithms.
 
 O(1) - Constant time
 O(log(n)) - Logarithmic time
-O((log(n))c) - Polylogarithmic time --n power c
+O((log(n))c) - Polylogarithmic time
 O(n) - Linear time
 O(n log(n)) - Linearithmic time
-O(n2) - Quadratic time -o npower 2
-O(nc) - Polynomial time-> o n power c
-O(cn) - Exponential time -> o c power n
+O(n2) - Quadratic time
+O(nc) - Polynomial time
+O(cn) - Exponential time
 O(n!) - Factorial time
+(n = size of input, c = some constant)
+
+Here is the model graph representing Big-O complexity of some functions
