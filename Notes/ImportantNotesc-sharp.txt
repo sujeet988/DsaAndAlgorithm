@@ -28,7 +28,7 @@ Length()
 char at
 ToChar Array
 IndexOf
-
+SubString
 
 
 ---------------
