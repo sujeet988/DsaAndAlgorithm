@@ -68,6 +68,15 @@ namespace DsaAndAlgorithm.Recursion.Subset
                 Console.WriteLine();
             }
 
+            //Output 
+            ////1
+            ////2
+            ////12
+            ////3
+            ////13
+            ////23
+            ////123
+
             Console.WriteLine("Subset Demo using Recursion");
             IList<IList<int>> ans=new List<IList<int>>();
             List<int> processed=new List<int>();
@@ -81,6 +90,16 @@ namespace DsaAndAlgorithm.Recursion.Subset
                 }
                 Console.WriteLine();
             }
+
+            //Output 
+            ////1
+            ////2
+            ////12
+            ////3
+            ////13
+            ////23
+            ////123
+            ///
             Console.ReadLine();
         }
     }

@@ -72,11 +72,11 @@
 
             // skip characters using return type
             var output = SkipCharactersWithReturnsType("", name);
-            Console.WriteLine(output);
+            Console.WriteLine(output); // output sujt
 
             //SkipCharactersWithReturnsTypeWithoutParamters
             var result = SkipCharactersWithReturnsTypeWithoutParamters(name);
-            Console.WriteLine(result);
+            Console.WriteLine(result); // output sujt
 
             Console.ReadLine();
         }

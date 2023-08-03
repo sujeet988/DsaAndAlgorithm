@@ -67,6 +67,15 @@
             string input = "abc";
             string processed = "";
             Program.SubSeq(processed, input); //using void
+            //Output
+            //abc
+            //ab
+            //ac
+            //a
+            //bc
+            //b
+            //c
+
             //using list store
             Console.WriteLine("Subsequences using  List ");
             List<string> subsequences = new List<string>();
@@ -76,6 +85,14 @@
             {
                 Console.WriteLine(item);
             }
+            // output :
+            // abc
+            //ab
+            //ac
+            //a
+            //bc
+            //b
+            //c
 
             //using List Return type
             Console.WriteLine("Subsequences using  List return type ");
@@ -84,6 +101,14 @@
             {
                 Console.WriteLine(item);
             }
+            // Ouput 
+            //abc
+            //ab
+            //ac
+            //a
+            //bc
+            //b
+            //c
 
             //using Loop
             Console.WriteLine("Subsequences using  Loop ");
@@ -92,6 +117,16 @@
             {
                 Console.WriteLine(item);
             }
+
+            //Output 
+            ////a
+            ////b
+            ////ab
+            ////c
+            ////ac
+            ////bc
+            ////abc
+
 
             Console.ReadLine();
         }
