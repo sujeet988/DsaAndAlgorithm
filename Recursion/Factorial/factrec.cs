@@ -28,5 +28,16 @@ namespace DsaAndAlgorithm.Recursion.Factorial
             }
             return n * factusingrec(n - 1);
         }
+
+        public static void printFactorialrecursion(int n, int fact)
+        {
+            if (n == 0)
+            {
+                Console.WriteLine(fact);
+                return;
+            }
+            fact *= n;
+            printFactorialrecursion(n - 1, fact);
+        }
     }
 }
