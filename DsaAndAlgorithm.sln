@@ -337,6 +337,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfZero", "Matrix\SumOfZero\SumOfZero.csproj", "{BEFAFA83-3121-4F4F-8E0B-2E4EF69175AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterViewAsked", "InterViewAsked", "{B0C0E045-3298-4887-88B4-83BA920B0629}"
+	ProjectSection(SolutionItems) = preProject
+		InterViewAsked\InterviewAskedUrl.txt = InterViewAsked\InterviewAskedUrl.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveZeroToEnd", "InterViewAsked\MoveZeroToEnd\MoveZeroToEnd.csproj", "{02095358-24EB-4E71-9AD4-FBC6F1C42048}"
 EndProject
@@ -419,17 +422,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimeAndSpaceComplexity", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeAndSpaceComplexity", "TimeAndSpaceComplexity\TimeAndSpaceComplexity\TimeAndSpaceComplexity.csproj", "{7B638F8F-A3BF-4242-97B3-F2A6454E016A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintNTo1And1ToN", "Recursion\PrintNTo1And1ToN\PrintNTo1And1ToN.csproj", "{2D045CEB-9E79-4E0A-BD75-6D62ED7B64D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintNTo1And1ToN", "Recursion\PrintNTo1And1ToN\PrintNTo1And1ToN.csproj", "{2D045CEB-9E79-4E0A-BD75-6D62ED7B64D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum_Of_N_Numbers", "Recursion\Sum_Of_N_Numbers\Sum_Of_N_Numbers.csproj", "{0319DBCE-34E8-472D-B593-93E89E86B6F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum_Of_N_Numbers", "Recursion\Sum_Of_N_Numbers\Sum_Of_N_Numbers.csproj", "{0319DBCE-34E8-472D-B593-93E89E86B6F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfNaturalNumbers", "Recursion\SumOfNaturalNumbers\SumOfNaturalNumbers.csproj", "{5E6B396E-E646-4E81-84AA-AADBDD63A088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfNaturalNumbers", "Recursion\SumOfNaturalNumbers\SumOfNaturalNumbers.csproj", "{5E6B396E-E646-4E81-84AA-AADBDD63A088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseANumber", "Recursion\ReverseANumber\ReverseANumber.csproj", "{8537A335-9E3E-4677-8C95-89435A361647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseANumber", "Recursion\ReverseANumber\ReverseANumber.csproj", "{8537A335-9E3E-4677-8C95-89435A361647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOFDigits", "Recursion\SumOFDigits\SumOFDigits.csproj", "{27F1CC6C-1293-4FF7-95D5-1838B0269002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOFDigits", "Recursion\SumOFDigits\SumOFDigits.csproj", "{27F1CC6C-1293-4FF7-95D5-1838B0269002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfDigits", "Recursion\ProductOfDigits\ProductOfDigits.csproj", "{81EAF8E2-1B90-40E1-868D-FD9D10A95456}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductOfDigits", "Recursion\ProductOfDigits\ProductOfDigits.csproj", "{81EAF8E2-1B90-40E1-868D-FD9D10A95456}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

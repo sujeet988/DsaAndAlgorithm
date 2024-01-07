@@ -59,8 +59,8 @@ Contains()
 
 1.Count
 2.Contains
-3. AddRange--Adding array to List
-3. RemoveAt
+3.AddRange--Adding array to List
+3.RemoveAt
 4 Sort()--For  sort list
 
 11 Ilist
