@@ -38,7 +38,7 @@ namespace FirstMissingPositive
         {
             int[] nums = { 3, 4, -1, 1 };
             int missingPositive = FirstMissingPositive(nums);
-            Console.WriteLine("First Missing Positive: " + missingPositive);
+            Console.WriteLine("First Missing Positive: " + missingPositive); // ans is 2
             Console.ReadLine();
         }
     }

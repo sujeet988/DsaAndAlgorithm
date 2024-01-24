@@ -72,6 +72,7 @@ namespace DsAlgo.Sujeet
             {
                 Console.Write(item+" ");
             }
+            // output index  0,1
 
             //Optimized Solution
             response = OptimizedSolutionusingHashMap(arr, target);
@@ -79,6 +80,8 @@ namespace DsAlgo.Sujeet
             {
                 Console.Write(item + " ");
             }
+
+            // output 0,1
             Console.ReadLine();
         }
     }

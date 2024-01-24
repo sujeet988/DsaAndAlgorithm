@@ -37,6 +37,12 @@ namespace DivideArrayDynamicPrint
             int[] arr=new int[7] { 10,20,30,40,50,60,70};
             int k = 2;
             arraySplit(arr, k);
+            
+            /* output  Print array in 3 length.
+         * 10 20 30
+         * 40 50 60
+         * 70
+         */
             Console.ReadLine();
         }
     }

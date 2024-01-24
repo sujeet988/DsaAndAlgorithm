@@ -15,5 +15,6 @@ foreach(var item in output)
 {
     Console.Write(item+" ");
 }
+// ouput 1, 2 
 Console.ReadLine();
 

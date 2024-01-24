@@ -31,7 +31,7 @@ namespace DuplicateNumberArray
         {
             int[] nums = new int[] { 1, 3, 4, 2, 2 };
             var output = FindDuplicate(nums);
-            Console.WriteLine("Duplcicate Element in array is "+output);
+            Console.WriteLine("Duplcicate Element in array is "+output); // ans is 2
             Console.ReadLine();
         }
     }
