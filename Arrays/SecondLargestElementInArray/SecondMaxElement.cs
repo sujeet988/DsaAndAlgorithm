@@ -46,5 +46,46 @@ namespace SecondLargestElementInArray
             }
             return secondMaxElement;
         }
+
+        public static int SecoondLargetElement2(int[] arr)
+        {
+            // There should be at least two elements
+            if (arr.Length < 2)
+            {
+                return -1;
+            }
+            int max = Int32.MinValue;
+            int secondMax = Int32.MinValue;
+
+            for (int i = 0; i < n; i++)
+            {
+
+                if (arr[i] > max)
+                {
+
+                    max = arr[i];
+                }
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+
+                if (arr[i] < max && arr[i] > secondMax)
+                {
+
+                    secondMax = arr[i];
+                }
+            }
+
+            // If no second largest value then return -1
+            if (secondMax == int.MinValue)
+            {
+                return -1;
+            }
+
+
+            return secondMax;
+
+        }
     }
 }
