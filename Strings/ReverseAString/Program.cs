@@ -17,6 +17,26 @@ namespace DsaAndAlgorithm.Strings.ReverseAString
             }
             return sb.ToString();
         }
+
+        // by two pointer
+        public static string ReverseWordsInString2(string S)
+        {
+            string[] str = S.Split('.');
+
+            int start = 0;
+            int end = str.Length - 1;
+            while (start <= end)
+            {
+                string temp = str[end];
+                str[end] = str[start];
+                str[start] = temp;
+                start++;
+                end--;
+
+            }
+            string stroutput = String.Join(".", str);
+            return stroutput;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Reverse Words In String");

@@ -434,6 +434,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOFDigits", "Recursion\Su
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductOfDigits", "Recursion\ProductOfDigits\ProductOfDigits.csproj", "{81EAF8E2-1B90-40E1-868D-FD9D10A95456}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlidingWindow", "SlidingWindow", "{665EA8FE-24A0-4478-A751-1975FC05ECA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumSumOfKkonsecutiveElements", "SlidingWindow\MaximumSumOfKkonsecutiveElements\MaximumSumOfKkonsecutiveElements.csproj", "{3567A8D8-41D9-4E74-803B-B6E90D0F2026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumOfAllSubarraysOfSizeK", "SlidingWindow\MaximumOfAllSubarraysOfSizeK\MaximumOfAllSubarraysOfSizeK.csproj", "{4B122CF3-D07C-46EF-948C-EA409A3E2112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumSizeSubarraySum", "SlidingWindow\MinimumSizeSubarraySum\MinimumSizeSubarraySum.csproj", "{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -980,6 +988,18 @@ Global
 		{81EAF8E2-1B90-40E1-868D-FD9D10A95456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81EAF8E2-1B90-40E1-868D-FD9D10A95456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81EAF8E2-1B90-40E1-868D-FD9D10A95456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3567A8D8-41D9-4E74-803B-B6E90D0F2026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3567A8D8-41D9-4E74-803B-B6E90D0F2026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3567A8D8-41D9-4E74-803B-B6E90D0F2026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3567A8D8-41D9-4E74-803B-B6E90D0F2026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B122CF3-D07C-46EF-948C-EA409A3E2112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B122CF3-D07C-46EF-948C-EA409A3E2112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B122CF3-D07C-46EF-948C-EA409A3E2112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B122CF3-D07C-46EF-948C-EA409A3E2112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1120,6 +1140,9 @@ Global
 		{8537A335-9E3E-4677-8C95-89435A361647} = {BC47D8BA-2DF0-4B5D-8832-5690243D08F8}
 		{27F1CC6C-1293-4FF7-95D5-1838B0269002} = {BC47D8BA-2DF0-4B5D-8832-5690243D08F8}
 		{81EAF8E2-1B90-40E1-868D-FD9D10A95456} = {BC47D8BA-2DF0-4B5D-8832-5690243D08F8}
+		{3567A8D8-41D9-4E74-803B-B6E90D0F2026} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
+		{4B122CF3-D07C-46EF-948C-EA409A3E2112} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
+		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
