@@ -1,7 +1,7 @@
 ﻿namespace MinimumSizeSubarraySum
 {
     /*
-     
+     https://webrewrite.com/tag/sliding-window/
     Given an array of integers (A[])  and a number x, 
     find the smallest subarray with sum greater than the given value. 
     If such a subarray do not exist return 0 in that case.
@@ -25,10 +25,10 @@
 
      */
 
-  
 
 
-    internal class MinimumSizeSubarray
+
+    public class MinimumSizeSubarray
     {
         //O(n^2)
         public static int smallestSubWithSumBruteForce(int[] a, int n, int x)
@@ -102,7 +102,7 @@
             Console.WriteLine("Smallest subarray with sum greater than x\r\n");
             int[] arr = new int[6] { 1, 4, 45, 6, 0, 19 };
             int output=smallestSubWithSumSlidingWindow(arr, arr.Length, 51);
-            Console.WriteLine(output); // 3 ans Minimum length subarray is { 4, 45, 6}
+            Console.WriteLine("using Sliding Window" + output); // 3 ans Minimum length subarray is { 4, 45, 6}
             Console.ReadLine();
 
 
