@@ -348,6 +348,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveZeroToEnd", "InterViewAsked\MoveZeroToEnd\MoveZeroToEnd.csproj", "{02095358-24EB-4E71-9AD4-FBC6F1C42048}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LLD", "LLD", "{B8E5BC79-7EFC-416D-9BD9-128765BB9D4A}"
+	ProjectSection(SolutionItems) = preProject
+		LLD\LLDNOTES.txt = LLD\LLDNOTES.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignBookMyShow", "LLD\DesignBookMyShow\DesignBookMyShow.csproj", "{9D580377-4B69-4D4B-8197-8F6AFA007E58}"
 EndProject
@@ -446,6 +449,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductOfDigits", "Recursion\ProductOfDigits\ProductOfDigits.csproj", "{81EAF8E2-1B90-40E1-868D-FD9D10A95456}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlidingWindow", "SlidingWindow", "{665EA8FE-24A0-4478-A751-1975FC05ECA3}"
+	ProjectSection(SolutionItems) = preProject
+		SlidingWindow\SlidingWindowNotes.txt = SlidingWindow\SlidingWindowNotes.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumSumOfKkonsecutiveElements", "SlidingWindow\MaximumSumOfKkonsecutiveElements\MaximumSumOfKkonsecutiveElements.csproj", "{3567A8D8-41D9-4E74-803B-B6E90D0F2026}"
 EndProject
