@@ -12,13 +12,13 @@ Math.Min
 
 Ilist<Ilist>
 
-conatins
-lenght
+Contains
+length
 
 ---stack
 
 
----queque
+---queue
 
 
 -------------Arrays
@@ -29,7 +29,5 @@ char at
 ToChar Array
 IndexOf
 SubString
-
-
 ---------------
 https://practice.geeksforgeeks.org/problems/find-duplicates-in-an-array/1

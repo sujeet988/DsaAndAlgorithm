@@ -176,6 +176,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{8C286C30
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{3A550915-7340-43CC-A2C7-27FF707E7D91}"
+	ProjectSection(SolutionItems) = preProject
+		Queue\Notes.txt = Queue\Notes.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp11", "Queue\ConsoleApp11\ConsoleApp11.csproj", "{91E331F4-B68D-44EA-B178-DA86468EAD3C}"
 EndProject
@@ -244,6 +247,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BubbleSort", "BubbleSort", 
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SelectionSort", "SelectionSort", "{09E7E619-DCA2-4DA0-A29E-A9993C38D1CD}"
+	ProjectSection(SolutionItems) = preProject
+		SelectionSort\SelectionSortNotes.txt = SelectionSort\SelectionSortNotes.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CeilingOfANumber", "BinarySearch\CeilingOfANumber\CeilingOfANumber.csproj", "{33682B7C-AD2C-4AEB-A863-D29A76379D40}"
 EndProject
@@ -312,8 +318,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgoImPortant", "AlgoImPort
 		AlgoImportant\SlidingWindowNotes.txt = AlgoImportant\SlidingWindowNotes.txt
 		AlgoImportant\YoutubeChannels.txt = AlgoImportant\YoutubeChannels.txt
 	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlidingWindow", "AlgoImportant\SlidingWindow\SlidingWindow.csproj", "{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomantoInteger", "Maths\RomantoInteger\RomantoInteger.csproj", "{3263F2BB-79C8-40DE-96B6-79869EBA063C}"
 EndProject
@@ -436,11 +440,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductOfDigits", "Recursio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlidingWindow", "SlidingWindow", "{665EA8FE-24A0-4478-A751-1975FC05ECA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumSumOfKkonsecutiveElements", "SlidingWindow\MaximumSumOfKkonsecutiveElements\MaximumSumOfKkonsecutiveElements.csproj", "{3567A8D8-41D9-4E74-803B-B6E90D0F2026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumSumOfKkonsecutiveElements", "SlidingWindow\MaximumSumOfKkonsecutiveElements\MaximumSumOfKkonsecutiveElements.csproj", "{3567A8D8-41D9-4E74-803B-B6E90D0F2026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumOfAllSubarraysOfSizeK", "SlidingWindow\MaximumOfAllSubarraysOfSizeK\MaximumOfAllSubarraysOfSizeK.csproj", "{4B122CF3-D07C-46EF-948C-EA409A3E2112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumOfAllSubarraysOfSizeK", "SlidingWindow\MaximumOfAllSubarraysOfSizeK\MaximumOfAllSubarraysOfSizeK.csproj", "{4B122CF3-D07C-46EF-948C-EA409A3E2112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumSizeSubarraySum", "SlidingWindow\MinimumSizeSubarraySum\MinimumSizeSubarraySum.csproj", "{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumSizeSubarraySum", "SlidingWindow\MinimumSizeSubarraySum\MinimumSizeSubarraySum.csproj", "{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -788,10 +792,6 @@ Global
 		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{500FEE19-396C-4B41-9DFF-46E2562EC322}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3263F2BB-79C8-40DE-96B6-79869EBA063C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3263F2BB-79C8-40DE-96B6-79869EBA063C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3263F2BB-79C8-40DE-96B6-79869EBA063C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -1090,7 +1090,6 @@ Global
 		{70A9CFFC-3E63-41DE-8846-046BDBD73358} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{D14DD4A0-0B60-44DC-BB77-B71D530270D5} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{500FEE19-396C-4B41-9DFF-46E2562EC322} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
-		{E5ADA3AB-94EB-47D4-97D7-BEA2FEA27839} = {88FF4A67-B3B1-4150-B902-337D24C4F33E}
 		{3263F2BB-79C8-40DE-96B6-79869EBA063C} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{140CD463-92D0-4167-8756-5DBA99141811} = {21488741-CDB2-4A1D-8DDB-D6A7BC0656AD}
 		{AEC859A6-CBC6-4744-91A4-FDFDE5FF8E91} = {8FF51505-BCB8-4CD8-A24C-239C877705C4}
