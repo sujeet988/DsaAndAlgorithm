@@ -459,6 +459,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumOfAllSubarraysOfSize
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumSizeSubarraySum", "SlidingWindow\MinimumSizeSubarraySum\MinimumSizeSubarraySum.csproj", "{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KadaneAlgorithm", "KadaneAlgorithm", "{0760A085-419D-4B9C-AD57-859050B866E1}"
+	ProjectSection(SolutionItems) = preProject
+		KadaneAlgorithm\KadaneAlgoNotes.txt = KadaneAlgorithm\KadaneAlgoNotes.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KadaneAlgorithmDemo", "KadaneAlgorithm\KadaneAlgorithmDemo\KadaneAlgorithmDemo.csproj", "{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1013,6 +1020,10 @@ Global
 		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1155,6 +1166,7 @@ Global
 		{3567A8D8-41D9-4E74-803B-B6E90D0F2026} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
 		{4B122CF3-D07C-46EF-948C-EA409A3E2112} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
 		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
+		{D4E41AAB-A8C3-463B-82DA-AF714A5921B1} = {0760A085-419D-4B9C-AD57-859050B866E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
