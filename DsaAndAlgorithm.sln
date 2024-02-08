@@ -354,6 +354,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstMissingPositive", "Arrays\FirstMissingPositive\FirstMissingPositive.csproj", "{B95C2B3B-A57F-4800-A1F6-0356E43AC8B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashing", "Hashing", "{2431DCAD-ED14-4C6B-8DD1-816686CDEF31}"
+	ProjectSection(SolutionItems) = preProject
+		Hashing\HashNotes.txt = Hashing\HashNotes.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "Hashing\ConsoleApp2\ConsoleApp2.csproj", "{E0400334-A984-467F-A702-9A0D96A39633}"
 EndProject
@@ -404,6 +407,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClimbingStairsUsinghBottom_UP", "DynamicProgramming\ClimbingStairsUsinghBottom_UP\ClimbingStairsUsinghBottom_UP.csproj", "{26A9F313-4590-45EE-947C-D1A428C651CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Av", "Av", "{54F377C8-0B0B-4E81-8629-66EE037BF660}"
+	ProjectSection(SolutionItems) = preProject
+		Av\Notes.txt = Av\Notes.txt
+		Av\StackNotes.txt = Av\StackNotes.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortAnArrayUsingRecursion", "Av\SortAnArrayUsingRecursion\SortAnArrayUsingRecursion.csproj", "{D005A45E-4E89-4A14-AA3F-C9A032D4A16C}"
 EndProject
