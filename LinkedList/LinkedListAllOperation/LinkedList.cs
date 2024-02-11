@@ -9,10 +9,10 @@ namespace LinkedListAllOperation
    public  class Node
     {
         public int data;
-        public Node next;
+        public Node nextElement;
         public Node()
         {
-            next = null;
+            nextElement = null;
 
         }
     }
@@ -46,7 +46,7 @@ namespace LinkedListAllOperation
         {
             Node newnode= new Node();
             newnode.data = x;
-            newnode.next = head;
+            newnode.nextElement = head;
             head = newnode;
            
         }
@@ -64,11 +64,30 @@ namespace LinkedListAllOperation
             newnode.data = x;
             Node last = head;
 
-            while(last.next != null)
+            while(last.nextElement != null)
             {
-                last= last.next;
+                last= last.nextElement;
             }
-            last.next=newnode;
+            last.nextElement = newnode;
+        }
+        public bool Search(int value)
+        {
+            if (IsEmpty())
+            {
+                return false;
+            }
+
+            Node temp = head;
+            while(temp != null)
+            {
+                if (temp.data == value)
+                {
+                    return true;
+                }
+                temp = temp.nextElement;
+            }
+
+            return false;
         }
 
         public  void DisplayNode()
@@ -78,7 +97,7 @@ namespace LinkedListAllOperation
             while(temp != null)
             {
                 Console.Write(temp.data+"->");
-                temp = temp.next;
+                temp = temp.nextElement;
             }
             Console.WriteLine("null ");
 

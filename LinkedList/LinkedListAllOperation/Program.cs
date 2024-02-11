@@ -12,6 +12,20 @@
                 obj.InsertAtLast(i);
             }
             obj.DisplayNode();
+            //Search value in Linked List
+            int x = 5;
+            var isFound = obj.Search(x);
+            if (isFound)
+            {
+                Console.WriteLine(x + " Value is found ");
+
+            }
+            else
+            {
+                Console.WriteLine(x + " Value is not found ");
+
+            }
+
             Console.ReadLine(); 
 
         }
