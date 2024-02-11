@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinkedListAllOperation
 {
-   public  class Node
+    public class Node
     {
         public int data;
         public Node nextElement;
@@ -29,7 +29,7 @@ namespace LinkedListAllOperation
 
         public bool IsEmpty()
         {
-            if(head==null)
+            if (head == null)
             {
                 return true;
             }
@@ -40,15 +40,13 @@ namespace LinkedListAllOperation
             }
         }
 
-       
-
         public void InsertAtFirst(int x)
         {
-            Node newnode= new Node();
+            Node newnode = new Node();
             newnode.data = x;
             newnode.nextElement = head;
             head = newnode;
-           
+
         }
         public void InsertAtLast(int x)
         {
@@ -63,9 +61,9 @@ namespace LinkedListAllOperation
             Node newnode = new Node();
             newnode.data = x;
             Node last = head;
-            while(last.nextElement != null)
+            while (last.nextElement != null)
             {
-                last= last.nextElement;
+                last = last.nextElement;
             }
             last.nextElement = newnode;
         }
@@ -77,7 +75,7 @@ namespace LinkedListAllOperation
             }
 
             Node temp = head;
-            while(temp != null)
+            while (temp != null)
             {
                 if (temp.data == value)
                 {
@@ -91,7 +89,7 @@ namespace LinkedListAllOperation
 
         public bool DeletionAtHead()
         {
-            if(IsEmpty()) 
+            if (IsEmpty())
             {
                 Console.WriteLine("List is empty");
                 return false;
@@ -100,18 +98,18 @@ namespace LinkedListAllOperation
             return true;
         }
 
-        public  void DisplayNode()
+        public void DisplayNode()
         {
 
             Node temp = head;
-            while(temp != null)
+            while (temp != null)
             {
-                Console.Write(temp.data+"->");
+                Console.Write(temp.data + "->");
                 temp = temp.nextElement;
             }
             Console.WriteLine("null ");
 
         }
-        
+
     }
 }
