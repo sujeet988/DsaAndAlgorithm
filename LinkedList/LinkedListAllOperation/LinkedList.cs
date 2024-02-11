@@ -105,10 +105,10 @@ namespace LinkedListAllOperation
                 return false;
             }
             Node last = head;
-            while (last.nextElement.nextElement!= null)
+            while (last.nextElement.nextElement != null)
             {
 
-                last= last.nextElement;
+                last = last.nextElement;
             }
 
             last.nextElement = null;
@@ -117,7 +117,7 @@ namespace LinkedListAllOperation
         }
         public bool DeleteAtGivenvalue(int value)
         {
-            bool isDeleted=false;
+            bool isDeleted = false;
             if (IsEmpty())
             {
                 Console.WriteLine("list is empty");
@@ -125,15 +125,26 @@ namespace LinkedListAllOperation
             }
 
             Node temp = head;
-            if(temp.data == value)
+            if (temp.data == value)
             {
                 return DeletionAtHead(); // value found at first position
             }
 
             return isDeleted;
         }
+        public int Length()
+        {
+            int count = 0;
+            Node temp= head;
+            while (temp != null)
+            {
+                count++;
+                temp= temp.nextElement;
+            }
+            return count;
+        }
 
-            public void DisplayNode()
+        public void DisplayNode()
         {
 
             Node temp = head;

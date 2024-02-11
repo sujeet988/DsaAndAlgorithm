@@ -40,6 +40,12 @@ namespace LinkedListAllOperation
             obj.DeleteAtGivenvalue(2); // deleting 1 from list 
             obj.DisplayNode();
 
+            // Length of List
+            obj.DisplayNode();
+            int count= obj.Length(); 
+            Console.WriteLine("length of list is "+ count);
+            
+
             Console.ReadLine(); 
 
         }
