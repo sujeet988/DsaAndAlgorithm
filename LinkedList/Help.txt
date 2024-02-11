@@ -23,5 +23,13 @@ making the change in object via one  reference variable will leading the chnage 
 gfg
 --ararys
 
---------
+--------loop
+detect loop
+https://www.interviewbit.com/blog/detect-loop-in-linked-list/
+Floyd’s Cycle Detection Algorithm
+----
+
+
+
+
 1. 
