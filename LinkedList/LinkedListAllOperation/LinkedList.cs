@@ -97,8 +97,32 @@ namespace LinkedListAllOperation
             head = head.nextElement;
             return true;
         }
+        public bool DeletionAtTail()
+        {
+            if (IsEmpty())
+            {
+                Console.WriteLine("List is empty");
+                return false;
+            }
+            Node last = head;
+            while (last.nextElement.nextElement!= null)
+            {
 
-        public void DisplayNode()
+                last= last.nextElement;
+            }
+
+            last.nextElement = null;
+
+            return true;
+        }
+        public bool Delete(int value)
+        {
+            bool isDeleted=false;
+
+            return isDeleted;
+        }
+
+            public void DisplayNode()
         {
 
             Node temp = head;

@@ -32,6 +32,10 @@ namespace LinkedListAllOperation
             obj.DeletionAtHead(); // deleting 1 from list 
             obj.DisplayNode();
 
+            //delete 5 from  list
+            obj.DeletionAtTail(); // deleting 1 from list 
+            obj.DisplayNode();
+
             Console.ReadLine(); 
 
         }
