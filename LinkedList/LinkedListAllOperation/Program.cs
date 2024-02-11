@@ -9,7 +9,7 @@ namespace LinkedListAllOperation
         {
             Console.WriteLine("Linked List Operation");
             LinkedList obj=new LinkedList();
-            for(int i = 1;i <= 5; i++)
+            for(int i = 1;i <= 10; i++)
             {
                 obj.InsertAtLast(i);
             }
@@ -27,6 +27,7 @@ namespace LinkedListAllOperation
                 Console.WriteLine(x + " Value is not found ");
 
             }
+            
 
             //delete 1 from  list
             obj.DeletionAtHead(); // deleting 1 from list 
@@ -44,7 +45,11 @@ namespace LinkedListAllOperation
             obj.DisplayNode();
             int count= obj.Length(); 
             Console.WriteLine("length of list is "+ count);
-            
+
+            //reverse list
+            obj.ReverseList(); // deleting 1 from list 
+            obj.DisplayNode();
+
 
             Console.ReadLine(); 
 

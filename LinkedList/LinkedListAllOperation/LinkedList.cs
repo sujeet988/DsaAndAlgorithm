@@ -143,6 +143,25 @@ namespace LinkedListAllOperation
             }
             return count;
         }
+        public void ReverseList()
+        {
+
+            Node prev = null;
+            Node current= head;
+            Node next = head.nextElement;
+            while (current != null)
+            {
+                current.nextElement = prev;
+                prev= current;
+                current= next;
+                if (next != null)
+                {
+                    next = next.nextElement;
+                }
+            }
+            head = prev;
+
+        }
 
         public void DisplayNode()
         {
