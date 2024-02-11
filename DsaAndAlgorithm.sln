@@ -464,7 +464,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KadaneAlgorithm", "KadaneAl
 		KadaneAlgorithm\KadaneAlgoNotes.txt = KadaneAlgorithm\KadaneAlgoNotes.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KadaneAlgorithmDemo", "KadaneAlgorithm\KadaneAlgorithmDemo\KadaneAlgorithmDemo.csproj", "{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KadaneAlgorithmDemo", "KadaneAlgorithm\KadaneAlgorithmDemo\KadaneAlgorithmDemo.csproj", "{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMinimumNumberOfSubstrings", "InterViewAsked\FindMinimumNumberOfSubstrings\FindMinimumNumberOfSubstrings.csproj", "{C5253147-7442-4E00-83DD-A07E6A6269B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1024,6 +1026,10 @@ Global
 		{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4E41AAB-A8C3-463B-82DA-AF714A5921B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5253147-7442-4E00-83DD-A07E6A6269B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5253147-7442-4E00-83DD-A07E6A6269B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5253147-7442-4E00-83DD-A07E6A6269B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5253147-7442-4E00-83DD-A07E6A6269B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1167,6 +1173,7 @@ Global
 		{4B122CF3-D07C-46EF-948C-EA409A3E2112} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
 		{A0A23EBD-3A7F-4059-9E4B-0911EEFD41DD} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
 		{D4E41AAB-A8C3-463B-82DA-AF714A5921B1} = {0760A085-419D-4B9C-AD57-859050B866E1}
+		{C5253147-7442-4E00-83DD-A07E6A6269B5} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
