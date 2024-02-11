@@ -115,9 +115,20 @@ namespace LinkedListAllOperation
 
             return true;
         }
-        public bool Delete(int value)
+        public bool DeleteAtGivenvalue(int value)
         {
             bool isDeleted=false;
+            if (IsEmpty())
+            {
+                Console.WriteLine("list is empty");
+                return false;
+            }
+
+            Node temp = head;
+            if(temp.data == value)
+            {
+                return DeletionAtHead(); // value found at first position
+            }
 
             return isDeleted;
         }
