@@ -40,20 +40,35 @@ namespace LinkedListAllOperation
             }
         }
 
-        public void InsertAtLast()
-        {
-
-        }
+       
 
         public void InsertAtFirst(int x)
         {
-            Node newnode=new Node ();
+            Node newnode= new Node();
             newnode.data = x;
-            if(IsEmpty()) 
-            { 
-                head = newnode;
+            newnode.next = head;
+            head = newnode;
+           
+        }
+        public void InsertAtLast(int x)
+        {
+
+            if (IsEmpty())
+            {
+                InsertAtFirst(x);
+                return;
 
             }
+
+            Node newnode = new Node();
+            newnode.data = x;
+            Node last = head;
+
+            while(last.next != null)
+            {
+                last= last.next;
+            }
+            last.next=newnode;
         }
 
         public  void DisplayNode()

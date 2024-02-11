@@ -1,7 +1,6 @@
 ﻿namespace LinkedListAllOperation
 {
 
-
     internal class Program
     {
         static void Main(string[] args)
@@ -10,7 +9,7 @@
             LinkedList obj=new LinkedList();
             for(int i = 0;i < 5; i++)
             {
-                obj.InsertAtFirst(i);
+                obj.InsertAtLast(i);
             }
             obj.DisplayNode();
             Console.ReadLine(); 
