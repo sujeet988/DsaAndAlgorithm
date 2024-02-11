@@ -63,7 +63,6 @@ namespace LinkedListAllOperation
             Node newnode = new Node();
             newnode.data = x;
             Node last = head;
-
             while(last.nextElement != null)
             {
                 last= last.nextElement;
@@ -88,6 +87,17 @@ namespace LinkedListAllOperation
             }
 
             return false;
+        }
+
+        public bool DeletionAtHead()
+        {
+            if(IsEmpty()) 
+            {
+                Console.WriteLine("List is empty");
+                return false;
+            }
+            head = head.nextElement;
+            return true;
         }
 
         public  void DisplayNode()
