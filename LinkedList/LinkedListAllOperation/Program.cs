@@ -55,6 +55,22 @@ namespace LinkedListAllOperation
             obj.ReverseList(); 
             obj.DisplayNode();
 
+            /*Detect a Loop in a Linked List
+             */
+            Console.WriteLine("Detect loop in Linked list demo");
+            LinkedList list=new LinkedList();
+            for(int i=1; i <= 5; i++)
+            {
+                list.InsertAtFirst(i);
+                list.DisplayNode();
+            }
+            list.InsertLoop();
+            list.Elements();
+            string listLoop = list.Elements(); // printing list after creating loop
+            Console.WriteLine("List : " + listLoop);
+
+            bool checkLoop = list.DetectLoop(); // calling detectLoop function
+            Console.WriteLine("Loop detected : " + checkLoop);
 
             Console.ReadLine(); 
 

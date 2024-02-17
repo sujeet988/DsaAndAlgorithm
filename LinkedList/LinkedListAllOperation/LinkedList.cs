@@ -177,6 +177,64 @@ namespace LinkedListAllOperation
             Console.WriteLine("null ");
 
         }
+        /// <summary>
+        /// make cycle loop and point  last elemnt to  head or any other element
+        /// </summary>
+        public void InsertLoop()
+        {
+            Node temp = head;
+            // traversing to get to last element of the list
+            while (temp.nextElement != null)
+            {
+                temp = temp.nextElement;
+            }
+            temp.nextElement = head; // pointing last element to head of the list
+        }
+
+        public string Elements()
+        { 
+            // this function will return all values of linked List
+            string elementsList = "";
+            Node start = head;
+            Node check = head;
+
+            elementsList += start.data.ToString();
+            elementsList += "->";
+            start = start.nextElement;
+
+            while (start != null && start.data != check.data)
+            {
+                elementsList += start.data.ToString();
+                elementsList += "->";
+                start = start.nextElement;
+            }
+
+            if (start == null)
+                return elementsList + "null";
+
+            elementsList += check.data.ToString();
+            return elementsList;
+        }
+        public bool DetectLoop()
+        {
+            Node slow = head;
+            Node fast= head;
+            while (slow != null && fast !=null && fast.nextElement != null)
+            {
+                slow = slow.nextElement;
+                fast = fast.nextElement.nextElement;
+                /* If slow and fast meet at some point then there
+                    is a loop */
+                if (slow == fast)
+                {
+                    // Return 1 to indicate that loop is found */
+                    return true;
+                }
+            }
+
+            // Return false to indeciate that ther is no loop*/
+            return false;
+        }
 
     }
 }
