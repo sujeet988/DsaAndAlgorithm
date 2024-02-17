@@ -16,6 +16,7 @@ namespace LinkedListAllOperation
             obj.DisplayNode();
             //Search value in Linked List
             int x = 4;
+            Console.WriteLine($"Search given value {x}");
             var isFound = obj.Search(x);
             if (isFound)
             {
@@ -27,18 +28,22 @@ namespace LinkedListAllOperation
                 Console.WriteLine(x + " Value is not found ");
 
             }
-            
+
 
             //delete 1 from  list
-            obj.DeletionAtHead(); // deleting 1 from list 
+            Console.WriteLine("Deleteing first node from linked list");
+            obj.DeletionAtHead(); 
             obj.DisplayNode();
 
             //delete 5 from  list
-            obj.DeletionAtTail(); // deleting 1 from list 
+            Console.WriteLine("Deleteing last node from linked list");
+            obj.DeletionAtTail(); 
             obj.DisplayNode();
 
             //delete 5 from  list
-            obj.DeleteAtGivenvalue(2); // deleting 1 from list 
+            int val = 2;
+            Console.WriteLine($"Deleteing give  Value {val}");
+            obj.DeleteAtGivenvalue(val); 
             obj.DisplayNode();
 
             // Length of List
@@ -47,7 +52,7 @@ namespace LinkedListAllOperation
             Console.WriteLine("length of list is "+ count);
 
             //reverse list
-            obj.ReverseList(); // deleting 1 from list 
+            obj.ReverseList(); 
             obj.DisplayNode();
 
 

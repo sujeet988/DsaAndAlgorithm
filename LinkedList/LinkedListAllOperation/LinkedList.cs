@@ -89,6 +89,7 @@ namespace LinkedListAllOperation
 
         public bool DeletionAtHead()
         {
+           
             if (IsEmpty())
             {
                 Console.WriteLine("List is empty");
@@ -99,6 +100,7 @@ namespace LinkedListAllOperation
         }
         public bool DeletionAtTail()
         {
+          
             if (IsEmpty())
             {
                 Console.WriteLine("List is empty");
