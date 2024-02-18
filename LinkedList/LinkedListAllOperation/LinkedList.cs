@@ -375,12 +375,31 @@ O(m+n)2 where m is the size of the first list, and n is the size of the second l
             list1.RemoveDuplicateFromUnsortedLinkedList(); // removing duplicates from list and return list
             return list1.PrintElementsusingstring();  // converrting to string
         }
+
+        /* Time complexity
+        The outer loop will run m times, and the inner loop will run n times. Whereas, the complexity of the RemoveDuplicates() will be 
+        RemoveDuplicates() will be 
+        O(min(m,n)2
+        )
+        depending upon the size of the list3. The overall complexity of
+        this solution will be max(O(mn),O(min(m,n) 2 ))
+        where m is the size of the first list, and n is the size of the second list.
+         */
+
+        /// <summary>
+        /// Intersction of two linked list
+        /// </summary>
+        /// <param name="list1"></param>
+        /// <param name="list2"></param>
+        /// <returns></returns>
         public string InterSection(LinkedList list1, LinkedList list2)
         {
             LinkedList list3=new LinkedList ();
             Node t1=list1.head;
             Node t2 = list2.head;
-            while(t1 != null)
+            // Traverse both lists and store the same element 
+            // in the resultant list list3
+            while (t1 != null)
             {
                 while(t2 != null)
                 {
