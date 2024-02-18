@@ -13,3 +13,5 @@ Ans: given below
 Union = 10->20->80->60->15->30->45->null
 Intersection = 20->60->null
 ---SLow and fast pointer
+--------Intersection
+https://webrewrite.com/find-the-intersection-of-two-linked-lists/#more-2839
