@@ -284,6 +284,37 @@ namespace LinkedListAllOperation
             return temp.data; // first element is middle element
 
         }
+        /// <summary>
+        /// Remove Duplicate From Unsorted LinkedList
+        /// </summary>
+        /// <returns></returns>
+        public void RemoveDuplicateFromUnsortedLinkedList()
+        {
+
+            Node temp= head;
+
+            if (temp == null)
+            {
+                return ;
+            }
+
+            HashSet<int> hset=new HashSet<int> ();
+            hset.Add (temp.data);
+
+            while(temp != null && temp.nextElement !=null)
+            {
+                if(hset.Contains(temp.nextElement.data))
+                {
+                    temp.nextElement = temp.nextElement.nextElement;
+                }
+                else
+                {
+                    hset.Add (temp.nextElement.data);
+                    temp = temp.nextElement;
+                }
+            }
+
+        }
 
 
     }

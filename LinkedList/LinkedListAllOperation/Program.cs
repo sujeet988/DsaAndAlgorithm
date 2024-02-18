@@ -94,6 +94,21 @@ namespace LinkedListAllOperation
              mid = list.middleNodeusingtwoloop();    //calling findMid function
             Console.WriteLine("Middle element of the list using two loop approach : " + mid);
 
+            //Remove Duplicate from unsorted Array
+            Console.WriteLine("Remove duplciate from unsorted array demo");
+            list = new LinkedList();
+            list.InsertAtLast(1);
+            list.InsertAtLast(3);
+            list.InsertAtLast(3);
+            list.InsertAtLast(2);
+            list.InsertAtLast(2);
+            list.InsertAtLast(4);
+            list.InsertAtLast(5);
+            list.DisplayNode();
+
+            list.RemoveDuplicateFromUnsortedLinkedList();
+            Console.WriteLine("Node after delete duplicate values");
+            list.DisplayNode();
             Console.ReadLine(); 
 
         }
