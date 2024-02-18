@@ -1,0 +1,15 @@
+Union:
+Given the two lists of A and B, the union is the list that contains elements or objects that belong to either 
+A or to B or to both, but duplicates are not allowed.
+
+Intersection:
+Given the two lists of A and B, the intersection is the largest list, which contains all the elements that are common to 
+both the sets, but duplicate
+
+list1 = 10->20->80->20->60->null
+list2 = 15->20->30->60->60->45->nulls are not allowed.
+Ans: given below
+
+Union = 10->20->80->60->15->30->45->null
+Intersection = 20->60->null
+---SLow and fast pointer
