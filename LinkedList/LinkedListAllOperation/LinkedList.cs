@@ -89,7 +89,7 @@ namespace LinkedListAllOperation
 
         public bool DeletionAtHead()
         {
-           
+
             if (IsEmpty())
             {
                 Console.WriteLine("List is empty");
@@ -100,7 +100,7 @@ namespace LinkedListAllOperation
         }
         public bool DeletionAtTail()
         {
-          
+
             if (IsEmpty())
             {
                 Console.WriteLine("List is empty");
@@ -137,11 +137,11 @@ namespace LinkedListAllOperation
         public int Length()
         {
             int count = 0;
-            Node temp= head;
+            Node temp = head;
             while (temp != null)
             {
                 count++;
-                temp= temp.nextElement;
+                temp = temp.nextElement;
             }
             return count;
         }
@@ -149,13 +149,13 @@ namespace LinkedListAllOperation
         {
 
             Node prev = null;
-            Node current= head;
+            Node current = head;
             Node next = head.nextElement;
             while (current != null)
             {
                 current.nextElement = prev;
-                prev= current;
-                current= next;
+                prev = current;
+                current = next;
                 if (next != null)
                 {
                     next = next.nextElement;
@@ -192,7 +192,7 @@ namespace LinkedListAllOperation
         }
 
         public string Elements()
-        { 
+        {
             // this function will return all values of linked List
             string elementsList = "";
             Node start = head;
@@ -218,8 +218,8 @@ namespace LinkedListAllOperation
         public bool DetectLoop()
         {
             Node slow = head;
-            Node fast= head;
-            while (slow != null && fast !=null && fast.nextElement != null)
+            Node fast = head;
+            while (slow != null && fast != null && fast.nextElement != null)
             {
                 slow = slow.nextElement;
                 fast = fast.nextElement.nextElement;
@@ -271,7 +271,7 @@ namespace LinkedListAllOperation
             }
             int len = 0;
             //find length of a linked list
-             len = Length();
+            len = Length();
             Node temp = head;
             int mid = 0;
 
@@ -291,31 +291,85 @@ namespace LinkedListAllOperation
         public void RemoveDuplicateFromUnsortedLinkedList()
         {
 
-            Node temp= head;
+            Node temp = head;
 
             if (temp == null)
             {
-                return ;
+                return;
             }
 
-            HashSet<int> hset=new HashSet<int> ();
-            hset.Add (temp.data);
+            HashSet<int> hset = new HashSet<int>();
+            hset.Add(temp.data);
 
-            while(temp != null && temp.nextElement !=null)
+            while (temp != null && temp.nextElement != null)
             {
-                if(hset.Contains(temp.nextElement.data))
+                if (hset.Contains(temp.nextElement.data))
                 {
                     temp.nextElement = temp.nextElement.nextElement;
                 }
                 else
                 {
-                    hset.Add (temp.nextElement.data);
+                    hset.Add(temp.nextElement.data);
                     temp = temp.nextElement;
                 }
             }
 
         }
 
+        public string PrintElementsusingstring()
+        { 
+            // this function will return all values of linked List
+            string elementsList = "";
+            Node start = head;
 
+            elementsList += start.data.ToString();
+            elementsList += "->";
+            start = start.nextElement;
+
+            while (start != null )
+            {
+                elementsList += start.data.ToString();
+                elementsList += "->";
+                start = start.nextElement;
+            }
+
+            if (start == null)
+            {
+                elementsList= elementsList + "null";
+            }
+                 
+
+            return elementsList;
+        }
+
+        /// <summary>
+        /// union of two linked list
+        /// </summary>
+        /// <param name="list1"></param>
+        /// <param name="list2"></param>
+        /// <returns></returns>
+        public string Union(LinkedList list1, LinkedList list2)
+        {
+
+            //Return other List if one of them is empty
+            if (list1.IsEmpty())
+            {
+                list2.PrintElementsusingstring();
+            }
+            else if(list2.IsEmpty())
+            {
+                return list2.PrintElementsusingstring();
+            }
+            Node start = list1.head;
+            //Traverse first list till the last element
+            while(start.nextElement != null)
+            {
+                start=start.nextElement;
+            }
+            //Link last element of first list to the first element of second list
+            start.nextElement = list2.head;//// append list2 with list 1 
+            list1.RemoveDuplicateFromUnsortedLinkedList(); // removing duplicates from list and return list
+            return list1.PrintElementsusingstring();  // converrting to string
+        }
     }
 }
