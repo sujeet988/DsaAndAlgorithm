@@ -138,7 +138,7 @@ namespace LinkedListAllOperation
 
 
             ///Intersection of two linked list
-            Console.WriteLine("Union Demo");
+            Console.WriteLine("Intersction Demo");
              list1 = new LinkedList();  // creating lists
              list2 = new LinkedList();
             list1.InsertAtLast(10);
@@ -159,8 +159,8 @@ namespace LinkedListAllOperation
 
             Console.WriteLine("List2 values");
             list2.DisplayNode();
-            string resultintersection = list1.Union(list1, list2);
-            Console.WriteLine("intersction result : " + result);
+            string resultintersection = list1.InterSection(list1, list2);
+            Console.WriteLine("intersection result : " + resultintersection);
 
 
             Console.ReadLine(); 

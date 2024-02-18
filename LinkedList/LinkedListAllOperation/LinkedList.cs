@@ -342,6 +342,10 @@ namespace LinkedListAllOperation
             return elementsList;
         }
 
+        /* time complexity for Union 
+If you did not have the care of duplicates, the runtime complexity of this algorithm would be O(m) where m is the size of the first list. However, because of duplicates, you need to traverse the whole union list. This increases the time complexity to 
+O(m+n)2 where m is the size of the first list, and n is the size of the second list.
+         */
         /// <summary>
         /// union of two linked list
         /// </summary>
@@ -370,6 +374,29 @@ namespace LinkedListAllOperation
             start.nextElement = list2.head;//// append list2 with list 1 
             list1.RemoveDuplicateFromUnsortedLinkedList(); // removing duplicates from list and return list
             return list1.PrintElementsusingstring();  // converrting to string
+        }
+        public string InterSection(LinkedList list1, LinkedList list2)
+        {
+            LinkedList list3=new LinkedList ();
+            Node t1=list1.head;
+            Node t2 = list2.head;
+            while(t1 != null)
+            {
+                while(t2 != null)
+                {
+                    if (t1.data == t2.data)
+                    {
+                        list3.InsertAtFirst(t1.data);
+                    }
+                    t2=t2.nextElement;
+
+                }
+                t2 = list2.head;
+                t1=t1.nextElement;
+            }
+ 
+            list3.RemoveDuplicateFromUnsortedLinkedList(); // removing duplicates from list and return list
+            return list3.PrintElementsusingstring();  // converrting to string
         }
     }
 }
