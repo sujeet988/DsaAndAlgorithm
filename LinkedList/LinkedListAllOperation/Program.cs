@@ -72,6 +72,28 @@ namespace LinkedListAllOperation
             bool checkLoop = list.DetectLoop(); // calling detectLoop function
             Console.WriteLine("Loop detected : " + checkLoop);
 
+            /*
+             *Find Middle Node in a Linked List
+            */
+            Console.WriteLine("Middle element of the list : Demo");
+            list = new LinkedList();
+            var rand = new Random();
+            int num = 0;
+            for (int i = 1; i <= 5; i++)
+            {
+                num = rand.Next(10);   //generating random numbers in range 1 to 100
+                list.InsertAtFirst(num);    // inserting value in the list
+                list.DisplayNode();
+            }
+
+            //using two pointer
+            int mid = list.FindMid();    //calling findMid function
+            Console.WriteLine("Middle element of the list using two pointer approach : " + mid);
+
+            //using two loop
+             mid = list.middleNodeusingtwoloop();    //calling findMid function
+            Console.WriteLine("Middle element of the list using two loop approach : " + mid);
+
             Console.ReadLine(); 
 
         }

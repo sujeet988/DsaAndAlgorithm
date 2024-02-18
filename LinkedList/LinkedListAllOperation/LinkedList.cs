@@ -235,6 +235,56 @@ namespace LinkedListAllOperation
             // Return false to indeciate that ther is no loop*/
             return false;
         }
+        /// <summary>
+        /// Find mid using two pointer
+        /// </summary>
+        /// <returns></returns>
+        public int FindMid()
+        {
+            if (IsEmpty())
+            {
+                return 0;
+            }
+            Node slow = head;
+            Node fast = head;
+            if (slow.nextElement == null)
+            {
+                return slow.data;
+            }
+            while (fast != null && fast.nextElement != null)
+            {
+                slow = slow.nextElement;
+                fast = fast.nextElement.nextElement;
+            }
+            // Write your code here
+            return slow.data;
+        }
+        /// <summary>
+        /// middle Node using two loop
+        /// </summary>
+        /// <returns></returns>
+        public int middleNodeusingtwoloop()
+        {
+            if (IsEmpty())
+            {
+                return 0;
+            }
+            int len = 0;
+            //find length of a linked list
+             len = Length();
+            Node temp = head;
+            int mid = 0;
+
+            while (mid < len / 2)
+            {
+
+                temp = temp.nextElement;
+                mid++;
+            }
+            return temp.data; // first element is middle element
+
+        }
+
 
     }
 }
