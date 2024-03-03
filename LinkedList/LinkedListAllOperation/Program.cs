@@ -161,8 +161,12 @@ namespace LinkedListAllOperation
             list2.DisplayNode();
             string resultintersection = list1.InterSection(list1, list2);
             Console.WriteLine("intersection result : " + resultintersection);
-
-
+            // find the nth node from end
+            list.DisplayNode();
+            int n = 3;
+            Console.WriteLine("Find the {0} th node", n);
+            int output = list.FindNth(n);
+            Console.WriteLine("{0} th node is {1}",n,output);
             Console.ReadLine(); 
 
         }

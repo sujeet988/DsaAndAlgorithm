@@ -417,5 +417,41 @@ O(m+n)2 where m is the size of the first list, and n is the size of the second l
             list3.RemoveDuplicateFromUnsortedLinkedList(); // removing duplicates from list and return list
             return list3.PrintElementsusingstring();  // converrting to string
         }
+
+        //To Find nth node from end of list
+        public int FindNth(int n)
+        {
+            // Write your code here
+            if (IsEmpty())
+            {
+                return -1;
+            }
+            int len = 0;
+
+            Node temp = head;
+            while (temp != null)
+            {
+                temp=temp.nextElement;
+                len++;
+            }
+
+            int pos = len - n + 1;
+            // again  to temp
+            temp= head;
+            len = 0; 
+            while (temp != null) 
+            { 
+                if(pos-1==len)
+                {
+                    return temp.data;
+                }
+                temp=temp.nextElement;
+                len++;
+            }
+
+            return -1;
+        }
     }
+
+    
 }
