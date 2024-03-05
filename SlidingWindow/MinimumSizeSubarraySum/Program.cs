@@ -86,7 +86,7 @@
             for(int end=0; end < n; end++)
             {
                 sum += a[end];
-                if(x> sum && start<=end)
+                while(sum >x && start<=end)
                 {
                     minLength = Math.Min((end - start) + 1, minLength);
                     sum = sum - a[start];
