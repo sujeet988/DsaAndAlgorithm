@@ -32,7 +32,7 @@ namespace FindSymmetricPairsInTheArrayOfPairs
         public static void PrintSyymmetricPair(int[,] array2d)
         {
             // array2d.GetLength(0) --return the rows of the array in two dimensional
-
+            Console.WriteLine("The symmetric pairs are using brute Forrce: ");
             for ( int i=0; i < array2d.GetLength(0); i++ )
             {
 
@@ -54,9 +54,8 @@ namespace FindSymmetricPairsInTheArrayOfPairs
         static void Main(string[] args)
         {
             int[,] array2d = new int[5,2] { { 1, 2}, { 2, 1}, { 3, 4}, { 4, 5}, { 5, 4} };
-
-            Console.WriteLine("The symmetric pairs are: ");
             PrintSyymmetricPair(array2d);
+
             Console.ReadLine();
         }
     }
