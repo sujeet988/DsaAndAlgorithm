@@ -33,12 +33,14 @@ namespace FindSymmetricPairsInTheArrayOfPairs
         {
             // array2d.GetLength(0) --return the rows of the array in two dimensional
             Console.WriteLine("The symmetric pairs are using brute Forrce: ");
-            for ( int i=0; i < array2d.GetLength(0); i++ )
+            int row = array2d.GetLength(0);
+            // This loop for selection of one pair
+            for ( int i=0; i < row ; i++ )
             {
-
-                for (int j = i + 1; j < array2d.GetLength(0); j++)
+                // This loop for searching of symmetric pair
+                for (int j = i + 1; j < row; j++)
                 {
-
+                    // Condition of symmetric pair
                     if (array2d[j, 0] == array2d[i, 1] && array2d[j, 1] == array2d[i, 0])
                     {
                         Console.Write("(" + array2d[i, 1] + " " + array2d[i, 0] + ")" + " ");
