@@ -9,6 +9,7 @@ Console.WriteLine("Move all zeroes to end of array");
 
 int[] arr = new int[] { 15 ,12 ,0 ,0 ,0 ,2, 2, 19, 6, 17, 16, 20, 0, 2, 16, 0, 10, 0, 14, 15 };
 //Brute force solution
+Console.WriteLine("Brute force solution");
 var output=PushZeroToend.PushZeroToEnd(arr);
 foreach(var item in output)
 {
@@ -17,6 +18,8 @@ foreach(var item in output)
 
 //By Two pointer approach
 //optimized solution
+Console.WriteLine();
+Console.WriteLine("Two Pointer Approach");
 var output1 = PushZeroToend.PushZeroToEndByTwoPointer(arr);
 foreach (var item in output1)
 {

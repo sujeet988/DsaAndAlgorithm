@@ -37,7 +37,6 @@ namespace DsAlgo.Sujeet
             if (k < n)
             {
                 newarr[k] = 0;
-                k++;
             }
 
             return newarr;
