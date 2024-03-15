@@ -2,7 +2,7 @@
 using System;
 using DsAgo.Sujeet;
 ///https://www.geeksforgeeks.org/remove-an-element-at-specific-index-from-an-array-in-java/
-Console.WriteLine("Remove an Element at Specific Index from an Array in Java");
+Console.WriteLine("Remove an Element at Specific Index from an Array in c#");
 
 // Get the array
 int[] arr = { 1, 2, 3, 4, 5 };
@@ -21,7 +21,7 @@ int[] result = null;
 result = RemoveElementFromArray.removeTheElement(arr, index);
 
 // Print the resultant array
-Console.WriteLine("Resultant Array:");
+Console.WriteLine("Remove the element using loop");
 foreach(int i in result)
 {
     Console.Write(i+" ");
@@ -30,7 +30,8 @@ foreach(int i in result)
 // Remove the element using list
 result = RemoveElementFromArray.removeTheElementUsingList(arr, index);
 // Print the resultant array
-Console.WriteLine("Resultant Array:");
+Console.WriteLine();
+Console.WriteLine("Remove the element using List ");
 foreach (int i in result)
 {
     Console.Write(i + " ");
