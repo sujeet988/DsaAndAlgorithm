@@ -41,21 +41,20 @@ namespace ArrayDeleteAtIndex
             arr[3] = 4;
             arr[4] = 5;
             //Before insert
-            Console.WriteLine("Array length before delete" + arr.Length);
             Console.WriteLine("Before Delete");
             foreach (int item in arr)
             {
-                Console.Write(item + " ");
+                Console.WriteLine(item + " ");
             }
-            Console.WriteLine();
+            Console.WriteLine("Array length before delete is : " + arr.Length);
             Console.WriteLine("after Delete");
             int sizeOfArray = arr.Length;
             int element = 3;
-            var output= DeleteElement(arr, sizeOfArray, element); //ouput
-            Console.WriteLine($"Array length after {0} delete {1} ",element, output);                                                   
+            var output= DeleteElement(arr, sizeOfArray, element); //output
+            Console.WriteLine("Array length is  {0} after  deleting element :   {1} ", output,element );                                                   
              for(int i=0; i < output; i++)
             {
-                Console.Write(arr[i] + " ");
+                Console.WriteLine(arr[i] + " ");
             }
             Console.ReadLine();
         }

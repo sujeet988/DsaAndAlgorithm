@@ -83,7 +83,10 @@
             int start = 0;
             int sum = 0;
 
-            for(int end=0; end < n; end++)
+         //   A[] = { 1, 4, 45, 6, 0, 19 }
+    //x = 51
+
+            for (int end=0; end < n; end++)
             {
                 sum += a[end];
                 while(sum >x && start<=end)
