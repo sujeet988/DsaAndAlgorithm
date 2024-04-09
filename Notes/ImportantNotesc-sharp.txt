@@ -30,4 +30,3 @@ ToChar Array
 IndexOf
 SubString
 ---------------
-https://practice.geeksforgeeks.org/problems/find-duplicates-in-an-array/1

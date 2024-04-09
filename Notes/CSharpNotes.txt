@@ -13,15 +13,17 @@
 
 
 3. MultDImession Array:
-  1.Mutli
-  2.jagged Array
+  1.Mutlidimesiona --rows and columns is fixed
+  2.jagged Array --rows and colums is different
 
 3. String:
 
 1.Split
 2.ToCharAt
 3 SubString
-4. 
+
+
+
 CharAt(java) in c# => string[indexnumber]
 
 

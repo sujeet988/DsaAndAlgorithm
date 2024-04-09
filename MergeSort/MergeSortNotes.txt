@@ -1,1 +1,4 @@
-Divide And Conquer pre req
+
+*MergeSort :
+
+ First Learn Divide And Conquer pre req then come to Merge Sort
