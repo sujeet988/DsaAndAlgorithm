@@ -436,6 +436,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindSymmetricPairsInTheArra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideArrayDynamicPrint", "InterViewAsked\DivideArrayDynamicPrint\DivideArrayDynamicPrint.csproj", "{9BB9E0EF-73AA-4C46-AE32-CFCF021BCB29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumPopulationYear", "Matrix\MaximumPopulationYear\MaximumPopulationYear.csproj", "{551C8895-7DCA-4CEB-B76E-047D9D5BB08F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -958,6 +960,10 @@ Global
 		{9BB9E0EF-73AA-4C46-AE32-CFCF021BCB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BB9E0EF-73AA-4C46-AE32-CFCF021BCB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BB9E0EF-73AA-4C46-AE32-CFCF021BCB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551C8895-7DCA-4CEB-B76E-047D9D5BB08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551C8895-7DCA-4CEB-B76E-047D9D5BB08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551C8895-7DCA-4CEB-B76E-047D9D5BB08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551C8895-7DCA-4CEB-B76E-047D9D5BB08F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1092,6 +1098,7 @@ Global
 		{21D819E8-9B76-453F-A772-E5DCE0D30F5F} = {6C616764-9E2A-4DFD-9EAC-2506F15DF155}
 		{CE6E9A50-D723-4EA2-B05E-D2CCE51870EA} = {58C98126-66B4-4CFC-BCC4-285DA0ED389D}
 		{9BB9E0EF-73AA-4C46-AE32-CFCF021BCB29} = {B0C0E045-3298-4887-88B4-83BA920B0629}
+		{551C8895-7DCA-4CEB-B76E-047D9D5BB08F} = {58C98126-66B4-4CFC-BCC4-285DA0ED389D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
