@@ -28,8 +28,3 @@ detect loop
 https://www.interviewbit.com/blog/detect-loop-in-linked-list/
 Floyd’s Cycle Detection Algorithm
 ----
-
-
-
-
-1. 

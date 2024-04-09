@@ -11,9 +11,13 @@ namespace InterSectionOfTwoSortedArrays
 {
 
 
-    internal class InterSectionOfTwoSortedArray
+    public class InterSectionOfTwoSortedArray
     {
+
         //Brute Force Approach:
+        //// Time Complexity: O(n1 x n2) ~O(n^2) { There are nested loops where the outer one loops n1 times and the inner one loops n2 times, where n1 = A.size() and n2 = B.size()
+        //// }.
+        ////Space Complexity: O(n) { Extra Space used for the visited and ans arrays }.
 
         public static List<int> intersectionOfArrays(int[] A, int[] B)
         {
@@ -42,11 +46,11 @@ namespace InterSectionOfTwoSortedArrays
             }
             return ans;
         }
-        //// Time Complexity: O(n1 x n2) ~O(n^2) { There are nested loops where the outer one loops n1 times and the inner one loops n2 times, where n1 = A.size() and n2 = B.size()
-        //// }.
-        ////Space Complexity: O(n) { Extra Space used for the visited and ans arrays }.
+
 
         //Optimized approach:
+        // Time Complexity: O(n) { Since the elements are compared within the single pass for both the arrays this approach would take a linear time and in the worst case O(n1 + n2) where n1 = A.size() and n2 = B.size() }.
+        //Space Complexity: O(1) { There is no extra space used in the two-pointers approach }
         public static List<int> intersectionOfArraysByTwoPointer(int[] A, int[] B)
         {
 
@@ -79,8 +83,7 @@ namespace InterSectionOfTwoSortedArrays
             }
             return ans;
         }
-       // Time Complexity: O(n) { Since the elements are compared within the single pass for both the arrays this approach would take a linear time and in the worst case O(n1 + n2) where n1 = A.size() and n2 = B.size() }.
-        //Space Complexity: O(1) { There is no extra space used in the two-pointers approach }.
+      
     }
 }
 

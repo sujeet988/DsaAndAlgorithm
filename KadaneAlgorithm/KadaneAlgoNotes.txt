@@ -1,0 +1,4 @@
+KadaneAlgoNotes
+-> if previous sum coming positive value then append else start new flow
+-> // subarray with a sum less than 0 will always reduce our answer and so this type of subarray cannot be a part of the subarray with maximum sum.
+-> /check current sum vs overllall sum

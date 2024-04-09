@@ -4,7 +4,9 @@ namespace FirstMissingPositive
 {
     internal class Program
     {
-
+        /*
+         * https://leetcode.com/problems/first-missing-positive/description/
+         */
         static int FirstMissingPositive(int[] nums)
         {
             int n = nums.Length;

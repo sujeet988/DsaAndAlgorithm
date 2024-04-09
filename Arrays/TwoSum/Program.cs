@@ -7,6 +7,7 @@ namespace DsAlgo.Sujeet
     /*
      * LeetCode Link
      * https://leetcode.com/problems/two-sum/
+     * https://www.geeksforgeeks.org/problems/key-pair5616/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
      * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target
      */
     internal class Program

@@ -2,13 +2,14 @@
 
 namespace RightRotateanarraybyDPlaces
 {
-   /*
-    * https://leetcode.com/problems/rotate-array/
-    * Input: nums = [1,2,3,4,5,6,7], k = 3
-        Output: [5,6,7,1,2,3,4]
-    */
-    
-   
+    /*
+     * https://leetcode.com/problems/rotate-array/
+     * https://www.geeksforgeeks.org/how-to-left-or-right-rotate-an-array-in-java/
+     * Input: nums = [1,2,3,4,5,6,7], k = 3
+         Output: [5,6,7,1,2,3,4]
+     */
+
+
     internal class Program
     {
         public static void reverse(int[] arr, int start, int end)
