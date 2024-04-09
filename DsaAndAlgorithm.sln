@@ -106,6 +106,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4SumArrays", "Arrays\4SumAr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{8AE398D3-50F4-4815-B20B-AF5C8055853D}"
 	ProjectSection(SolutionItems) = preProject
+		Notes\AlgorithmImp.txt = Notes\AlgorithmImp.txt
 		Notes\CSharpNotes.txt = Notes\CSharpNotes.txt
 		Notes\Help.txt = Notes\Help.txt
 		Notes\ImportantNotesc-sharp.txt = Notes\ImportantNotesc-sharp.txt
@@ -297,13 +298,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{A2D43D2F
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph\Graph.csproj", "{500FEE19-396C-4B41-9DFF-46E2562EC322}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgoImPortant", "AlgoImPortant", "{88FF4A67-B3B1-4150-B902-337D24C4F33E}"
-	ProjectSection(SolutionItems) = preProject
-		AlgoImportant\KadanealgorithmNotes.txt = AlgoImportant\KadanealgorithmNotes.txt
-		AlgoImportant\SlidingWindowNotes.txt = AlgoImportant\SlidingWindowNotes.txt
-		AlgoImportant\YoutubeChannels.txt = AlgoImportant\YoutubeChannels.txt
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomantoInteger", "Maths\RomantoInteger\RomantoInteger.csproj", "{3263F2BB-79C8-40DE-96B6-79869EBA063C}"
 EndProject
