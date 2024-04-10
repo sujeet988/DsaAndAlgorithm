@@ -472,6 +472,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryImplementationFro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSetImplementationFromScratch", "HashSet\HashSetImplemenTationFromScratch\HashSetImplementationFromScratch.csproj", "{EBDB92D0-2F14-41B5-9FC5-2BA9C48B2E3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingMinimumValueInAnArray", "Arrays\FindingMinimumValueInAnArray\FindingMinimumValueInAnArray.csproj", "{07F84A0E-2720-4E78-AD85-12C95260D98D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RearrangeSortedArrayInMaxMinForm", "Arrays\RearrangeSortedArrayInMaxMinForm\RearrangeSortedArrayInMaxMinForm.csproj", "{3B9796B3-51B1-4585-96CA-8BBE475535E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RearrangePositiveAndNegativeValues", "Arrays\RearrangePositiveAndNegativeValues\RearrangePositiveAndNegativeValues.csproj", "{0A7F1D40-11BA-48E4-B744-E9746AE1803C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUniqueIntegerInAnArray", "Arrays\FirstUniqueIntegerInAnArray\FirstUniqueIntegerInAnArray.csproj", "{BCDDC195-8A8E-450F-819B-6F6DA76B2D84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1062,6 +1070,22 @@ Global
 		{EBDB92D0-2F14-41B5-9FC5-2BA9C48B2E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBDB92D0-2F14-41B5-9FC5-2BA9C48B2E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBDB92D0-2F14-41B5-9FC5-2BA9C48B2E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F84A0E-2720-4E78-AD85-12C95260D98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F84A0E-2720-4E78-AD85-12C95260D98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F84A0E-2720-4E78-AD85-12C95260D98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F84A0E-2720-4E78-AD85-12C95260D98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9796B3-51B1-4585-96CA-8BBE475535E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9796B3-51B1-4585-96CA-8BBE475535E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9796B3-51B1-4585-96CA-8BBE475535E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9796B3-51B1-4585-96CA-8BBE475535E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7F1D40-11BA-48E4-B744-E9746AE1803C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7F1D40-11BA-48E4-B744-E9746AE1803C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7F1D40-11BA-48E4-B744-E9746AE1803C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7F1D40-11BA-48E4-B744-E9746AE1803C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDDC195-8A8E-450F-819B-6F6DA76B2D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDDC195-8A8E-450F-819B-6F6DA76B2D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDDC195-8A8E-450F-819B-6F6DA76B2D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDDC195-8A8E-450F-819B-6F6DA76B2D84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1213,6 +1237,10 @@ Global
 		{D6C82DFD-A464-4981-AD5F-E8EFF338B47F} = {07FBE735-E518-494F-9F9D-F3D2DCD11622}
 		{E2CB1B3B-15BA-474C-9EA5-DC55431A3364} = {07FBE735-E518-494F-9F9D-F3D2DCD11622}
 		{EBDB92D0-2F14-41B5-9FC5-2BA9C48B2E3B} = {CEFAB787-570B-4333-BC32-AE7CBBEF6E03}
+		{07F84A0E-2720-4E78-AD85-12C95260D98D} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
+		{3B9796B3-51B1-4585-96CA-8BBE475535E6} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
+		{0A7F1D40-11BA-48E4-B744-E9746AE1803C} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
+		{BCDDC195-8A8E-450F-819B-6F6DA76B2D84} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
