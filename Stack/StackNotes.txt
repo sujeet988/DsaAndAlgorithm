@@ -1,0 +1,9 @@
+Stack:
+-> LIFO 
+
+
+
+Good To know Topic of Stack :
+1. Prefix to Infix  Conversion
+2. Prefix to Postfix conversion
+3. Postfix to Prefix Conversion
