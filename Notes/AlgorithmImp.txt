@@ -13,3 +13,4 @@ Kadane Algorith
 Two pointer
 slow and fast pointer
 Sliding winddow
+Moore’s Voting Algorithm --majroity Elements
