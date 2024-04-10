@@ -1,0 +1,13 @@
+*Queue :
+--FIFO
+
+Some inbuilt Method of Queue :
+1. Enqueue
+2. Deque
+3. Count
+4.
+
+
+
+**Some Important Questions Realated to Queue :
+1. Generate Binary Numbers From 1 to N Using Queue
