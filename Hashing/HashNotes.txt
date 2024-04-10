@@ -1,0 +1,8 @@
+Definition of Hashing:
+
+ it is nothing but the combination of the steps, pre-storing, and fetching.
+
+
+
+ ---Notes URL
+ https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/
