@@ -51,9 +51,6 @@
             }
 
             Console.WriteLine(maxyear); // 1960
-
-           
-
             Console.ReadLine();
 
         }
