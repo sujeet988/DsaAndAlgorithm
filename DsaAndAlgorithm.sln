@@ -436,53 +436,55 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideArrayDynamicPrint", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumPopulationYear", "Matrix\MaximumPopulationYear\MaximumPopulationYear.csproj", "{551C8895-7DCA-4CEB-B76E-047D9D5BB08F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedParentheses", "Stack\BalancedParentheses\BalancedParentheses.csproj", "{D058FC4D-23C2-4ED7-97E8-F14434F01D1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedParentheses", "Stack\BalancedParentheses\BalancedParentheses.csproj", "{D058FC4D-23C2-4ED7-97E8-F14434F01D1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextGreaterElement", "Stack\NextGreaterElement\NextGreaterElement.csproj", "{60837B48-58BF-4D7A-BB99-37ED3C9692DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextGreaterElement", "Stack\NextGreaterElement\NextGreaterElement.csproj", "{60837B48-58BF-4D7A-BB99-37ED3C9692DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementStackUsingArrays", "Stack\ImplementStackUsingArrays\ImplementStackUsingArrays.csproj", "{056BF68D-9E2C-42B0-89E3-6720B3673F17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementStackUsingArrays", "Stack\ImplementStackUsingArrays\ImplementStackUsingArrays.csproj", "{056BF68D-9E2C-42B0-89E3-6720B3673F17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAStack", "Stack\SortAStack\SortAStack.csproj", "{260728F5-3D33-4EB8-BF06-6E72A6865B4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortAStack", "Stack\SortAStack\SortAStack.csproj", "{260728F5-3D33-4EB8-BF06-6E72A6865B4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementStackUsingSingleQueue", "Stack\ImplementStackUsingSingleQueue\ImplementStackUsingSingleQueue.csproj", "{AB92B208-E1DD-4E00-BF1B-A90B2EFF9C7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementStackUsingSingleQueue", "Stack\ImplementStackUsingSingleQueue\ImplementStackUsingSingleQueue.csproj", "{AB92B208-E1DD-4E00-BF1B-A90B2EFF9C7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueUsingArrays", "Queue\QueueUsingArrays\QueueUsingArrays.csproj", "{BD27DB29-DEB7-4265-8A79-E167D9C53D9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueUsingArrays", "Queue\QueueUsingArrays\QueueUsingArrays.csproj", "{BD27DB29-DEB7-4265-8A79-E167D9C53D9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueUsingStacks", "Queue\QueueUsingStacks\QueueUsingStacks.csproj", "{BBBDDC9C-18B1-455D-ACA3-3916968A8F11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueUsingStacks", "Queue\QueueUsingStacks\QueueUsingStacks.csproj", "{BBBDDC9C-18B1-455D-ACA3-3916968A8F11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraySubsetofAnotherArray", "HashSet\ArraySubsetofAnotherArray\ArraySubsetofAnotherArray.csproj", "{177FA4AE-8A5C-478B-A8AA-C909012E4AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraySubsetofAnotherArray", "HashSet\ArraySubsetofAnotherArray\ArraySubsetofAnotherArray.csproj", "{177FA4AE-8A5C-478B-A8AA-C909012E4AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisjointArrays", "HashSet\DisjointArrays\DisjointArrays.csproj", "{BE333A88-5D9D-403C-BA8A-D9F418767BD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisjointArrays", "HashSet\DisjointArrays\DisjointArrays.csproj", "{BE333A88-5D9D-403C-BA8A-D9F418767BD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricPairsinanArray", "HashSet\SymmetricPairsinanArray\SymmetricPairsinanArray.csproj", "{29F81C22-3241-4C77-A9EA-26A2E28043FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymmetricPairsinanArray", "HashSet\SymmetricPairsinanArray\SymmetricPairsinanArray.csproj", "{29F81C22-3241-4C77-A9EA-26A2E28043FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoNumbersthatAddUpToTarget", "TwoNumbersthatAddUpToTarget\TwoNumbersthatAddUpToTarget.csproj", "{D0AE48FB-8BD2-4318-B542-F4FF1033D201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoNumbersthatAddUpToTarget", "TwoNumbersthatAddUpToTarget\TwoNumbersthatAddUpToTarget.csproj", "{D0AE48FB-8BD2-4318-B542-F4FF1033D201}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{5F8C303C-16D8-470B-B8A6-D9C3F8151CF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUniqueIntegerInAnArray", "Dictionary\FirstUniqueIntegerInAnArray\FirstUniqueIntegerInAnArray.csproj", "{D1E5E447-AE2C-46E0-8B76-D639922A26D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueIntegerInAnArray", "Dictionary\FirstUniqueIntegerInAnArray\FirstUniqueIntegerInAnArray.csproj", "{D1E5E447-AE2C-46E0-8B76-D639922A26D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubarayWithZeroSumExists", "SubarayWithZeroSumExists\SubarayWithZeroSumExists.csproj", "{A06050A7-257C-4040-B0E5-1F0B50919B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubarayWithZeroSumExists", "SubarayWithZeroSumExists\SubarayWithZeroSumExists.csproj", "{A06050A7-257C-4040-B0E5-1F0B50919B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracetheCompletePathofAJourney", "Dictionary\TracetheCompletePathofAJourney\TracetheCompletePathofAJourney.csproj", "{D6C82DFD-A464-4981-AD5F-E8EFF338B47F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TracetheCompletePathofAJourney", "Dictionary\TracetheCompletePathofAJourney\TracetheCompletePathofAJourney.csproj", "{D6C82DFD-A464-4981-AD5F-E8EFF338B47F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryImplementationFromScratch", "DictionaryImplementationFromScratch\DictionaryImplementationFromScratch.csproj", "{E2CB1B3B-15BA-474C-9EA5-DC55431A3364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryImplementationFromScratch", "DictionaryImplementationFromScratch\DictionaryImplementationFromScratch.csproj", "{E2CB1B3B-15BA-474C-9EA5-DC55431A3364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSetImplementationFromScratch", "HashSet\HashSetImplemenTationFromScratch\HashSetImplementationFromScratch.csproj", "{EBDB92D0-2F14-41B5-9FC5-2BA9C48B2E3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetImplementationFromScratch", "HashSet\HashSetImplemenTationFromScratch\HashSetImplementationFromScratch.csproj", "{EBDB92D0-2F14-41B5-9FC5-2BA9C48B2E3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingMinimumValueInAnArray", "Arrays\FindingMinimumValueInAnArray\FindingMinimumValueInAnArray.csproj", "{07F84A0E-2720-4E78-AD85-12C95260D98D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindingMinimumValueInAnArray", "Arrays\FindingMinimumValueInAnArray\FindingMinimumValueInAnArray.csproj", "{07F84A0E-2720-4E78-AD85-12C95260D98D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RearrangeSortedArrayInMaxMinForm", "Arrays\RearrangeSortedArrayInMaxMinForm\RearrangeSortedArrayInMaxMinForm.csproj", "{3B9796B3-51B1-4585-96CA-8BBE475535E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RearrangeSortedArrayInMaxMinForm", "Arrays\RearrangeSortedArrayInMaxMinForm\RearrangeSortedArrayInMaxMinForm.csproj", "{3B9796B3-51B1-4585-96CA-8BBE475535E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RearrangePositiveAndNegativeValues", "Arrays\RearrangePositiveAndNegativeValues\RearrangePositiveAndNegativeValues.csproj", "{0A7F1D40-11BA-48E4-B744-E9746AE1803C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RearrangePositiveAndNegativeValues", "Arrays\RearrangePositiveAndNegativeValues\RearrangePositiveAndNegativeValues.csproj", "{0A7F1D40-11BA-48E4-B744-E9746AE1803C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUniqueIntegerInAnArray", "Arrays\FirstUniqueIntegerInAnArray\FirstUniqueIntegerInAnArray.csproj", "{BCDDC195-8A8E-450F-819B-6F6DA76B2D84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueIntegerInAnArray", "Arrays\FirstUniqueIntegerInAnArray\FirstUniqueIntegerInAnArray.csproj", "{BCDDC195-8A8E-450F-819B-6F6DA76B2D84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversingFirstkElementsOfQueue", "Queue\ReversingFirstkElementsOfQueue\ReversingFirstkElementsOfQueue.csproj", "{68128EF3-DC9D-40D6-9B54-AB4F748100ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversingFirstkElementsOfQueue", "Queue\ReversingFirstkElementsOfQueue\ReversingFirstkElementsOfQueue.csproj", "{68128EF3-DC9D-40D6-9B54-AB4F748100ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinFunctionUsingaStack", "Stack\MinFunctionUsingaStack\MinFunctionUsingaStack.csproj", "{CF333529-AF07-4588-A30C-31E3C6010627}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinFunctionUsingaStack", "Stack\MinFunctionUsingaStack\MinFunctionUsingaStack.csproj", "{CF333529-AF07-4588-A30C-31E3C6010627}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreqencyOfNumberInArray", "Hashing\FreqencyOfNumberInArray\FreqencyOfNumberInArray.csproj", "{5FF66E7C-EFC3-4BA5-A5A1-1CC38A6AFE51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreqencyOfNumberInArray", "Hashing\FreqencyOfNumberInArray\FreqencyOfNumberInArray.csproj", "{5FF66E7C-EFC3-4BA5-A5A1-1CC38A6AFE51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCountFrequency", "Hashing\CharacterCountFrequency\CharacterCountFrequency.csproj", "{0901D33C-4EA4-477B-AC31-53C697758303}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1098,6 +1100,10 @@ Global
 		{5FF66E7C-EFC3-4BA5-A5A1-1CC38A6AFE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FF66E7C-EFC3-4BA5-A5A1-1CC38A6AFE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FF66E7C-EFC3-4BA5-A5A1-1CC38A6AFE51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0901D33C-4EA4-477B-AC31-53C697758303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0901D33C-4EA4-477B-AC31-53C697758303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0901D33C-4EA4-477B-AC31-53C697758303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0901D33C-4EA4-477B-AC31-53C697758303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1255,6 +1261,7 @@ Global
 		{68128EF3-DC9D-40D6-9B54-AB4F748100ED} = {3A550915-7340-43CC-A2C7-27FF707E7D91}
 		{CF333529-AF07-4588-A30C-31E3C6010627} = {8C286C30-1282-4CFE-94FC-C8191A118AF1}
 		{5FF66E7C-EFC3-4BA5-A5A1-1CC38A6AFE51} = {2431DCAD-ED14-4C6B-8DD1-816686CDEF31}
+		{0901D33C-4EA4-477B-AC31-53C697758303} = {2431DCAD-ED14-4C6B-8DD1-816686CDEF31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
