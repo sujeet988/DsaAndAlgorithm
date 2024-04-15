@@ -1,1 +1,3 @@
-Union
+Union : -> 
+Intersection : 
+

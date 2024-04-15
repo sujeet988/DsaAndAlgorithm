@@ -1,4 +1,4 @@
-KK
+﻿KK
 1. 25 MINUTE
 2. HEAD VALUE CHANGING
 
@@ -25,3 +25,67 @@ gfg
 
 --------
 1. 
+Pattern-based list of frequently asked DSA questions:
+
+💡𝗔𝗿𝗿𝗮𝘆:
+🔸Array Manipulation:
+- Basic operations like insertion, deletion, updating elements in an array.
+- Reversing and Rotating an array.
+- Finding duplicates, unique, frequency of elements.-done
+🔸Searching Algorithms:
+- Linear Search: Finding an element in an unsorted array. -done
+- Binary Search: Finding an element in a sorted array. -done
+- Searching in a rotated sorted array (Modified Binary Search).
+🔸Sorting Algorithms.
+🔸Subarrays and Subsequences:
+- Finding the longest increasing subsequence.
+- Kadane's Algorithm for maximum subarray sum.
+🔸Dynamic Programming:
+- 0/1 Knapsack problem, Longest Common/Increasing Subsequence
+🔸Two Pointer Technique:
+- Finding a pair with a given sum, finding the triplet with given sum etc.
+
+💡𝗦𝘁𝗿𝗶𝗻𝗴:
+🔸Basic String Manipulation:
+- Concatenation.
+- Substring Extraction: Extracting a portion of a string.
+- String Reversal: Reversing the characters in a string.
+- String Rotation: Checking if one string is a rotation of another string.
+🔸String Searching and Pattern Matching:
+- Knuth-Morris-Pratt (KMP), Rabin-Karp, Boyer-Moore Algorithms.
+🔸Substring Problems:
+- Longest Common Substring, Longest Palindromic Substring
+- Minimum Window Substring: Finding the smallest substring in a string containing all characters of another string.
+🔸Anagram and Permutation:
+- Checking if two strings are anagrams of each other.--done
+- Finding all permutations of a string.
+🔸Regular Expressions:
+- Using regular expressions to match patterns in strings.
+- Validating strings based on certain patterns.
+🔸Dynamic Programming:
+- Longest Common Subsequence between 2 strings.
+- Edit Distance: Minimum number of operations required to convert one string into another.
+🔸Suffix Array and Tree:
+- Constructing suffix arrays or suffix trees for efficient substring searching.
+🔸String Parsing:
+- Tokenization: Breaking a string into tokens based on delimiters.
+
+💡𝗟𝗶𝗻𝗸𝗲𝗱 𝗟𝗶𝘀𝘁:
+🔸Basic Operations:
+- Insert, Delete, update a node at the beginning, end or middle.
+🔸Traversal:
+- Iterative and Recursive Traversal.
+- Reverse the linked list.
+🔸Cycle Detection:
+- Floyd's Tortoise and Hare Algorithm: Detecting cycles in a linked list.
+- Finding the starting point of the cycle in a linked list.
+🔸Intersection and Union:
+- Finding the intersection point of two linked lists.
+- Merging two sorted linked lists to form a single sorted linked list.
+
+🔸Miscellaneous:
+- Detecting Palindromes.
+- Splitting a Circular Linked List into two halves.
+- Flattening a Multilevel Linked List.
+🔸Partitioning:
+- Partitioning a linked list around a given value or pivot.S
