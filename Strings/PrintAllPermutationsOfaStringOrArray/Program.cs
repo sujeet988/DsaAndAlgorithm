@@ -28,6 +28,7 @@ namespace DsaAndAlgorithm.Strings.PrintAllPermutationsOfaStringOrArray
     {
         public static void Permute(int[] arr, IList<IList<int>> result, int index)
         {
+            //base case 
             if (index >= arr.Length)
             {
                 result.Add(arr.ToList());
@@ -38,6 +39,7 @@ namespace DsaAndAlgorithm.Strings.PrintAllPermutationsOfaStringOrArray
             {
                 Swap(arr,index,j);
                 Permute(arr, result, index + 1);
+                //backTrack
                 Swap(arr, index, j);
             }
 
