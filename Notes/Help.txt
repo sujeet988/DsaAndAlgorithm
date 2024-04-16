@@ -49,7 +49,7 @@ Pattern-based list of frequently asked DSA questions:
 🔸Basic String Manipulation:
 - Concatenation.
 - Substring Extraction: Extracting a portion of a string.
-- String Reversal: Reversing the characters in a string.
+- String Reversal: Reversing the characters in a string.--done
 - String Rotation: Checking if one string is a rotation of another string.
 🔸String Searching and Pattern Matching:
 - Knuth-Morris-Pratt (KMP), Rabin-Karp, Boyer-Moore Algorithms.

@@ -30,3 +30,13 @@ ToChar Array
 IndexOf
 SubString
 ---------------
+For this RETURN type  :IList<IList<int>>
+create varibale like this
+IList<IList<int>> outputlist = new List<IList<int>>();
+
+--------Convert Array to list
+int[] arr=new int[2]{10,20,30};
+arr.Tolist();
+
+---------
+

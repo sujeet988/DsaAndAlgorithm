@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace DsaAndAlgorithm.Strings.PrintAllPermutationsOfaStringOrArray
 {
@@ -24,9 +26,52 @@ namespace DsaAndAlgorithm.Strings.PrintAllPermutationsOfaStringOrArray
 
     internal class Program
     {
+        public static void Permute(int[] arr, IList<IList<int>> result, int index)
+        {
+            if (index >= arr.Length)
+            {
+                result.Add(arr.ToList());
+                return;
+            }
+         
+            for(int j=index; j < arr.Length; j++)
+            {
+                Swap(arr,index,j);
+                Permute(arr, result, index + 1);
+                Swap(arr, index, j);
+            }
+
+        }
+
+        public static void Swap(int[] arr, int start, int end)
+        {
+            int temp = arr[end];
+            arr[end] = arr[start];
+            arr[start] = temp;
+
+        }
+
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("permutation of array example!");
+            int[] arr=new int[3] { 1,2,3};
+            int index = 0;
+            IList<IList<int>> result=new List<IList<int>>();
+            Permute(arr,result,index);
+            // Print Output
+            foreach(var Ilist in result.ToList())
+            {
+                Console.Write("[");
+                foreach( var item in Ilist )
+                {
+                   Console.Write(item);    
+                }
+                Console.Write("] ");
+            }
+            Console.ReadLine();
+
+
         }
     }
 }
