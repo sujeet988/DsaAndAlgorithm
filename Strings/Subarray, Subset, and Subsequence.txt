@@ -124,4 +124,8 @@ Number of subarrays, subset, subsequence we can form using a array of size n.:
 	The number of subsets is 8.
 
 
+	** substring
+	--consecutive
+
+
 

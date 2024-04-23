@@ -119,4 +119,8 @@ Notes : Subset vs permutation
 	different charactersin xyz. So there
 	won't be one to one mapping between
 	str1 and str2.
+
+	---recusrion
+	choices +decison-recursion
+	input  output
   

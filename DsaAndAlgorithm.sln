@@ -485,7 +485,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinFunctionUsingaStack", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreqencyOfNumberInArray", "Hashing\FreqencyOfNumberInArray\FreqencyOfNumberInArray.csproj", "{5FF66E7C-EFC3-4BA5-A5A1-1CC38A6AFE51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCountFrequency", "Hashing\CharacterCountFrequency\CharacterCountFrequency.csproj", "{0901D33C-4EA4-477B-AC31-53C697758303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterCountFrequency", "Hashing\CharacterCountFrequency\CharacterCountFrequency.csproj", "{0901D33C-4EA4-477B-AC31-53C697758303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelebrityProblem", "CelebrityProblem\CelebrityProblem.csproj", "{CDBAF06C-FEF3-466B-8BF4-22E85AFEED24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rottenOrange", "..\DsaAndAlgorithMatrix\rottenOrange\rottenOrange.csproj", "{D5A0EE29-6A41-47FC-9599-7CA580BF0BD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1105,6 +1109,14 @@ Global
 		{0901D33C-4EA4-477B-AC31-53C697758303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0901D33C-4EA4-477B-AC31-53C697758303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0901D33C-4EA4-477B-AC31-53C697758303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBAF06C-FEF3-466B-8BF4-22E85AFEED24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBAF06C-FEF3-466B-8BF4-22E85AFEED24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBAF06C-FEF3-466B-8BF4-22E85AFEED24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBAF06C-FEF3-466B-8BF4-22E85AFEED24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A0EE29-6A41-47FC-9599-7CA580BF0BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A0EE29-6A41-47FC-9599-7CA580BF0BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A0EE29-6A41-47FC-9599-7CA580BF0BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A0EE29-6A41-47FC-9599-7CA580BF0BD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1263,6 +1275,8 @@ Global
 		{CF333529-AF07-4588-A30C-31E3C6010627} = {8C286C30-1282-4CFE-94FC-C8191A118AF1}
 		{5FF66E7C-EFC3-4BA5-A5A1-1CC38A6AFE51} = {2431DCAD-ED14-4C6B-8DD1-816686CDEF31}
 		{0901D33C-4EA4-477B-AC31-53C697758303} = {2431DCAD-ED14-4C6B-8DD1-816686CDEF31}
+		{CDBAF06C-FEF3-466B-8BF4-22E85AFEED24} = {58C98126-66B4-4CFC-BCC4-285DA0ED389D}
+		{D5A0EE29-6A41-47FC-9599-7CA580BF0BD0} = {58C98126-66B4-4CFC-BCC4-285DA0ED389D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
