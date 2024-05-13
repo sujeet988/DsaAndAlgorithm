@@ -17,9 +17,42 @@ Does anyone have any idea of how to tackle this problem? Thank you!
 
     internal class Program
     {
+
+        static int MaxProfit(int S, int[] buyPrice, int[] sellPrice) 
+        {
+
+            int totalProfit = 0;
+            // Create a new array to store profit margins (sell price - buy price)
+            int[] profitMargins = new int[buyPrice.Length];
+
+            // Calculate profit margins for each stock
+            for (int i = 0; i < buyPrice.Length; i++)
+            {
+                profitMargins[i] = sellPrice[i] - buyPrice[i];
+            }
+            // Sort the stocks by their profit margin (in descending order)
+            Array.Sort(profitMargins, buyPrice);
+
+            // Iterate over the sorted profit margins and buy stocks if there's enough savings
+            for (int i = profitMargins.Length - 1; i >= 0; i--)
+            {
+                if (S >= buyPrice[i])
+                {
+                    S -= buyPrice[i];
+                    totalProfit += profitMargins[i];
+                }
+            }
+            return totalProfit;
+
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int S = 10;
+            int[] buyPrice = { 4, 6, 5 };
+            int[] sellPrice = { 6, 10, 7 };
+            Console.WriteLine(MaxProfit(S, buyPrice, sellPrice)); // Output: 6
+            Console.ReadLine();
         }
     }
 }
