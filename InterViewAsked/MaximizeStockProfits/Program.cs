@@ -21,28 +21,26 @@ Does anyone have any idea of how to tackle this problem? Thank you!
         static int MaxProfit(int S, int[] buyPrice, int[] sellPrice) 
         {
 
-            int totalProfit = 0;
-            // Create a new array to store profit margins (sell price - buy price)
-            int[] profitMargins = new int[buyPrice.Length];
+            int maxProfit = 0;
 
-            // Calculate profit margins for each stock
             for (int i = 0; i < buyPrice.Length; i++)
             {
-                profitMargins[i] = sellPrice[i] - buyPrice[i];
-            }
-            // Sort the stocks by their profit margin (in descending order)
-            Array.Sort(profitMargins, buyPrice);
-
-            // Iterate over the sorted profit margins and buy stocks if there's enough savings
-            for (int i = profitMargins.Length - 1; i >= 0; i--)
-            {
+                // Check if there's enough savings to buy this stock
                 if (S >= buyPrice[i])
                 {
-                    S -= buyPrice[i];
-                    totalProfit += profitMargins[i];
+                    // Calculate the profit if this stock is bought and sold
+                    int profit = sellPrice[i] - buyPrice[i];
+
+                    // If the profit is positive, buy the stock and update maxProfit
+                    if (profit > 0)
+                    {
+                        maxProfit += profit;
+                        S -= buyPrice[i]; // Deduct the purchase price from savings
+                    }
                 }
             }
-            return totalProfit;
+
+            return maxProfit;
 
         }
 
