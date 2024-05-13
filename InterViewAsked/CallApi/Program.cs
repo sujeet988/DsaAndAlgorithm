@@ -30,7 +30,7 @@ namespace CallApi
                         JArray countries = (JArray)data["data"];
                         if (countries.Count > 0)
                         {
-                            // Country found, return capital
+                            // Country found, returncapital
                             return (string)countries[0]["capital"];
                         }
                         else

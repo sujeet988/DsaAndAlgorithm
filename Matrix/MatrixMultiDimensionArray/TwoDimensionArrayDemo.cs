@@ -31,6 +31,18 @@ namespace MatrixMultiDimensionArray
         {
             int[][] jaggedArray1 = new int[2][] {  new int[]{1,2},new int[] { 3,4} };
 
+            // another way to create
+
+            int[][] arr4 = new int[4][];
+            //Initializing each row with different column size
+            //Uisng one dimensional array
+            arr4[0] = new int[5];
+            arr4[1] = new int[6];
+            arr4[2] = new int[4];
+            arr4[3] = new int[5];
+
+            /// third way 
+
             ////2d Array with 2 rows and 4 and 3 columns columns;
             int[][] jaggedArray = new int[2][] { new int[] { 1, 2, 3, 4 }, new int[] { 1, 2, 3 } };
             Console.WriteLine("Arrays Length"+jaggedArray.Length);
