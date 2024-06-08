@@ -1,9 +1,9 @@
 ﻿
 Console.WriteLine("PriorityQueue Example");
 var  priorityQueue = new PriorityQueue<int,int>();
-priorityQueue.Enqueue(3, 3);
+priorityQueue.Enqueue(3, 33);
 priorityQueue.Enqueue(4, 4);
-priorityQueue.Enqueue(1, 1);
+priorityQueue.Enqueue(1, 10);
 priorityQueue.Enqueue(7, 7);
 
 while (priorityQueue.Count > 0)
