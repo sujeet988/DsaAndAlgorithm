@@ -35,6 +35,7 @@
             foreach (var item in arr)
             {
                 priorityQueue.Enqueue(item, Math.Abs(item - x));
+
                 if (priorityQueue.Count> k)
                 {
                     priorityQueue.Dequeue();
