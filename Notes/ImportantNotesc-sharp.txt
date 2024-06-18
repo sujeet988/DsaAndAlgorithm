@@ -39,4 +39,7 @@ int[] arr=new int[2]{10,20,30};
 arr.Tolist();
 
 ---------
+  if(Char.IsLetter(c))
 
+  --isnert function
+  li.Insert(index[i],nums[i]);
