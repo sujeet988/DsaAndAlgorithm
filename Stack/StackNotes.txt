@@ -1,5 +1,5 @@
 Stack:
--> LIFO 
+-> LIFO (Last In First Out)
 
 
 

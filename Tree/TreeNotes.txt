@@ -1,6 +1,9 @@
 BFS AND dfs
 
 BFS : Breath First Search
-- LevelOrder
+- Level Order traversal
+--implement using queue
 
 DFS : Depth First Search
+-- Inorder, pre order, post order
+--implmented using stack  or recusrion
