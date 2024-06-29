@@ -457,8 +457,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymmetricPairsinanArray", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoNumbersthatAddUpToTarget", "TwoNumbersthatAddUpToTarget\TwoNumbersthatAddUpToTarget.csproj", "{D0AE48FB-8BD2-4318-B542-F4FF1033D201}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{5F8C303C-16D8-470B-B8A6-D9C3F8151CF5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueIntegerInAnArray", "Dictionary\FirstUniqueIntegerInAnArray\FirstUniqueIntegerInAnArray.csproj", "{D1E5E447-AE2C-46E0-8B76-D639922A26D4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubarayWithZeroSumExists", "SubarayWithZeroSumExists\SubarayWithZeroSumExists.csproj", "{A06050A7-257C-4040-B0E5-1F0B50919B0D}"
@@ -504,6 +502,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwappingpairsMakeSumEqual", "InterviewAsked\SwappingpairsMakeSumEqual\SwappingpairsMakeSumEqual.csproj", "{8A5BE9DE-B613-4BD9-B8C8-E1BBA57EC0E6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAllFilesFromFolder", "InterviewAsked\ReadAllFilesFromFolder\ReadAllFilesFromFolder.csproj", "{468AD5BA-B109-46FB-A1B3-75D0519EE5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InOrderTraversal", "Tree\InOrderTraversal\InOrderTraversal.csproj", "{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1159,6 +1159,10 @@ Global
 		{468AD5BA-B109-46FB-A1B3-75D0519EE5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{468AD5BA-B109-46FB-A1B3-75D0519EE5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{468AD5BA-B109-46FB-A1B3-75D0519EE5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1326,6 +1330,7 @@ Global
 		{45FCA7A6-78EA-440F-8D57-C84375ABEECD} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{8A5BE9DE-B613-4BD9-B8C8-E1BBA57EC0E6} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{468AD5BA-B109-46FB-A1B3-75D0519EE5A3} = {B0C0E045-3298-4887-88B4-83BA920B0629}
+		{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44} = {8FF51505-BCB8-4CD8-A24C-239C877705C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
