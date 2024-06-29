@@ -505,6 +505,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAllFilesFromFolder", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InOrderTraversal", "Tree\InOrderTraversal\InOrderTraversal.csproj", "{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSDemo", "graph\DFSDemo\DFSDemo.csproj", "{3715B13E-74F5-4674-A302-D247EBAA9E96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1163,6 +1165,10 @@ Global
 		{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3715B13E-74F5-4674-A302-D247EBAA9E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3715B13E-74F5-4674-A302-D247EBAA9E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3715B13E-74F5-4674-A302-D247EBAA9E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3715B13E-74F5-4674-A302-D247EBAA9E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1331,6 +1337,7 @@ Global
 		{8A5BE9DE-B613-4BD9-B8C8-E1BBA57EC0E6} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{468AD5BA-B109-46FB-A1B3-75D0519EE5A3} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44} = {8FF51505-BCB8-4CD8-A24C-239C877705C4}
+		{3715B13E-74F5-4674-A302-D247EBAA9E96} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
