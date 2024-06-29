@@ -5,7 +5,7 @@
      */
     internal class Program
     {
-        public int OrangesRotting(int[][] grid)
+        public static int OrangesRotting(int[][] grid)
         {
 
             // find grid sizes
@@ -16,6 +16,7 @@
             Queue<KeyValuePair<int,int>> q = new Queue<KeyValuePair<int, int>>();
             //// Queue<(int, int)> q = new Queue<(int, int)>();
             int fresh = 0;
+            int time = 0;
 
             for (int i=0; i < n; i++)
             {
@@ -23,6 +24,7 @@
                 {
                     if (grid[i][j] == 2)
                     {
+                        //push into queue
                         q.Enqueue(new KeyValuePair<int, int>(i, j));
                     }
                     if (grid[i][j] == 1)
@@ -35,10 +37,26 @@
             // handle base case
             if(fresh==0) 
             { 
-              return -1; 
+              return 0; 
             }
 
 
+            // at the  end if any of the fresh orange that is not rotten
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    if (grid[i][j] == 1)
+                    {
+                        time = 0;
+                    }
+                    
+                }
+            }
+
+            return time==0 ? -1: time;
+           
 
         }
         static void Main(string[] args)
