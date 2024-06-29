@@ -44,8 +44,9 @@ Output: 40 20 60 10 50 30
             list.Add(root.data);
             InOrder(root.right, list);
 
-        }
+        
 
+        // inoder traversal using stack
         public static List<int> InOrderUsingStack(Node root)
         {
             List<int> list = new List<int>();
@@ -59,7 +60,7 @@ Output: 40 20 60 10 50 30
 
             while (true) 
             {
-                 if(root != null) 
+                 if(root != null)  // if root is  not null then add all
                 {
                     stack.Push(root);
                     root=root.left;
@@ -68,12 +69,12 @@ Output: 40 20 60 10 50 30
                 {
                     if (stack.Count == 0)
                     {
-                        break;
+                        break; // stack is empty exit from while loop
                     }
 
-                    Node temp= stack.Pop();
-                    list.Add(temp.data);    
-                    root = temp.right;
+                    Node temp= stack.Pop(); // pop element last
+                    list.Add(temp.data);    // print the same
+                    root = temp.right;   // then move to right
                 }
             }
 
