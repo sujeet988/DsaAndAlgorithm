@@ -1,4 +1,6 @@
-﻿namespace RottenOrange
+﻿using System;
+
+namespace RottenOrange
 {
     /*
      * 994 https://leetcode.com/problems/rotting-oranges/description/
@@ -40,6 +42,46 @@
               return 0; 
             }
 
+            //start BFS traversal
+            int[] deltarow = new int[] { -1, 0, 1, 0 }; // row order- >up-> right-bottom-left
+            int[] deltcol = new int[] {  0, 1, 0, -1 }; // col->  right-bottom-left
+
+            while (q.Count > 0)
+            {
+                int size_q = q.Count;
+                int temp = 0;
+                for(int i=0; i < size_q; i++)
+                {
+                    KeyValuePair<int,int> current =q.Peek();
+                    int r=current.Key;
+                    int c = current.Value;
+                    q.Dequeue();
+                    // exactly 4 neighbours
+                    for (int j=0; j < 4; j++) 
+                    {
+                        int nrow = r + deltarow[j];
+                        int ncol = c + deltcol[j];
+                        // check for valid coordinates a
+
+                        if (nrow >= 0 && nrow < n && ncol >= 0 && ncol<m && grid[nrow][ncol] == 1)// checking Safe position
+                        {
+                            grid[nrow][ncol] = 2;
+                            q.Enqueue(new KeyValuePair<int, int>(nrow,ncol));
+                            temp++;
+                        }
+                    }
+
+                }
+
+                if(temp != 0) 
+                { time++; 
+                }
+                
+
+            }
+
+
+
 
             // at the  end if any of the fresh orange that is not rotten
 
@@ -77,6 +119,8 @@
                 Console.WriteLine();
             }
             // start rotting
+            var mintime = OrangesRotting(grid);
+            Console.WriteLine(mintime);
 
             Console.ReadLine();
 
