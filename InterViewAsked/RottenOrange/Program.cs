@@ -73,7 +73,7 @@ namespace RottenOrange
 
                 }
 
-                if(temp != 0) 
+                if(temp != 0) // temp !=0 means  orang chaneged from fresh to rotten
                 { time++; 
                 }
                 
@@ -120,7 +120,7 @@ namespace RottenOrange
             }
             // start rotting
             var mintime = OrangesRotting(grid);
-            Console.WriteLine(mintime);
+            Console.WriteLine(mintime); // ans is 4
 
             Console.ReadLine();
 
