@@ -1,0 +1,3 @@
+BFS : Depth First Search
+---(Pre,post,Inorder)  traversal of tree is also called DFS.
+-- it is implented using stack or recursion
