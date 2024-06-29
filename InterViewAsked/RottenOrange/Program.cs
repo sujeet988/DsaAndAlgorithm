@@ -12,8 +12,9 @@
             int n=grid.Length; // row
             int m = grid[0].Length; // column
 
+            // two way to create key value pair
             Queue<KeyValuePair<int,int>> q = new Queue<KeyValuePair<int, int>>();
-            // Queue<(int, int)> queue = new Queue<(int, int)>();
+            // Queue<(int, int)> q = new Queue<(int, int)>();
             int fresh = 0;
 
             for (int i=0; i < n; i++)
