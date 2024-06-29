@@ -28,7 +28,7 @@ Output: 40 20 60 10 50 30
         }
     }
 
-   
+
 
 
     internal class Program
@@ -44,73 +44,73 @@ Output: 40 20 60 10 50 30
             list.Add(root.data);
             InOrder(root.right, list);
 
-        
-
-        // inoder traversal using stack
-        public static List<int> InOrderUsingStack(Node root)
-        {
-            List<int> list = new List<int>();
-            if (root == null)
-            {
-                return list;
-            }
-
-            Stack<Node> stack = new Stack<Node>();
-
-
-            while (true) 
-            {
-                 if(root != null)  // if root is  not null then add all
-                {
-                    stack.Push(root);
-                    root=root.left;
-                }
-                else
-                {
-                    if (stack.Count == 0)
-                    {
-                        break; // stack is empty exit from while loop
-                    }
-
-                    Node temp= stack.Pop(); // pop element last
-                    list.Add(temp.data);    // print the same
-                    root = temp.right;   // then move to right
-                }
-            }
-
-            return list;
-
-
         }
-        static void Main(string[] args)
-        {
-           
-            // Creating a sample binary tree
-            Node root = new Node(10);
-            root.left = new Node(20);
-            root.right = new Node(30);
-            root.left.left = new Node(40);
-            root.left.right = new Node(60);
-            root.right.left = new Node(50);
 
-            List<int> list = new List<int>();
-            Console.WriteLine("Inorder Traversal using recursion");
-            InOrder(root, list);
-            foreach(int val in list)
+            // inoder traversal using stack
+            public static List<int> InOrderUsingStack(Node root)
             {
-                Console.Write($"{val}" +" "); //  40 20 60 10 50 30
+                List<int> list = new List<int>();
+                if (root == null)
+                {
+                    return list;
+                }
+
+                Stack<Node> stack = new Stack<Node>();
+
+
+                while (true)
+                {
+                    if (root != null)  // if root is  not null then add all
+                    {
+                        stack.Push(root);
+                        root = root.left;
+                    }
+                    else
+                    {
+                        if (stack.Count == 0)
+                        {
+                            break; // stack is empty exit from while loop
+                        }
+
+                        Node temp = stack.Pop(); // pop element last
+                        list.Add(temp.data);    // print the same
+                        root = temp.right;   // then move to right
+                    }
+                }
+
+                return list;
+
+
             }
-
-            Console.WriteLine();
-            Console.WriteLine("Inorder Traversal using Stack or iterative ");
-
-            var outputusingstack = InOrderUsingStack(root);
-            foreach (int val in outputusingstack)
+            static void Main(string[] args)
             {
-                Console.Write($"{val}" + " "); //  40 20 60 10 50 30
-            }
 
-            Console.ReadLine();
+                // Creating a sample binary tree
+                Node root = new Node(10);
+                root.left = new Node(20);
+                root.right = new Node(30);
+                root.left.left = new Node(40);
+                root.left.right = new Node(60);
+                root.right.left = new Node(50);
+
+                List<int> list = new List<int>();
+                Console.WriteLine("Inorder Traversal using recursion");
+                InOrder(root, list);
+                foreach (int val in list)
+                {
+                    Console.Write($"{val}" + " "); //  40 20 60 10 50 30
+                }
+
+                Console.WriteLine();
+                Console.WriteLine("Inorder Traversal using Stack or iterative ");
+
+                var outputusingstack = InOrderUsingStack(root);
+                foreach (int val in outputusingstack)
+                {
+                    Console.Write($"{val}" + " "); //  40 20 60 10 50 30
+                }
+
+                Console.ReadLine();
+            }
         }
     }
-}
