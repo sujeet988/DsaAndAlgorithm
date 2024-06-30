@@ -22,6 +22,7 @@ Space Complexity:O(N+E)+O(N)+O(N) , Space for adjacency list, Array,Auxiliary sp
             List<int> storeDfs = new List<int>();
 
             // approach 1
+
             /*
             bool[] visited = new bool[V];
             Array.Fill(visited, false);
@@ -97,6 +98,21 @@ Space Complexity:O(N+E)+O(N)+O(N) , Space for adjacency list, Array,Auxiliary sp
 
             Console.ReadLine();
         }
+        /*
+         * Graph Representation:
+
+The graph is represented as an adjacency list using an array of lists. Each index in the array represents a node, and the list at each index contains the nodes that are adjacent (connected) to that node.
+DFS Traversal:
+
+The DfsOfGraph method initializes the traversal by creating a list to store the DFS result and an array to keep track of visited nodes.
+It iterates over all nodes, starting the DFS from each unvisited node to ensure that even disconnected parts of the graph are covered.
+The DfsRecursive method performs the actual DFS, adding the current node to the result list and marking it as visited, then recursively visiting all unvisited neighbors.
+Example Usage:
+
+In the Main method, an example graph is defined using an adjacency list.
+The DfsOfGraph method is called to perform the DFS traversal.
+The result is printed to the console.
+         */
     }
 }
 
