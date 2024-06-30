@@ -19,7 +19,8 @@ namespace RottenOrange
             //// Queue<(int, int)> q = new Queue<(int, int)>();
             int fresh = 0;
             int time = 0;
-
+            //Put the position of all rotten oranges in queue
+            //count the number of fresh oranges
             for (int i=0; i < n; i++)
             {
                 for(int j=0; j < m; j++)
@@ -42,10 +43,10 @@ namespace RottenOrange
               return 0; 
             }
 
-            //start BFS traversal
+            // all four directional mapping
             int[] deltarow = new int[] { -1, 0, 1, 0 }; // row order- >up-> right-bottom-left
-            int[] deltcol = new int[] {  0, 1, 0, -1 }; // col->  right-bottom-left
-
+            int[] deltcol = new int[] {  0, 1, 0, -1 }; // col->  up-> right-bottom-left
+            //bfs starting from initially rotten oranges
             while (q.Count > 0)
             {
                 int size_q = q.Count;
