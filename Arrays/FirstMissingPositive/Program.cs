@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FirstMissingPositive
 {
@@ -36,11 +37,57 @@ namespace FirstMissingPositive
             return n + 1;
         }
 
+        //brute force approach
+        public static int FirstMissingPositiveBrute(int[] nums)
+        {
+            int n = nums.Length;
+            int max = Int32.MinValue;
+            for (int i = 0; i < n; i++)
+            {
+                if (nums[i] > max)
+                {
+                    max = nums[i];
+                }
+            }
+
+            // max value
+            Dictionary<int, bool> dict = new Dictionary<int, bool>();
+
+            for(int i=1; i <= max+1; i++) 
+            {
+                dict[i] = false;
+            }
+
+            for(int i=0; i < nums.Length; i++)
+            {
+                dict[nums[i]] = true;
+            }
+
+            foreach(var item in dict)
+            {
+                if (item.Value == false)
+                {
+                    return item.Key;
+
+                }
+
+            }
+            return Int32.MinValue;
+
+
+
+        }
+
         static void Main(string[] args)
         {
             int[] nums = { 3, 4, -1, 1 };
             int missingPositive = FirstMissingPositive(nums);
             Console.WriteLine("First Missing Positive: " + missingPositive); // ans is 2
+            //brute force
+            int[] nums1 = { 1, 2, 0 };
+            missingPositive = FirstMissingPositiveBrute(nums1);
+            Console.WriteLine(missingPositive);
+
             Console.ReadLine();
         }
     }
