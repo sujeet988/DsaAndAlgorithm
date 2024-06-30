@@ -8,6 +8,11 @@ Input: V = 5 , adj = [[2,3,1] , [0], [0,4], [0], [2]]
 
 Output: 0 2 4 3 1
 
+ Time complexity: O(N+E), Where N is the time taken for visiting N nodes and E is for travelling 
+ through adjacent nodes.
+
+Space Complexity:O(N+E)+O(N)+O(N) , Space for adjacency list, Array,Auxiliary space.
+
 
      */
     internal class Program
