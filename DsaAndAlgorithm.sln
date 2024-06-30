@@ -515,6 +515,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRobber", "InterviewAsk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SankesAndLadder", "InterviewAsked\SankesAndLadder\SankesAndLadder.csproj", "{EA8ECD1B-1C05-451E-A133-CE3873C3E5A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfIslands", "Graph\NumberOfIslands\NumberOfIslands.csproj", "{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1193,6 +1195,10 @@ Global
 		{EA8ECD1B-1C05-451E-A133-CE3873C3E5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA8ECD1B-1C05-451E-A133-CE3873C3E5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA8ECD1B-1C05-451E-A133-CE3873C3E5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1366,6 +1372,7 @@ Global
 		{95FFB648-4A40-478A-BA39-D3B45A5DDEB4} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{AF422B4D-9ADC-4D17-AC7F-548625B88B50} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{EA8ECD1B-1C05-451E-A133-CE3873C3E5A1} = {B0C0E045-3298-4887-88B4-83BA920B0629}
+		{5023B6DC-CC22-43E6-86BA-0A1C64A53B59} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
