@@ -16,22 +16,41 @@ Output: 0 2 4 3 1
         {
             List<int> storeDfs = new List<int>();
 
+            // approach 1
+            /*
             bool[] visited = new bool[V];
             Array.Fill(visited, false);
+
             dfsRecursive(0, visited, adj, storeDfs);
             return storeDfs.ToArray();
+            */
+
+            //or approach 2 
+            bool[] visited = new bool[V + 1]; //  we can use v or v+1
+
+            // Perform DFS starting from each unvisited node to cover disconnected graphs
+            for (int i = 0; i < V; i++)
+            {
+                if (!visited[i])
+                {
+                    dfsRecursive(i, visited, adj, storeDfs);
+                }
+            }
+            return storeDfs.ToArray();
+            
+
         }
 
         public static void dfsRecursive(int node, bool[] visited, List<int>[] adj, List<int> storeDfs)
         {
+            // Storing answer
             storeDfs.Add(node);
             //marking current node as visited
             visited[node] = true;
             //getting neighbour nodes
-
             foreach (int it in adj[node])
             {
-                if (visited[it] == false)
+                if (!visited[it])
                 {
                     dfsRecursive(it, visited, adj, storeDfs);
                 }
