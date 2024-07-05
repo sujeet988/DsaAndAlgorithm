@@ -4,6 +4,7 @@ namespace PrefixSum
 {
     /*
      *  PreFixSum
+     *  https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/
      */
 
     internal class Program

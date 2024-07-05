@@ -1,8 +1,8 @@
-﻿namespace RearrangePositiveAndNegativeValues
+﻿namespace FindMinimumInRotatedSortedArray
 {
     /*
-     * https://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers/
-     * */
+     * https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
+     */
     internal class Program
     {
         static void Main(string[] args)
