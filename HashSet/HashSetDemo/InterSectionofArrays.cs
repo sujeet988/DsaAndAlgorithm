@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace HashSetDemo
 {
+    /*
+     * https://leetcode.com/problems/intersection-of-two-arrays/description/
+     * https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
+     */
     internal class InterSectionofArrays
     {
 

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace HashSetDemo
 {
+    /*
+     * https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1
+     */
     internal class UnionOFTwoArrays
     {
         public static int GetUnionOFtwoarrays(int[] arr1,int[] arr2)
