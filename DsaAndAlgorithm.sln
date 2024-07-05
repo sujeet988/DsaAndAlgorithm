@@ -191,7 +191,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearch", "BinarySearc
 		BinarySearch\Floor and Ceil.txt = BinarySearch\Floor and Ceil.txt
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp15", "LinearSearch\ConsoleApp15\ConsoleApp15.csproj", "{B2F9B0C9-FA92-48D0-988C-3408AB9D7A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "LinearSearch\ConsoleApp15\LinearSearch.csproj", "{B2F9B0C9-FA92-48D0-988C-3408AB9D7A9D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSumII-InputArrayIsSorted", "TwoPointer\TwoSumII-InputArrayIsSorted\TwoSumII-InputArrayIsSorted.csproj", "{3ED71ADE-BD66-4AA9-8A26-48BCF28445C3}"
 EndProject
