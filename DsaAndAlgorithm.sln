@@ -503,19 +503,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwappingpairsMakeSumEqual",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAllFilesFromFolder", "InterviewAsked\ReadAllFilesFromFolder\ReadAllFilesFromFolder.csproj", "{468AD5BA-B109-46FB-A1B3-75D0519EE5A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InOrderTraversal", "Tree\InOrderTraversal\InOrderTraversal.csproj", "{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InOrderTraversal", "Tree\InOrderTraversal\InOrderTraversal.csproj", "{3BDE6A7B-7AD4-4304-B813-BB5BC5132C44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSDemo", "graph\DFSDemo\DFSDemo.csproj", "{3715B13E-74F5-4674-A302-D247EBAA9E96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFSDemo", "graph\DFSDemo\DFSDemo.csproj", "{3715B13E-74F5-4674-A302-D247EBAA9E96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RottenOrange", "Interviewasked\RottenOrange\RottenOrange.csproj", "{072D087A-3527-4AB0-B793-5EA60845010F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RottenOrange", "Interviewasked\RottenOrange\RottenOrange.csproj", "{072D087A-3527-4AB0-B793-5EA60845010F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeleberityFind", "InterviewAsked\CeleberityFind\CeleberityFind.csproj", "{95FFB648-4A40-478A-BA39-D3B45A5DDEB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CeleberityFind", "InterviewAsked\CeleberityFind\CeleberityFind.csproj", "{95FFB648-4A40-478A-BA39-D3B45A5DDEB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRobber", "InterviewAsked\HouseRobber\HouseRobber.csproj", "{AF422B4D-9ADC-4D17-AC7F-548625B88B50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRobber", "InterviewAsked\HouseRobber\HouseRobber.csproj", "{AF422B4D-9ADC-4D17-AC7F-548625B88B50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SankesAndLadder", "InterviewAsked\SankesAndLadder\SankesAndLadder.csproj", "{EA8ECD1B-1C05-451E-A133-CE3873C3E5A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SankesAndLadder", "InterviewAsked\SankesAndLadder\SankesAndLadder.csproj", "{EA8ECD1B-1C05-451E-A133-CE3873C3E5A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfIslands", "Graph\NumberOfIslands\NumberOfIslands.csproj", "{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfIslands", "Graph\NumberOfIslands\NumberOfIslands.csproj", "{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RottenOrange", "Graph\RottenOrange\RottenOrange.csproj", "{8616B213-BCE2-4C94-ACD0-3E59CB1A3FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxAreaOfIsland", "Graph\MaxAreaOfIsland\MaxAreaOfIsland.csproj", "{7FA1954B-76E0-49E1-88D7-F884CF8BE2D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPathInBinaryMatrix", "Graph\ShortestPathInBinaryMatrix\ShortestPathInBinaryMatrix.csproj", "{7561DFAC-C9D0-4687-AE90-7204E85C667E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniquePaths", "Graph\UniquePaths\UniquePaths.csproj", "{F5C0D434-216E-4D6E-A2F0-2522537D7455}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1199,6 +1207,22 @@ Global
 		{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8616B213-BCE2-4C94-ACD0-3E59CB1A3FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8616B213-BCE2-4C94-ACD0-3E59CB1A3FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8616B213-BCE2-4C94-ACD0-3E59CB1A3FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8616B213-BCE2-4C94-ACD0-3E59CB1A3FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA1954B-76E0-49E1-88D7-F884CF8BE2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA1954B-76E0-49E1-88D7-F884CF8BE2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA1954B-76E0-49E1-88D7-F884CF8BE2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA1954B-76E0-49E1-88D7-F884CF8BE2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7561DFAC-C9D0-4687-AE90-7204E85C667E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7561DFAC-C9D0-4687-AE90-7204E85C667E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7561DFAC-C9D0-4687-AE90-7204E85C667E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7561DFAC-C9D0-4687-AE90-7204E85C667E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C0D434-216E-4D6E-A2F0-2522537D7455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C0D434-216E-4D6E-A2F0-2522537D7455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C0D434-216E-4D6E-A2F0-2522537D7455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C0D434-216E-4D6E-A2F0-2522537D7455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1373,6 +1397,10 @@ Global
 		{AF422B4D-9ADC-4D17-AC7F-548625B88B50} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{EA8ECD1B-1C05-451E-A133-CE3873C3E5A1} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{5023B6DC-CC22-43E6-86BA-0A1C64A53B59} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
+		{8616B213-BCE2-4C94-ACD0-3E59CB1A3FDA} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
+		{7FA1954B-76E0-49E1-88D7-F884CF8BE2D1} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
+		{7561DFAC-C9D0-4687-AE90-7204E85C667E} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
+		{F5C0D434-216E-4D6E-A2F0-2522537D7455} = {A2D43D2F-7A57-4BFC-B670-945257F60EEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}

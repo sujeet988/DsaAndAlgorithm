@@ -2,3 +2,6 @@ BFS : Breadth First Search
 ---Level order traversal of tree is also called BFS.
 -- it is implented using Queue
 
+BFS Qeustion Samples:
+1. Rotten Oranges
+

@@ -1,7 +1,7 @@
-BFS : Depth First Search
+
+**DFS
 ---(Pre,post,Inorder)  traversal of tree is also called DFS.
--- it is implented using stack or recursion
---DFS
+-- it is implented using stack or recursions
 Depth First Traversal is a traversal technique/algorithm, used to traverse through all the nodes in the given graph.
 
 It starts traversal through any one of its neighbour nodes and explores the farthest possible node in each path/branch 
@@ -12,4 +12,7 @@ once it reaches that node with no neighbours to be visited it’ll backtrack to it
 this node N algorithm will start searching 
 for unvisited neighbour nodes and starts visiting them.
 
-----
+----DFS Question Samples
+1. Number of islands
+2. Max Area of islands
+3  Count Unique Paths
