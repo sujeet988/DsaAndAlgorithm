@@ -7,6 +7,9 @@ using System.Reflection;
 
 namespace DsaAndAlgorithm.Stack.DeleteMiddleElememntFromStacks
 {
+    /*
+     * https://www.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
+     */
     internal class Program
     {
         static void Main(string[] args)

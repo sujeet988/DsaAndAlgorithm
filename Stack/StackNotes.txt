@@ -1,6 +1,11 @@
 Stack:
 -> LIFO (Last In First Out)
 
+--Some Stack method
+1. Count()
+2. Push()
+3. Pop()
+
 
 
 Good To know Topic of Stack :
