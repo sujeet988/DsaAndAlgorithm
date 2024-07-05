@@ -3,6 +3,7 @@
 namespace BubbleSort
 {
     /*
+     * https://www.geeksforgeeks.org/problems/bubble-sort/1
      * Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.
      */
     internal class Program
