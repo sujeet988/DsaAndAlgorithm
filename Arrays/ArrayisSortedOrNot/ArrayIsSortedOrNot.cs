@@ -10,6 +10,7 @@ namespace ArrayisSortedOrNot
     internal class ArrayIsSortedOrNot
     {
         ////https://www.geeksforgeeks.org/program-check-array-sorted-not-iterative-recursive//
+        ///https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
         public static bool IsSortedByIterativeApproach(int[] arr)
         {
             //Time Complexity: O(n) i.e., n is length of array / number of element is array

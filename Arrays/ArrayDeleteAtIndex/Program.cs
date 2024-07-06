@@ -2,6 +2,9 @@
 
 namespace ArrayDeleteAtIndex
 {
+    /*
+     * https://www.geeksforgeeks.org/remove-an-element-at-specific-index-from-an-array-in-java/
+     */
     internal class Program
     {
         //Complete this function
