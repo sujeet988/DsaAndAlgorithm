@@ -1,5 +1,8 @@
 ﻿namespace FreqencyOfNumberInArray
 {
+    /*
+     * https://www.geeksforgeeks.org/find-frequency-number-array/
+     */
     public class Program
     {
         static void Main(string[] args)

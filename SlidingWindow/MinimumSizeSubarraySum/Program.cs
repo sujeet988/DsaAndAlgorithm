@@ -1,6 +1,7 @@
 ﻿namespace MinimumSizeSubarraySum
 {
     /*
+     * https://leetcode.com/problems/minimum-size-subarray-sum/description/
      https://webrewrite.com/tag/sliding-window/
     Given an array of integers (A[])  and a number x, 
     find the smallest subarray with sum greater than the given value. 

@@ -3,6 +3,7 @@
     public class Program
     {
         /*
+         * https://www.geeksforgeeks.org/print-characters-frequencies-order-occurrence/
          * Character Hashing:
          * Given the string: “abcdabefc” we are given some queries: [a, c, z]. For each query, we need to find out how many times the character appears in the string. For example, if the query is ‘a’ our answer would be 2, and if the query is ‘z’ the answer will be 0. 
          * Optimized approach using Hashing:
