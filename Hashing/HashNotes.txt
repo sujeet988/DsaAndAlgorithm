@@ -1,10 +1,10 @@
-﻿Definition of Hashing:
+﻿**Hashing:
 
- it is nothing but the combination of the steps, pre-storing, and fetching.
+->It is nothing but the combination of the steps, pre-storing, and fetching.
 
- ASCII (American Standard Code for Information Interchange) is a standard character encoding 
- used in telecommunication. The ASCII pronounced ‘ask-ee’, is strictly a seven-bit code 
- based on the English alphabet.
+-> ASCII (American Standard Code for Information Interchange) is a standard character encoding 
+used in telecommunication. The ASCII pronounced ‘ask-ee’, is strictly a seven-bit code 
+based on the English alphabet.
 
 ** Tables Mapping 
 Characters	Decimal	Hexadecimal
@@ -12,10 +12,7 @@ Characters	Decimal	Hexadecimal
 A-Z			65-90	41-5A
 a-z			97-122	61-7A
 
-
-
-
- *ASCII values  for  letters
+**ASCII values  for  letters
  a-z=97 to 122
  A-Z=65 to 90 
 
@@ -23,14 +20,10 @@ a-z			97-122	61-7A
  int x='a' --it will give 97 , as 97 is ascii value for a
  int x='A' = it will give 65 , as 65 is ascii value for Capital A
 
- --String Contains capital letters
+ ** if any dsa questions,  String Contains capital letters
  take the hash array size 256 chracters
-
-
-
-
 
  ---Notes URL
  https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/
 
- ---pattern based
+
