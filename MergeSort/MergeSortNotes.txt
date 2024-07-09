@@ -3,4 +3,3 @@
 
  First Learn Divide And Conquer pre req then come to Merge Sort
 
- https://leetcode.com/problems/merge-k-sorted-lists/description/

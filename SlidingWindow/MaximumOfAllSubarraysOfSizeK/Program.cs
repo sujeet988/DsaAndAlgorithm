@@ -21,7 +21,7 @@
          */
 
         //Complete this function
-        public List<int> max_of_subarraysBruteForce(int[] arr, int n, int k)
+        public static List<int> max_of_subarraysBruteForce(int[] arr, int n, int k)
         {
             List<int> output = new List<int>();
 
@@ -46,9 +46,47 @@
             return output;
         }
 
+        //Sliding window
+        public static List<int> max_of_subarraysSlidingWindow(int[] arr, int n, int k)
+        {
+            List<int> output = new List<int>();
+            int left = 0;
+            int right = k-1;
+            int sum = 0;
+            while(right < n) 
+            {
+                sum = sum - arr[left];
+                left = left + 1;
+                right = right + 1;
+
+
+            }
+
+            
+            return output;
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Constant Sliding Window");
+            int[] arr = new int[] { 1 , 2, 3, 1, 4, 5 ,2 ,3, 6 };
+            int k = 3; // window size
+            List<int> output = new List<int>();
+            Console.WriteLine("using brute force");
+            output = max_of_subarraysBruteForce(arr, arr.Length, k);
+            foreach(int i in output)
+            {
+                Console.Write(i); // output :   3 3 4 5 5 5 6 
+            }
+
+            Console.WriteLine("using sliding ");
+            output = max_of_subarraysBruteForce(arr, arr.Length, k);
+            foreach (int i in output)
+            {
+                Console.WriteLine(i); // output :   3 3 4 5 5 5 6 
+            }
+
+            Console.ReadLine();
         }
     }
 }
