@@ -48,20 +48,23 @@
         {
             // Loop to consider every  
             // subarray of size K 
-            for (int i = 0; i <= n - k; i++)
+            int start = 0;
+            int sum = 0;
+            for(int end =0; end < n; end++) 
             {
+                sum+= arr[end];
 
-                // Initialize sum = 0 
-                int sum = 0;
-
-                // Calculate sum of all elements 
-                // of current subarray 
-                for (int j = i; j < k + i; j++)
-                    sum += arr[j];
-
-                // Print sum of each subarray 
-                Console.Write(sum + " ");
+                if(end >= k-1)  // end start  from zero 
+                {
+                    Console.Write(sum +" ");
+                    sum = sum - arr[start];
+                    start++;
+                }
+               
             }
+
+
+            
         }
 
 
