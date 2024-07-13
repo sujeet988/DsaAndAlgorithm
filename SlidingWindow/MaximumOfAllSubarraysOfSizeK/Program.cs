@@ -50,19 +50,8 @@
         public static List<int> max_of_subarraysSlidingWindow(int[] arr, int n, int k)
         {
             List<int> output = new List<int>();
-            int left = 0;
-            int right = k-1;
-            int sum = 0;
-            while(right < n) 
-            {
-                sum = sum - arr[left];
-                left = left + 1;
-                right = right + 1;
 
 
-            }
-
-            
             return output;
         }
 
@@ -78,9 +67,9 @@
             {
                 Console.Write(i); // output :   3 3 4 5 5 5 6 
             }
-
+            Console.WriteLine();
             Console.WriteLine("using sliding ");
-            output = max_of_subarraysBruteForce(arr, arr.Length, k);
+            output = max_of_subarraysSlidingWindow(arr, arr.Length, k);
             foreach (int i in output)
             {
                 Console.WriteLine(i); // output :   3 3 4 5 5 5 6 

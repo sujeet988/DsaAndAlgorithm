@@ -513,19 +513,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SankesAndLadder", "Intervie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfIslands", "Graph\NumberOfIslands\NumberOfIslands.csproj", "{5023B6DC-CC22-43E6-86BA-0A1C64A53B59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RottenOrange", "Graph\RottenOrange\RottenOrange.csproj", "{8616B213-BCE2-4C94-ACD0-3E59CB1A3FDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RottenOrange", "Graph\RottenOrange\RottenOrange.csproj", "{8616B213-BCE2-4C94-ACD0-3E59CB1A3FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxAreaOfIsland", "Graph\MaxAreaOfIsland\MaxAreaOfIsland.csproj", "{7FA1954B-76E0-49E1-88D7-F884CF8BE2D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxAreaOfIsland", "Graph\MaxAreaOfIsland\MaxAreaOfIsland.csproj", "{7FA1954B-76E0-49E1-88D7-F884CF8BE2D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPathInBinaryMatrix", "Graph\ShortestPathInBinaryMatrix\ShortestPathInBinaryMatrix.csproj", "{7561DFAC-C9D0-4687-AE90-7204E85C667E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestPathInBinaryMatrix", "Graph\ShortestPathInBinaryMatrix\ShortestPathInBinaryMatrix.csproj", "{7561DFAC-C9D0-4687-AE90-7204E85C667E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniquePaths", "Graph\UniquePaths\UniquePaths.csproj", "{F5C0D434-216E-4D6E-A2F0-2522537D7455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniquePaths", "Graph\UniquePaths\UniquePaths.csproj", "{F5C0D434-216E-4D6E-A2F0-2522537D7455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMinimumInRotatedSortedArray", "Graph\FindMinimumInRotatedSortedArray\FindMinimumInRotatedSortedArray.csproj", "{DE3D4B59-215B-4091-A3A7-9FDAB2E360E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMinimumInRotatedSortedArray", "Graph\FindMinimumInRotatedSortedArray\FindMinimumInRotatedSortedArray.csproj", "{DE3D4B59-215B-4091-A3A7-9FDAB2E360E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeKSortedList", "MergeSort\MergeKSortedList\MergeKSortedList.csproj", "{0ED9FA7A-91F5-485F-A461-AFDFCAD03955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeKSortedList", "MergeSort\MergeKSortedList\MergeKSortedList.csproj", "{0ED9FA7A-91F5-485F-A461-AFDFCAD03955}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingImplementation", "Hashing\HashingImplementation\HashingImplementation.csproj", "{716D0758-5DEC-4C3D-B831-56FF0A1EFBAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashingImplementation", "Hashing\HashingImplementation\HashingImplementation.csproj", "{716D0758-5DEC-4C3D-B831-56FF0A1EFBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumofAllSubarraysofSizeK", "SlidingWindow\SumofAllSubarraysofSizeK\SumofAllSubarraysofSizeK.csproj", "{22D86042-B574-4ED4-BDE5-AB5D74C95DD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1229,6 +1231,10 @@ Global
 		{716D0758-5DEC-4C3D-B831-56FF0A1EFBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{716D0758-5DEC-4C3D-B831-56FF0A1EFBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{716D0758-5DEC-4C3D-B831-56FF0A1EFBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D86042-B574-4ED4-BDE5-AB5D74C95DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D86042-B574-4ED4-BDE5-AB5D74C95DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D86042-B574-4ED4-BDE5-AB5D74C95DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D86042-B574-4ED4-BDE5-AB5D74C95DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1408,6 +1414,7 @@ Global
 		{DE3D4B59-215B-4091-A3A7-9FDAB2E360E0} = {A3D57415-D5BB-4653-8354-120E0AB39BD6}
 		{0ED9FA7A-91F5-485F-A461-AFDFCAD03955} = {D0128D3B-6EA2-41DD-9A8B-4118A0BD05CE}
 		{716D0758-5DEC-4C3D-B831-56FF0A1EFBAB} = {2431DCAD-ED14-4C6B-8DD1-816686CDEF31}
+		{22D86042-B574-4ED4-BDE5-AB5D74C95DD8} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
