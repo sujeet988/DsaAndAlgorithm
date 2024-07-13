@@ -47,12 +47,32 @@
         }
 
         //Sliding window
-        public static List<int> max_of_subarraysSlidingWindow(int[] arr, int n, int k)
+        // tle -time limit exceed error may come
+        public static List<int> max_of_subarraysSlidingWindow(int[] nums, int n, int k)
         {
-            List<int> output = new List<int>();
+            
+            
+             
+                List<int> inner = new List<int>();
+                List<int> output = new List<int>();
+
+                for (int end = 0; end < n; end++)
+                {
+                    inner.Add(nums[end]);
+
+                    if (end >= k - 1)
+                    {
+                        int max = inner.Max();
+                        output.Add(max);
+                        inner.RemoveAt(0);
+                    }
+
+                }
 
 
-            return output;
+                return output;
+
+            
         }
 
         static void Main(string[] args)
@@ -69,10 +89,11 @@
             }
             Console.WriteLine();
             Console.WriteLine("using sliding ");
+            arr = new int[] { 1, 3, -1, -3, 5, 3, 6, 7 };
             output = max_of_subarraysSlidingWindow(arr, arr.Length, k);
             foreach (int i in output)
             {
-                Console.WriteLine(i); // output :   3 3 4 5 5 5 6 
+                Console.WriteLine(i); // output :  [3,3,5,5,6,7]
             }
 
             Console.ReadLine();
