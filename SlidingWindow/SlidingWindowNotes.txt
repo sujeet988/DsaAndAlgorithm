@@ -1,6 +1,7 @@
 Sliding Windows:
 
-1. Constant Sliding window
+1. Constant Sliding window --if window size k is mentioned
 https://leetcode.com/problems/sliding-window-maximum/description/
 
-2. 
+2. Sliding window variable size -- if size of k is not given 
+https://leetcode.com/problems/minimum-size-subarray-sum/

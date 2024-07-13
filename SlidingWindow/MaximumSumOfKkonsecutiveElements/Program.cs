@@ -33,7 +33,13 @@ namespace MaximumSumOfKkonsecutiveElements
     */
     internal class Program
     {
-
+        /// <summary>
+        /// Time Complexity 
+        /// </summary>
+        /// <param name="k"></param>
+        /// <param name="arr"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public static int bruteForce(int k, int[] arr,int n)
         {
 

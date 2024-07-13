@@ -71,7 +71,7 @@
             Console.WriteLine("Constant Sliding Window");
             int[] arr = new int[] { 1 , 2, 3, 1, 4, 5 ,2 ,3, 6 };
             int k = 3; // window size
-            List<int> output = new List<int>();
+            List<int>? output = null;
             Console.WriteLine("using brute force");
             output = max_of_subarraysBruteForce(arr, arr.Length, k);
             foreach(int i in output)

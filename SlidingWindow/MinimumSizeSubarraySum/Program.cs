@@ -85,11 +85,12 @@
             int sum = 0;
 
          //   A[] = { 1, 4, 45, 6, 0, 19 }
-    //x = 51
+         //x = 51
 
             for (int end=0; end < n; end++)
             {
                 sum += a[end];
+
                 while(sum >x && start<=end)
                 {
                     minLength = Math.Min((end - start) + 1, minLength);
@@ -101,12 +102,16 @@
             return minLength == Int32.MaxValue?0: minLength;
 
         }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Smallest subarray with sum greater than x\r\n");
+            Console.WriteLine("Smallest subarray with sum greater than x Demo \r\n");
             int[] arr = new int[6] { 1, 4, 45, 6, 0, 19 };
-            int output=smallestSubWithSumSlidingWindow(arr, arr.Length, 51);
-            Console.WriteLine("using Sliding Window" + output); // 3 ans Minimum length subarray is { 4, 45, 6}
+            int target = 51; 
+            int outputbruteforce  = smallestSubWithSumBruteForce(arr, arr.Length, target);
+            Console.WriteLine($"using brute force, minimum Minimum length subarray  for target {target} greater then is {1}", target, outputbruteforce); // 3 ans Minimum length subarray is { 4, 45, 6}
+            int output=smallestSubWithSumSlidingWindow(arr, arr.Length, target);
+            Console.WriteLine($"using Sliding window force, minimum Minimum length subarray  for target {target} greater then is {1}", target, output); // 3 ans Minimum length subarray is { 4, 45, 6}
             Console.ReadLine();
 
 
