@@ -539,6 +539,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LruImp", "Code\LruImp\LruIm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserHistory", "Code\BrowserHistory\BrowserHistory.csproj", "{4A49A64E-6FBB-4E22-BFCE-E8D8A1C906AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeSystem", "InterViewAsked\BadgeSystem\BadgeSystem.csproj", "{30069A06-BAA8-47CF-A879-E51506EDE45B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1261,6 +1263,10 @@ Global
 		{4A49A64E-6FBB-4E22-BFCE-E8D8A1C906AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A49A64E-6FBB-4E22-BFCE-E8D8A1C906AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A49A64E-6FBB-4E22-BFCE-E8D8A1C906AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30069A06-BAA8-47CF-A879-E51506EDE45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30069A06-BAA8-47CF-A879-E51506EDE45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30069A06-BAA8-47CF-A879-E51506EDE45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30069A06-BAA8-47CF-A879-E51506EDE45B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1445,6 +1451,7 @@ Global
 		{F3AA5C8E-9A4D-4B6D-82BB-72B14E7C479B} = {2CD28F8F-A07C-47C0-82C4-DAA9737F22A1}
 		{00CE8CF8-CB18-4533-856E-8195B04686A0} = {2CD28F8F-A07C-47C0-82C4-DAA9737F22A1}
 		{4A49A64E-6FBB-4E22-BFCE-E8D8A1C906AF} = {2CD28F8F-A07C-47C0-82C4-DAA9737F22A1}
+		{30069A06-BAA8-47CF-A879-E51506EDE45B} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
