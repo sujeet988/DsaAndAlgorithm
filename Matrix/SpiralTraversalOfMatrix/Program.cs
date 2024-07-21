@@ -26,14 +26,14 @@ namespace SpiralTraversalOfMatrix
         {
             //code here
             List<int> result = new List<int>();
-            int top = 0;
-            int bottom = matrix.Count - 1;
+            int top = 0; // row top
+            int bottom = matrix.Count - 1; // row bottom 
             int left = 0;
             int right = matrix[0].Count - 1;
 
             while (top <= bottom && left <= right)
             {
-                // For moving left to right
+                // For moving top left to right
                 for (int i = left; i <= right; i++)
                 {
                     result.Add(matrix[top][i]);
@@ -41,7 +41,7 @@ namespace SpiralTraversalOfMatrix
 
                 top++;
 
-                // For moving top to bottom.
+                // For moving right cloumn from top to bottom.
 
                 for (int i = top; i <= bottom; i++)
                 {
