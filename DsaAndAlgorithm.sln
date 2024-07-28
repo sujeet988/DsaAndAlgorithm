@@ -529,21 +529,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashingImplementation", "Ha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumofAllSubarraysofSizeK", "SlidingWindow\SumofAllSubarraysofSizeK\SumofAllSubarraysofSizeK.csproj", "{22D86042-B574-4ED4-BDE5-AB5D74C95DD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LruUsingHashing", "Hashing\LruUsingHashing\LruUsingHashing.csproj", "{E05F526B-F9E6-4903-AA89-DD9D84199FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LruUsingHashing", "Hashing\LruUsingHashing\LruUsingHashing.csproj", "{E05F526B-F9E6-4903-AA89-DD9D84199FBF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{2CD28F8F-A07C-47C0-82C4-DAA9737F22A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingImplementation", "Code\HashingImplementation\HashingImplementation.csproj", "{F3AA5C8E-9A4D-4B6D-82BB-72B14E7C479B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashingImplementation", "Code\HashingImplementation\HashingImplementation.csproj", "{F3AA5C8E-9A4D-4B6D-82BB-72B14E7C479B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LruImp", "Code\LruImp\LruImp.csproj", "{00CE8CF8-CB18-4533-856E-8195B04686A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LruImp", "Code\LruImp\LruImp.csproj", "{00CE8CF8-CB18-4533-856E-8195B04686A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserHistory", "Code\BrowserHistory\BrowserHistory.csproj", "{4A49A64E-6FBB-4E22-BFCE-E8D8A1C906AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrowserHistory", "Code\BrowserHistory\BrowserHistory.csproj", "{4A49A64E-6FBB-4E22-BFCE-E8D8A1C906AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeSystem", "InterViewAsked\BadgeSystem\BadgeSystem.csproj", "{30069A06-BAA8-47CF-A879-E51506EDE45B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadgeSystem", "InterViewAsked\BadgeSystem\BadgeSystem.csproj", "{30069A06-BAA8-47CF-A879-E51506EDE45B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreFixSums", "PreFixSums", "{AD05452B-FFC3-4511-8220-58FB2234146D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubarraysSumEqualsK", "PreFixSums\SubarraysSumEqualsK\SubarraysSumEqualsK.csproj", "{D740A1F3-2F64-40C0-A349-590530424FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubarraysSumEqualsK", "PreFixSums\SubarraysSumEqualsK\SubarraysSumEqualsK.csproj", "{D740A1F3-2F64-40C0-A349-590530424FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostFix", "Stack\PostFix\PostFix.csproj", "{24240121-F5B7-441A-991E-4203A292D73C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1275,6 +1277,10 @@ Global
 		{D740A1F3-2F64-40C0-A349-590530424FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D740A1F3-2F64-40C0-A349-590530424FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D740A1F3-2F64-40C0-A349-590530424FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24240121-F5B7-441A-991E-4203A292D73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24240121-F5B7-441A-991E-4203A292D73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24240121-F5B7-441A-991E-4203A292D73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24240121-F5B7-441A-991E-4203A292D73C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1461,6 +1467,7 @@ Global
 		{4A49A64E-6FBB-4E22-BFCE-E8D8A1C906AF} = {2CD28F8F-A07C-47C0-82C4-DAA9737F22A1}
 		{30069A06-BAA8-47CF-A879-E51506EDE45B} = {B0C0E045-3298-4887-88B4-83BA920B0629}
 		{D740A1F3-2F64-40C0-A349-590530424FAD} = {AD05452B-FFC3-4511-8220-58FB2234146D}
+		{24240121-F5B7-441A-991E-4203A292D73C} = {8C286C30-1282-4CFE-94FC-C8191A118AF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
