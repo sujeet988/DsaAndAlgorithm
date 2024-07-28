@@ -42,6 +42,38 @@
 
             return result;  
         }
+
+        //using queue
+        // nlogn
+        public static List<string> GenerateBinaryUsingQueue(int N)
+        {
+            //Your code here
+            List<string> result = new List<string>();
+            Queue<string> queue = new Queue<string>();
+
+            int count = 0; 
+            queue.Enqueue("1");
+            count++;
+
+            while (queue.Count>0)
+            {
+                string current = queue.Dequeue();
+                result.Add(current);
+                if (count < N)  // as count start from zero
+                {
+                    queue.Enqueue(current+"0");
+                    count++;
+                }
+                if (count < N)
+                {
+                    queue.Enqueue(current+"1");
+                    count++;
+                }
+
+            }
+
+            return result;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Generate Binary Numbers");
@@ -50,11 +82,18 @@
 
             //using brute force
             list = GenerateBinaryUsingBruteFOrce(n);
+            Console.WriteLine("Generate Binary Numbers using brute force");
             foreach (string s in list) 
             {
                 Console.WriteLine($"{s}");
             }
             // using queue
+            list = GenerateBinaryUsingQueue(n);
+            Console.WriteLine("Generate Binary Numbers using queue");
+            foreach (string s in list)
+            {
+                Console.WriteLine($"{s}");
+            }
 
             Console.ReadLine();
 
