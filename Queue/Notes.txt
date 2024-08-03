@@ -11,3 +11,14 @@ Some inbuilt Method of Queue :
 
 **Some Important Questions Realated to Queue :
 1. Generate Binary Numbers From 1 to N Using Queue
+
+
+** Dequeue double-ended queue
+ Deque<int> d = new Deque<int>
+--Add/remove Remove elementj from  both the end.
+https://www.c-sharpcorner.com/UploadFile/b942f9/implementing-a-double-ended-queue-or-deque-in-C-Sharp/
+Some of the imporant method:
+
+AddFirst(item)	adds this item at the front of the Deque
+AddLast(item)	adds this item at the back of the Deque
+
