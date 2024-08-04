@@ -553,6 +553,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchIRotatedSortedArray",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFirstAndLastPositionInSortedArray", "BinarySearch\FindFirstAndLastPositionInSortedArray\FindFirstAndLastPositionInSortedArray.csproj", "{73D0D115-1693-4096-A503-5445806C9B46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Findtheelemen thatappearsonce", "BinarySearch\Findtheelemen thatappearsonce\Findtheelemen thatappearsonce.csproj", "{359937FF-2A82-472C-AD44-FDFE505C168A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchinRotatedArray2", "BinarySearch\SearchinRotatedArray2\SearchinRotatedArray2.csproj", "{D34B3ECA-F442-4A0F-A755-615ADBD8D877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1299,6 +1303,14 @@ Global
 		{73D0D115-1693-4096-A503-5445806C9B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73D0D115-1693-4096-A503-5445806C9B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73D0D115-1693-4096-A503-5445806C9B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359937FF-2A82-472C-AD44-FDFE505C168A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359937FF-2A82-472C-AD44-FDFE505C168A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359937FF-2A82-472C-AD44-FDFE505C168A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359937FF-2A82-472C-AD44-FDFE505C168A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34B3ECA-F442-4A0F-A755-615ADBD8D877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34B3ECA-F442-4A0F-A755-615ADBD8D877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34B3ECA-F442-4A0F-A755-615ADBD8D877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34B3ECA-F442-4A0F-A755-615ADBD8D877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1489,6 +1501,8 @@ Global
 		{B574435F-5072-41E2-BF2D-7937318CB66D} = {3A550915-7340-43CC-A2C7-27FF707E7D91}
 		{3ABE0E5C-D5DE-4034-B421-A842E0684F98} = {A3D57415-D5BB-4653-8354-120E0AB39BD6}
 		{73D0D115-1693-4096-A503-5445806C9B46} = {A3D57415-D5BB-4653-8354-120E0AB39BD6}
+		{359937FF-2A82-472C-AD44-FDFE505C168A} = {A3D57415-D5BB-4653-8354-120E0AB39BD6}
+		{D34B3ECA-F442-4A0F-A755-615ADBD8D877} = {A3D57415-D5BB-4653-8354-120E0AB39BD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
