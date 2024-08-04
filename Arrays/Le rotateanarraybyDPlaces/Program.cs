@@ -5,7 +5,6 @@ using System.Net.Http.Headers;
 namespace Le_rotateanarraybyDPlaces
 {
     /*
-     * https://leetcode.com/problems/rotate-array/
      * https://takeuforward.org/arrays/left-rotate-an-array-by-d-places/
      * https://practice.geeksforgeeks.org/problems/reversal-algorithm5340/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reversal-algorithm
      * 
