@@ -16,6 +16,7 @@ Some inbuilt Method of Queue :
 ** Dequeue double-ended queue
  Deque<int> d = new Deque<int>
 --Add/remove Remove elementj from  both the end.
+--Deque by default not available in c# but using custome code we can implement this.
 https://www.c-sharpcorner.com/UploadFile/b942f9/implementing-a-double-ended-queue-or-deque-in-C-Sharp/
 Some of the imporant method:
 
