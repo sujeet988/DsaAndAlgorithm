@@ -545,19 +545,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreFixSums", "PreFixSums", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubarraysSumEqualsK", "PreFixSums\SubarraysSumEqualsK\SubarraysSumEqualsK.csproj", "{D740A1F3-2F64-40C0-A349-590530424FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostFix", "Stack\PostFix\PostFix.csproj", "{24240121-F5B7-441A-991E-4203A292D73C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostFix", "Stack\PostFix\PostFix.csproj", "{24240121-F5B7-441A-991E-4203A292D73C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateBinaryNumbers", "Queue\GenerateBinaryNumbers\GenerateBinaryNumbers.csproj", "{B574435F-5072-41E2-BF2D-7937318CB66D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateBinaryNumbers", "Queue\GenerateBinaryNumbers\GenerateBinaryNumbers.csproj", "{B574435F-5072-41E2-BF2D-7937318CB66D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchIRotatedSortedArray", "BinarySearch\SearchIRotatedSortedArray\SearchIRotatedSortedArray.csproj", "{3ABE0E5C-D5DE-4034-B421-A842E0684F98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchIRotatedSortedArray", "BinarySearch\SearchIRotatedSortedArray\SearchIRotatedSortedArray.csproj", "{3ABE0E5C-D5DE-4034-B421-A842E0684F98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFirstAndLastPositionInSortedArray", "BinarySearch\FindFirstAndLastPositionInSortedArray\FindFirstAndLastPositionInSortedArray.csproj", "{73D0D115-1693-4096-A503-5445806C9B46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindFirstAndLastPositionInSortedArray", "BinarySearch\FindFirstAndLastPositionInSortedArray\FindFirstAndLastPositionInSortedArray.csproj", "{73D0D115-1693-4096-A503-5445806C9B46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Findtheelemen thatappearsonce", "BinarySearch\Findtheelemen thatappearsonce\Findtheelemen thatappearsonce.csproj", "{359937FF-2A82-472C-AD44-FDFE505C168A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Findtheelemen thatappearsonce", "BinarySearch\Findtheelemen thatappearsonce\Findtheelemen thatappearsonce.csproj", "{359937FF-2A82-472C-AD44-FDFE505C168A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchinRotatedArray2", "BinarySearch\SearchinRotatedArray2\SearchinRotatedArray2.csproj", "{D34B3ECA-F442-4A0F-A755-615ADBD8D877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchinRotatedArray2", "BinarySearch\SearchinRotatedArray2\SearchinRotatedArray2.csproj", "{D34B3ECA-F442-4A0F-A755-615ADBD8D877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dequeue", "Queue\Dequeue\Dequeue.csproj", "{8C6C344A-1B7A-47F6-9A4C-255F22B9836E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dequeue", "Queue\Dequeue\Dequeue.csproj", "{8C6C344A-1B7A-47F6-9A4C-255F22B9836E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingSimple", "Hashing\HashingSimple\HashingSimple.csproj", "{7A8BC1C9-ADBA-4954-BF32-BCDCC6D2B088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1317,6 +1319,10 @@ Global
 		{8C6C344A-1B7A-47F6-9A4C-255F22B9836E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C6C344A-1B7A-47F6-9A4C-255F22B9836E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C6C344A-1B7A-47F6-9A4C-255F22B9836E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8BC1C9-ADBA-4954-BF32-BCDCC6D2B088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8BC1C9-ADBA-4954-BF32-BCDCC6D2B088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8BC1C9-ADBA-4954-BF32-BCDCC6D2B088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8BC1C9-ADBA-4954-BF32-BCDCC6D2B088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1510,6 +1516,7 @@ Global
 		{359937FF-2A82-472C-AD44-FDFE505C168A} = {A3D57415-D5BB-4653-8354-120E0AB39BD6}
 		{D34B3ECA-F442-4A0F-A755-615ADBD8D877} = {A3D57415-D5BB-4653-8354-120E0AB39BD6}
 		{8C6C344A-1B7A-47F6-9A4C-255F22B9836E} = {3A550915-7340-43CC-A2C7-27FF707E7D91}
+		{7A8BC1C9-ADBA-4954-BF32-BCDCC6D2B088} = {2431DCAD-ED14-4C6B-8DD1-816686CDEF31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
