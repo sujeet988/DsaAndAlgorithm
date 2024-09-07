@@ -95,7 +95,7 @@ namespace MergeSort
             Divide(arr, 0, arr.Length - 1);
             for(int i=0; i < arr.Length; i++)
             {
-                Console.Write(arr[i] +" ");
+                Console.Write(arr[i] +" "); // 2 3 5 6 8 9
             }
             Console.ReadLine();
         }

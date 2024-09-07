@@ -3,6 +3,7 @@
 namespace LcmOfNumbers
 {
     /*
+     * https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
      * LCM stands for "Least Common Multiple", which is the smallest positive integer that is 
      * divisible by two or more integers without a remainder
      */

@@ -88,14 +88,14 @@ namespace SelectionSort
             Console.WriteLine("Array after sorted in ascending");
             foreach (var item in arr)
             {
-                Console.Write(item + " ");
+                Console.Write(item + " "); // 1 2 3 4 5
             }
             Console.WriteLine() ;
             SelectionSortDescending(arr);
             Console.WriteLine("Array after sorted in descending");
             foreach (var item in arr)
             {
-                Console.Write(item + " ");
+                Console.Write(item + " "); // 5 4 3 2 1
             }
             Console.ReadLine();
         }

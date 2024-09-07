@@ -2,29 +2,25 @@ KK
 1. 25 MINUTE
 2. HEAD VALUE CHANGING
 
-58 minute 
 
-node.something=something --making a change
+
+** node.something=something 
+--making a change
 --changing the head pointer
-
 --making the change in object
 
-node=node.next --not chnaging the head pointer
+**node=node.next 
+->not chnaging the head pointer
 --this is re assigning 
 
 
-if two or more reference vairables are pointing the same object,
+** if two or more reference vairables are pointing the same object,
 making the change in object via one  reference variable will leading the chnage in other refrerece vairvale becasue they pointing the same object.
 
---Reverse a linked list 
-3 pointers approach
 
 
-gfg
---ararys
-
---------loop
+*Loop
 detect loop
 https://www.interviewbit.com/blog/detect-loop-in-linked-list/
 Floyd’s Cycle Detection Algorithm
-----
+

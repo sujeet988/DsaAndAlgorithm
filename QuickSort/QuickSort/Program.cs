@@ -77,7 +77,7 @@ namespace QuickSort
 
             for(int i=0; i < n; i++)
             {
-                Console.Write(arr[i] +" ");
+                Console.Write(arr[i] +" "); // ans is 3 5 6 8 9
             }
             Console.ReadLine();
         }

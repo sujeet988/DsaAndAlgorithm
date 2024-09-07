@@ -32,7 +32,7 @@ if (!hashSets.Contains(10)){
 //Print All Elements using foeach
 foreach (var item in hashSets)
 {
-    Console.WriteLine(item);
+    Console.WriteLine(item); // 1 2 3
 }
 
 //Print All Elements using for loop-not supprted
@@ -41,7 +41,8 @@ foreach (var item in hashSets)
 Console.WriteLine("IntersectionDemo");
 int[] arr1 = new int[] { 89 ,24, 75, 11, 23 };
 int[] arr2 = new int[] { 89, 2 ,4 };
-Console.WriteLine(InterSectionofArrays.GetCountofIntersecvtion(arr1,arr2));
+Console.WriteLine(InterSectionofArrays.GetCountofIntersecvtion(arr1,arr2)); // ans is 1
+Console.ReadLine();
 
 
 

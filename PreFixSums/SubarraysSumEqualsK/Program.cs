@@ -3,11 +3,7 @@
     /*
      * https://leetcode.com/problems/subarray-sum-equals-k/description/s
         * Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
-
         A subarray is a contiguous non-empty sequence of elements within an array.
-
- 
-
         Example 1:
 
         Input: nums = [1,1,1], k = 2
@@ -54,7 +50,7 @@
             int[] arr = new int[] { 1, 1, 1 };
             int k = 2;
             int count = SubarraySum(arr, k);
-            Console.WriteLine(count);
+            Console.WriteLine(count); // ans is 2
             Console.ReadLine();
         }
     }
