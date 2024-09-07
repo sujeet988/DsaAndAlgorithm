@@ -62,7 +62,7 @@ we have -4 as result.
             Console.WriteLine("Post fix demo");
             string S = S = "231*+9-";
             int result = EvaluatePostfix(S);
-            Console.WriteLine(result); // -4 
+            Console.WriteLine(result); // ans is : d-4 
             Console.ReadLine();
 
         }

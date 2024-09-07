@@ -9,8 +9,6 @@ namespace DequeueDemo
         {
             Console.WriteLine("Double ended queue");
            
-
-
         }
     }
 }
