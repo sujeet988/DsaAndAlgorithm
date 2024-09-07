@@ -24,7 +24,7 @@ result = RemoveElementFromArray.removeTheElement(arr, index);
 Console.WriteLine("Remove the element using loop");
 foreach(int i in result)
 {
-    Console.Write(i+" ");
+    Console.Write(i+" "); //output : 1 2 4 5
 }
 
 // Remove the element using list
@@ -34,5 +34,7 @@ Console.WriteLine();
 Console.WriteLine("Remove the element using List ");
 foreach (int i in result)
 {
-    Console.Write(i + " ");
+    Console.Write(i + " "); //output : 1 2 4 5
 }
+
+Console.ReadLine();

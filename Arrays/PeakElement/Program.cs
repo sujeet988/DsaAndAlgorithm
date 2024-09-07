@@ -108,12 +108,12 @@ namespace PeakElement
             int[] arr = { 1, 3, 20, 4, 11, 0 };
             // By Brute Force
             Console.WriteLine("Index of a peak point is " +
-                             FindPeakElement(arr));
+                             FindPeakElement(arr)); // 2
 
 
             // By Binary search
             Console.Write("Index of a peak point is " +
-                              FindPeakElementBinarySearch(arr));
+                              FindPeakElementBinarySearch(arr)); // 2
             Console.ReadLine();
         }
     }

@@ -26,7 +26,7 @@ Console.WriteLine("\nUnion of arr1 and arr2 using 3rd array is ");
 Union = UnionArrayDemo.findUnionByMergingint(arr1, arr2, n, m);
 
 foreach (int val in Union)
-    Console.Write(val + " ");
+    Console.Write(val + " "); // ans : 0 0 0 0 0 1 2 3 4 5 6 7 8
 
 
 //by Hash set
@@ -34,12 +34,12 @@ Console.WriteLine("\nUnion of arr1 and arr2 using hash set is ");
 Union = UnionArrayDemo.findUnionBYHashSet(arr1, arr2, n, m);
 
 foreach (int val in  Union)
-    Console.Write(val + " ");
+    Console.Write(val + " ");  // ans : 1 2 3 4 5 6 7 8
 
 Console.WriteLine("\nUnion of arr1 and arr2 using Dictionary is ");
 Union = UnionArrayDemo.findUnionByDictionary(arr1, arr2, n, m);
 foreach (int val in Union)
-    Console.Write(val + " ");
+    Console.Write(val + " "); // ans : 1 2 3 4 5 6 7 8
 
 
 Console.ReadLine();

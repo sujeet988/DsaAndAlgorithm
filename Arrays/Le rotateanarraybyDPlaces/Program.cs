@@ -98,16 +98,14 @@ namespace Le_rotateanarraybyDPlaces
             Program.LeftRotate(arr, n, d);
             Console.WriteLine("After rotation:");
             for (int i = 0; i < n; i++)
-                Console.Write(arr[i] + " ");
+                Console.Write(arr[i] + " "); // ans : 4 5 6 7 1 2 3
             Console.WriteLine();
-            ////////////////////////
-            ///
             Console.WriteLine("Reversal Algorithm");
             int[] arr1 = { 1, 2, 3, 4, 5, 6, 7 };
             Program.leftRotateByOptimized(arr1, n, d);
             Console.WriteLine("After rotation:");
             for (int i = 0; i < n; i++)
-                Console.Write(arr1[i] + " ");
+                Console.Write(arr1[i] + " "); // ans is 4 5 6 7 1 2 3
             Console.WriteLine();
             Console.ReadLine();
 

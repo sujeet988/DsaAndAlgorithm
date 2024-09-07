@@ -13,8 +13,8 @@ int K = 2;
 var output= TopKFreqElementsdata.TopKFreuentElement(nums, K);
 foreach(var item in output)
 {
-    Console.Write(item+" ");
+    Console.Write(item+" "); // output 1, 2 
 }
-// ouput 1, 2 
+
 Console.ReadLine();
 

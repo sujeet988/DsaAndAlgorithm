@@ -82,10 +82,10 @@ namespace MajorityElement
 
             //By Brue Force
             int ans = majorityElement(arr);
-            Console.WriteLine("The majority element is: " + ans);
+            Console.WriteLine("The majority element is: " + ans); // 2
             //By Optimized approach
              ans = majorityElementOptimzed(arr);
-            Console.WriteLine("The majority element by Optimzed approach  is: " + ans);
+            Console.WriteLine("The majority element by Optimzed approach  is: " + ans); //2
             Console.ReadLine();
         }
     }

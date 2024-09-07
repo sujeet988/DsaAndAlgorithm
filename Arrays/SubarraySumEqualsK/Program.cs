@@ -109,13 +109,13 @@ namespace SubarraySumEqualsK
             int k = 6;
             //By Time complexity O(n^3)
             int cnt = SubarraySumByn3TimeComplexity(arr, k);
-            Console.WriteLine("The number of subarrays by O(n^3) is: " + cnt);
+            Console.WriteLine("The number of subarrays by O(n^3) is: " + cnt); // ans : 2
             //By Time complexity O(n^2)
             cnt = SubarraySumByn2TimeComplexity(arr, k);
-            Console.WriteLine("The number of subarrays O(n^2) is: " + cnt);
+            Console.WriteLine("The number of subarrays O(n^2) is: " + cnt); //ans: 2
             //By Dictionary
             cnt = SubarraySumByDictionary(arr, k);
-            Console.WriteLine("The number of subarrays O(n) is: " + cnt);
+            Console.WriteLine("The number of subarrays O(n) is: " + cnt); //ans: 2
             Console.ReadLine();
         }
     }

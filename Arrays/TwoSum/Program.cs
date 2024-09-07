@@ -79,7 +79,7 @@ namespace DsAlgo.Sujeet
             response = OptimizedSolutionusingHashMap(arr, target);
             foreach (var item in response)
             {
-                Console.Write(item + " ");
+                Console.Write(item + " "); // output index  0,1
             }
 
             // output 0,1

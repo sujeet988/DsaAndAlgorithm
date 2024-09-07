@@ -46,12 +46,12 @@ namespace RightRotateanarraybyDPlaces
             {
                 Console.Write($"{item}" + " ");
             }
-            //ouput 5 6 7 1 2 3 4
+           
             RotateRightByKplaces(nums, k);
             Console.WriteLine("Array After rotaion");
             foreach(var item in nums)
             {
-                Console.Write($"{item}"+" ");
+                Console.Write($"{item}"+" "); //output 5 6 7 1 2 3 4
             }
             Console.ReadLine();
 
