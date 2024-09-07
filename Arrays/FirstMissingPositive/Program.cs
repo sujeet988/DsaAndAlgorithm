@@ -86,7 +86,7 @@ namespace FirstMissingPositive
             //brute force
             int[] nums1 = { 1, 2, 0 };
             missingPositive = FirstMissingPositiveBrute(nums1);
-            Console.WriteLine(missingPositive);
+            Console.WriteLine(missingPositive); // 3
 
             Console.ReadLine();
         }
