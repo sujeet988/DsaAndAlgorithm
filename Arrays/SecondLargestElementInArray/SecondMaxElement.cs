@@ -59,6 +59,7 @@ namespace SecondLargestElementInArray
             }
             int max = Int32.MinValue;
             int secondMax = Int32.MinValue;
+            int n = arr.Length;
 
             for (int i = 0; i < n; i++)
             {
