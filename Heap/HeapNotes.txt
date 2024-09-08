@@ -3,21 +3,38 @@ Priority Queue
 
 
 
+
 -----Difference
-The main difference between a priority queue and a heap data structure lies in their definitions and characteristics:
+The main difference between a priority queue and a heap data structure lies in 
+their definitions and characteristics:
 
 Priority Queue:
 
-A priority queue is an abstract data type that represents a collection of elements, each associated with a priority.
-It allows efficient access to and removal of the highest-priority (or lowest-priority) element from the collection.
-A priority queue does not dictate the internal implementation details, so it can be implemented using different data structures, including heaps, arrays, linked lists, binary search trees, and more.
+A priority queue is an abstract data type that represents a collection of 
+elements, each associated with a priority.
+It allows efficient access to and removal of the highest-priority 
+(or lowest-priority) element from the collection.
+A priority queue does not dictate the internal implementation details, so 
+it can be implemented using different data structures, including heaps, arrays, linked lists, binary search trees, and more.
 Heap:
 
-A heap/Binary Heap is a specific data structure that can be used to implement a priority queue efficiently.
-It is a complete binary tree where each node satisfies the heap property: the value of a parent node is either greater than or equal to (in a max heap) or less than or equal to (in a min heap) the values of its children.
-Heaps are typically implemented using arrays, where the position of each element corresponds to its level-order traversal in the binary tree.
-The primary purpose of a heap is to provide efficient insertion, deletion, and retrieval of the highest (or lowest) priority element, making it a suitable choice for implementing a priority queue.
-In summary, the priority queue is an abstract concept that represents a collection of elements with priorities, while a heap is a specific data structure used to efficiently implement a priority queue. A heap is one possible implementation of a priority queue, but other data structures can also be used. The choice of data structure depends on the requirements, desired time complexity, and other factors specific to the problem at hand.
+A heap/Binary Heap is a specific data structure that can be used to implement 
+a priority queue efficiently.
+It is a complete binary tree where each node satisfies the heap 
+property: the value of a parent node is either greater than or equal to 
+(in a max heap) or less than or equal to (in a min heap) the values of 
+its children.
+Heaps are typically implemented using arrays, where the position of each 
+element corresponds to its level-order traversal in the binary tree.
+The primary purpose of a heap is to provide efficient insertion, deletion, 
+and retrieval of the highest (or lowest) priority element, making it a 
+suitable choice for implementing a priority queue.
+In summary, the priority queue is an abstract concept that represents a 
+collection of elements with priorities, while a heap is a specific data 
+structure used to efficiently implement a priority queue. A heap is one 
+possible implementation of a priority queue, but other data structures can 
+also be used. The choice of data structure depends on the requirements, 
+desired time complexity, and other factors specific to the problem at hand.
 
 
 -------------------diffeence 2
@@ -52,9 +69,17 @@ MinPriorityQueue:
 In a MinPriorityQueue, elements are ordered based on their priority, where lower-priority elements have a smaller value.
 The element with the lowest priority (minimum value) is accessible and removable in constant time.
 MinPriorityQueue is used when you want to access or remove the element with the lowest priority first.
-Both MaxPriorityQueue and MinPriorityQueue are implementations of a priority queue data structure. The choice between using a MaxPriorityQueue or a MinPriorityQueue depends on the specific requirements of your problem, whether you need to prioritize higher-priority elements or lower-priority elements.
+Both MaxPriorityQueue and MinPriorityQueue are implementations of a priority 
+queue data structure. The choice between using a MaxPriorityQueue or 
+a MinPriorityQueue depends on the specific requirements of your problem, 
+whether you need to prioritize higher-priority elements or lower-priority 
+elements.
 
-It's worth noting that the choice of priority queue implementation may vary based on the programming language or library you are using. Some libraries may offer priority queue implementations with specific names, while others provide options to configure the ordering (max or min) based on the specific use case.
+It's worth noting that the choice of priority queue implementation may vary
+based on the programming language or library you are using. Some libraries 
+may offer priority queue implementations with specific names, while others 
+provide options to configure the ordering (max or min) based on the specific
+use case.
 
 
 ----Links for Study
