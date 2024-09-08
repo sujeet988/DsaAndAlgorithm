@@ -86,7 +86,7 @@
 
             Program p = new Program();
             var noofisland = p.NumIslands(grid);
-            Console.WriteLine($"number if island is {noofisland}"); // ans is 3;
+            Console.WriteLine($"number if island is {noofisland}"); //// ans is 3;
 
             Console.ReadLine();
 
