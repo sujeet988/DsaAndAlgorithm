@@ -59,12 +59,48 @@
             return overallsum;
         }
 
+        /// <summary>
+        /// BruteForce Approach
+        /// </summary>
+        /// <param name="nums">Array</param>
+        /// <returns>int</returns>
+        public static int MaxSubArrayBruteForce(int[] nums)
+        {
+            int n = nums.Length;
+            int max = Int32.MinValue;
+
+            for (int i = 0; i < n; i++)
+            {
+
+                int sum = 0;
+
+                for (int j = i; j < n; j++)
+                {
+                    sum += nums[j];
+                    if (sum > max)
+                    {
+                        max = sum;
+                    }
+                }
+
+            }
+            return max;
+
+
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Kadane Algorithm");
+            Console.WriteLine("using Kadane Algorithm");
+            // T.C : O(N)
             int[] arr = new int[5] { 1, 2, 3, -2, 5 };
             int result = MaxSubArrayKadaneAlgorithm(arr);
             Console.WriteLine(result); // 9
+            // using brute force approach
+            // using brute force O(n2)
+            int resultusingbruteforce = MaxSubArrayBruteForce(arr);
+            Console.WriteLine(resultusingbruteforce); // ans is 9
+
             Console.ReadLine();
         }
     }
