@@ -59,8 +59,32 @@
             return overallsum;
         }
 
+
+        // using prefix sum
+        // tc: o(n)
+        public static int MaxSubArrayusingPrefixsum(int[] nums)
+        {
+
+
+            int max = nums[0];
+            int len = nums.Length;
+
+            int[] arrmax = new int[len];
+            arrmax[0] = nums[0];
+
+            for (int i = 1; i < len; i++)
+            {
+                arrmax[i] = Math.Max(arrmax[i - 1] + nums[i], nums[i]);
+                max = Math.Max(arrmax[i], max);
+
+            }
+
+
+            return max;
+        }
+
         /// <summary>
-        /// BruteForce Approach
+        /// BruteForce Approach tc: o(n2)
         /// </summary>
         /// <param name="nums">Array</param>
         /// <returns>int</returns>
@@ -99,6 +123,11 @@
             // using brute force approach
             // using brute force O(n2)
             int resultusingbruteforce = MaxSubArrayBruteForce(arr);
+            Console.WriteLine(resultusingbruteforce); // ans is 9
+
+            // using prefix max sum
+            // tc o(n)
+            int resultusingprefixsum = MaxSubArrayusingPrefixsum(arr);
             Console.WriteLine(resultusingbruteforce); // ans is 9
 
             Console.ReadLine();
