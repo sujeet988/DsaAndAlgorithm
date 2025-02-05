@@ -551,18 +551,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dequeue", "Queue\Dequeue\De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashingSimple", "Hashing\HashingSimple\HashingSimple.csproj", "{7A8BC1C9-ADBA-4954-BF32-BCDCC6D2B088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeIntervals", "Arrays\MergeIntervals\MergeIntervals.csproj", "{EB78934B-DC17-4F17-8E65-02BC15E507B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeIntervals", "Arrays\MergeIntervals\MergeIntervals.csproj", "{EB78934B-DC17-4F17-8E65-02BC15E507B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Greedy", "Greedy", "{8DE50C2E-DE51-4BC4-8D53-3FFBF9F8327D}"
 	ProjectSection(SolutionItems) = preProject
 		Greedy\GreedyNotes.txt = Greedy\GreedyNotes.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnapsackFractional", "Greedy\KnapsackFractional\KnapsackFractional.csproj", "{351A3845-607C-47EA-8FD9-07E91475620D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnapsackFractional", "Greedy\KnapsackFractional\KnapsackFractional.csproj", "{351A3845-607C-47EA-8FD9-07E91475620D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiceHoles", "Greedy\MiceHoles\MiceHoles.csproj", "{27680DB1-E944-4BF7-9DE6-7F6C4C1973D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiceHoles", "Greedy\MiceHoles\MiceHoles.csproj", "{27680DB1-E944-4BF7-9DE6-7F6C4C1973D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignCookies", "Greedy\AssignCookies\AssignCookies.csproj", "{5EC13A75-DFAF-4A1B-9046-F72CEBE4218D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignCookies", "Greedy\AssignCookies\AssignCookies.csproj", "{5EC13A75-DFAF-4A1B-9046-F72CEBE4218D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestWindowContaining012", "SlidingWindow\SmallestWindowContaining012\SmallestWindowContaining012.csproj", "{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1322,6 +1324,10 @@ Global
 		{5EC13A75-DFAF-4A1B-9046-F72CEBE4218D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EC13A75-DFAF-4A1B-9046-F72CEBE4218D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EC13A75-DFAF-4A1B-9046-F72CEBE4218D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1515,6 +1521,7 @@ Global
 		{351A3845-607C-47EA-8FD9-07E91475620D} = {8DE50C2E-DE51-4BC4-8D53-3FFBF9F8327D}
 		{27680DB1-E944-4BF7-9DE6-7F6C4C1973D3} = {8DE50C2E-DE51-4BC4-8D53-3FFBF9F8327D}
 		{5EC13A75-DFAF-4A1B-9046-F72CEBE4218D} = {8DE50C2E-DE51-4BC4-8D53-3FFBF9F8327D}
+		{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
