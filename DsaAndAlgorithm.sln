@@ -566,6 +566,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignCookies", "Greedy\Ass
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestWindowContaining012", "SlidingWindow\SmallestWindowContaining012\SmallestWindowContaining012.csproj", "{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestPositiveMissing", "Arrays\SmallestPositiveMissing\SmallestPositiveMissing.csproj", "{6486132C-E84D-42C7-BAF0-5A46DC3370FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1328,6 +1330,10 @@ Global
 		{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6486132C-E84D-42C7-BAF0-5A46DC3370FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6486132C-E84D-42C7-BAF0-5A46DC3370FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6486132C-E84D-42C7-BAF0-5A46DC3370FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6486132C-E84D-42C7-BAF0-5A46DC3370FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1522,6 +1528,7 @@ Global
 		{27680DB1-E944-4BF7-9DE6-7F6C4C1973D3} = {8DE50C2E-DE51-4BC4-8D53-3FFBF9F8327D}
 		{5EC13A75-DFAF-4A1B-9046-F72CEBE4218D} = {8DE50C2E-DE51-4BC4-8D53-3FFBF9F8327D}
 		{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF} = {665EA8FE-24A0-4478-A751-1975FC05ECA3}
+		{6486132C-E84D-42C7-BAF0-5A46DC3370FC} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
