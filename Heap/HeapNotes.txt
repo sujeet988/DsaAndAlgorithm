@@ -1,23 +1,21 @@
 Priority Queue 
---this is available in dotnet 6.0 onwards not in donet core or dotnet framework.
+this is available in dotnet 6.0 onwards not in donet core or dotnet framework.
 
-
-
-
------Difference
+**Difference
 The main difference between a priority queue and a heap data structure lies in 
 their definitions and characteristics:
 
-Priority Queue:
+*Priority Queue:
 
 A priority queue is an abstract data type that represents a collection of 
 elements, each associated with a priority.
 It allows efficient access to and removal of the highest-priority 
 (or lowest-priority) element from the collection.
 A priority queue does not dictate the internal implementation details, so 
-it can be implemented using different data structures, including heaps, arrays, linked lists, binary search trees, and more.
-Heap:
+it can be implemented using different data structures, including heaps, arrays, linked lists, 
+binary search trees, and more.
 
+*Heap:
 A heap/Binary Heap is a specific data structure that can be used to implement 
 a priority queue efficiently.
 It is a complete binary tree where each node satisfies the heap 
@@ -36,13 +34,21 @@ possible implementation of a priority queue, but other data structures can
 also be used. The choice of data structure depends on the requirements, 
 desired time complexity, and other factors specific to the problem at hand.
 
+((Difference 2
+Priority queue is an abstract data type (an interface definition) that defines three operations: 
+is_empty, insert_with_priority, and pull_highest_priority_element. The definition says what those 
+functions are expected to do, but it doesn't say how it is to be implemented.
 
--------------------diffeence 2
-Priority queue is an abstract data type (an interface definition) that defines three operations: is_empty, insert_with_priority, and pull_highest_priority_element. The definition says what those functions are expected to do, but it doesn't say how it is to be implemented.
+A binary heap is one way to implement a priority queue. Its advantages are ease of implementation and 
+that it is reasonably efficient. It's not necessarily the most efficient way to implement a priority 
+queue (see below). Whereas a heap is definitely a priority queue, by no means is it true that a 
+priority queue is a heap.
 
-A binary heap is one way to implement a priority queue. Its advantages are ease of implementation and that it is reasonably efficient. It's not necessarily the most efficient way to implement a priority queue (see below). Whereas a heap is definitely a priority queue, by no means is it true that a priority queue is a heap.
-
-A heap typically implements more functionality than is required by a priority queue. For example, heaps commonly have a constructor that will build the internal data structure very quickly, without having to call the insert method for each item. Heap also commonly implements a peek method, that will return the first item, without removing it. Both of these functions are not part of the priority queue definition.
+A heap typically implements more functionality than is required by a priority queue. For example, 
+heaps commonly have a constructor that will build the internal data structure very quickly, 
+without having to call the insert method for each item. Heap also commonly implements a peek method, 
+that will return the first item, without removing it. Both of these functions are not part of the 
+priority queue definition.
 
 -------------------------
 Min Heap(Default):
@@ -57,16 +63,21 @@ Min Heap(Default):
 
 Regenerate response
 ---------
-The main difference between a MaxPriorityQueue and a MinPriorityQueue lies in the ordering of elements and the priority they represent:
+The main difference between a MaxPriorityQueue and a MinPriorityQueue lies in the ordering of 
+elements and the priority they represent:
 
 MaxPriorityQueue:
 
-In a MaxPriorityQueue, elements are ordered based on their priority, where higher-priority elements have a greater value.
+In a MaxPriorityQueue :
+elements are ordered based on their priority, where higher-priority elements have a greater value.
 The element with the highest priority (maximum value) is accessible and removable in constant time.
-MaxPriorityQueue is often used when you want to access or remove the element with the highest priority first.
+MaxPriorityQueue is often used when you want to access or remove the element with the highest priority 
+first.
+
 MinPriorityQueue:
 
-In a MinPriorityQueue, elements are ordered based on their priority, where lower-priority elements have a smaller value.
+In a MinPriorityQueue, elements are ordered based on their priority, where lower-priority elements have
+a smaller value.
 The element with the lowest priority (minimum value) is accessible and removable in constant time.
 MinPriorityQueue is used when you want to access or remove the element with the lowest priority first.
 Both MaxPriorityQueue and MinPriorityQueue are implementations of a priority 

@@ -1,10 +1,13 @@
-﻿XOR stands for exclusive or. It ensures that either A or B is true but never both. In this case we're doing a bitwise operation so you can make a nice little graph of the outcomes, they are as follows;
+﻿XOR stands for exclusive or. It ensures that either A or B is true but never both. 
+In this case we're doing a bitwise operation so you can make a nice little graph of the outcomes, 
+they are as follows;
 
 0 ^ 1 = 1
 1 ^ 1 = 0
 1 ^ 0 = 1
 0 ^ 0 = 0
-Since you're applying it to integers the above outcomes are applied to each bit in the operands. So lets just say you have the values 1, 2, 3 for height, length, and width respectively.
+Since you're applying it to integers the above outcomes are applied to each bit in the operands. 
+So lets just say you have the values 1, 2, 3 for height, length, and width respectively.
 
 You would first have
 

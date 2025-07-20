@@ -1,5 +1,5 @@
 BFS : Breadth First Search
----Level order traversal of tree is also called BFS.
+---Level order traversal of tree is also called BFS Graph.
 -- it is implented using Queue
 
 BFS Qeustion Samples:

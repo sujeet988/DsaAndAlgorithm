@@ -1,9 +1,10 @@
-The "divide and conquer" algorithm is a problem-solving technique that involves breaking down 
+
+** The "divide and conquer" algorithm is a problem-solving technique that involves breaking down 
 a problem into smaller subproblems, solving each subproblem independently, and then combining 
 the solutions to solve the original problem. Here's an example of a divide and conquer algorithm 
 
 
-The divide and conquer approach typically follows these steps:
+** The divide and conquer approach typically follows these steps:
 Divide and Conquer and Combine
 
 1. Divide: The problem is divided into smaller subproblems. This can be done recursively until 
@@ -19,8 +20,8 @@ The key idea behind divide and conquer is that solving smaller subproblems can b
 solving the original problem directly. By breaking down the problem into smaller parts, the 
 complexity of the problem is reduced, and it becomes more manageable. Additionally, this technique often benefits from parallelism, as the subproblems can be solved independently and concurrently.
 
-Many well-known algorithms utilize the divide and conquer approach, such as:
-Example of  Divide and Conquer Approach
+
+** Example of  Divide and Conquer Approach
 
 	Merge Sort: It divides an array into two halves, sorts them independently, and then merges the 
 	sorted halves to obtain a sorted array.
@@ -31,10 +32,9 @@ Example of  Divide and Conquer Approach
 	Binary Search: It divides a sorted array into two halves and repeatedly eliminates the half in 
 	which the target element cannot reside until the element is found or the array is empty.
 
-Divide and conquer is a powerful problem-solving technique and is widely used in various domains,
-including computer science, mathematics, and algorithms. It allows for efficient solutions to complex problems by breaking them down into simpler, solvable components.
-
-
+** Divide and conquer is a powerful problem-solving technique and is widely used in various domains,
+including computer science, mathematics, and algorithms. It allows for efficient solutions to complex 
+problems by breaking them down into simpler, solvable components.
 
 Binary Search
 Merge Sort
@@ -42,7 +42,7 @@ quick Sort
 Finding Maximum and Minimum
 strasesss matrix problems
 
---Url 
+** Study Url 
 https://www.programiz.com/dsa/divide-and-conquer
 
 ------------

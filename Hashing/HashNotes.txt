@@ -27,7 +27,7 @@ a-z			97-122	61-7A
  https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/
 
  **Hashing
- --Collision -- pointing multiple element at same index, this is called collision.
+ Collision >  pointing multiple element at same index, this is called collision.
  Two Ways to reduce collision
  1. Chaining:
  --Simple uniform hashing
@@ -36,11 +36,13 @@ a-z			97-122	61-7A
  -- big omega
 
  ** Hash Functions:
+
  1.Divison Method
  -- h(k) -> k%m -- in this m can be size of array or 
  K--is is the number
   m -> we choose prime number  because it will give more random generate number
      > too close to power or  2 or 10 ) -common in real world
+
 2. Multiplication method;
 take example : k = 11
 for hashing of k:
@@ -58,7 +60,7 @@ m = O(n)
 --- start table size small and grow
 -- if hash table size is full then double the size
  -- but this is alos not efficient
-2.
+
 
  2. Open Addressing:
  -- this is also another way to reduce collision
