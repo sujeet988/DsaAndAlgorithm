@@ -1,14 +1,16 @@
-A Simple and Straightforward Explanation:
 
-Subarray: It always should be in contiguous form.
-
+** Subarray: 
+It always should be in contiguous form.
+it is consecutive
 For example, lets take an array int arr=[10,20,30,40,50];
+
 
 -->Now lets see its various combinations:
 
   subarr=[10,20] //true
   subarr=[10,30] //false, because its not in contiguous form
   subarr=[40,50] //true
+
 Subsequence: which don't need to be in contiguous form but same order.
 
 For example, lets take an array int arr=[10,20,30,40,50];
@@ -18,7 +20,8 @@ For example, lets take an array int arr=[10,20,30,40,50];
   subseq=[10,20]; //true
   subseq=[10,30]; //true
   subseq=[30,20]; //false, because order isn't maintained
-Subset: which mean any possible combinations.
+
+** Subset: which mean any possible combinations.
 
 For example, lets take an array int arr=[10,20,30,40,50];
 
@@ -41,9 +44,9 @@ Scaler Articles :https://www.scaler.com/topics/difference-between-subarray-subse
 	The subarray or substring is contiguous but a subsequence need not be contiguous.
 
 Difference Between Subarray, Subset and Subsequence :
+
 	Before learning about the difference between subarray, subset, and subsequence, let us first get a 
 	brief introduction to arrays.
-
 	An array is a linear collection of values stored at contiguous memory locations. 
 	Array stores homogeneous values(similar data type values).
 
@@ -57,14 +60,16 @@ Difference Between Subarray, Subset and Subsequence :
 	the index of the array.
 	The array os  : 56, 50, 34, 24, 12
 
-Definition of Subarray and Example
+** Definition of Subarray and Example
  As we know that an array is a linear collection of values stored at contiguous memory locations. 
  So, what is subarray? Well, a subarray is nothing but a slice of these contiguous memory locations 
  of the actual array. In simpler terms, a subarray is nothing but any contiguous part of a given array. The subarray has the same sequence of elements (order of the elements) as it is in the array.
 
-A subarray is also known as a contiguous subarray. Although a subarray is contiguous (continuous) in nature.
+A subarray is also known as a contiguous subarray. Although a subarray is contiguous (continuous) in 
+nature.
 
-Example: Let the array be: arr = [1, 2, 3] Then one subarray of arr can be: subarray = [1, 2] All the sub-arrays of arr are:
+Example: Let the array be: arr = [1, 2, 3] Then one subarray of arr can be: subarray = [1, 2] All the
+sub-arrays of arr are:
 
 [1]
 [2]
@@ -74,7 +79,7 @@ Example: Let the array be: arr = [1, 2, 3] Then one subarray of arr can be: suba
 [1, 2, 3]
 So, we conclude that the size of the subarray can range from 1 to the size of the actual array.
 
-Definition of Subset and Example
+** Definition of Subset and Example
 	A subset is often confused with subarray and subsequence but a subset is nothing but any possible 
 	combination of the original array (or a set).
 
@@ -86,7 +91,7 @@ Definition of Subset and Example
 	So, we can conclude that subset is the superset of subarrays i.e. all the subarrays are subsets 
 	but vice versa is not true.
 
-Definition of Subsequence and Example
+**Definition of Subsequence and Example
 	As the name suggests, a subsequence is a sequence of the elements of the array obtained by 
 	deleting some elements of the array. One important thing related to the subsequence is that even 
 	after deleting some elements, the sequence of the array elements is not changed. Both the string 
@@ -101,9 +106,11 @@ Definition of Subsequence and Example
 	[2, 3, 4]
 	[1, 2, 3, 4], etc.
 
-	Note : Note: A subarray is a subsequence, a subsequence is a subset but the reverse order is not correct.
+	
+	Note : Note: A subarray is a subsequence, a subsequence is a subset but the reverse order is not 
+	correct.
 
-Number of subarrays, subset, subsequence we can form using a array of size n.: 
+     Number of subarrays, subset, subsequence we can form using a array of size n.: 
 
 	Let us learn how many subsets, subsequences, and subarrays can an array (arr) of size n have.
 
@@ -124,8 +131,7 @@ Number of subarrays, subset, subsequence we can form using a array of size n.:
 	The number of subsets is 8.
 
 
-	** substring
-	--consecutive
+
 
 
 

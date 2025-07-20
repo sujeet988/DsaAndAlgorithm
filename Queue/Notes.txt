@@ -5,9 +5,6 @@ Some inbuilt Method of Queue :
 1. Enqueue
 2. Deque
 3. Count
-4.
-
-
 
 **Some Important Questions Realated to Queue :
 1. Generate Binary Numbers From 1 to N Using Queue
@@ -18,8 +15,8 @@ Some inbuilt Method of Queue :
 --Add/remove Remove elementj from  both the end.
 --Deque by default not available in c# but using custome code we can implement this.
 https://www.c-sharpcorner.com/UploadFile/b942f9/implementing-a-double-ended-queue-or-deque-in-C-Sharp/
-Some of the imporant method:
 
+**Some of the imporant method:
 AddFirst(item)	adds this item at the front of the Deque
 AddLast(item)	adds this item at the back of the Deque
 

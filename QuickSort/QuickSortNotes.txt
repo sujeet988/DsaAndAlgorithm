@@ -10,21 +10,21 @@ Pick a pivot and place it in its correct place in the sorted array.
 Shift smaller elements(i.e. Smaller than the pivot) on the left of the pivot and larger ones to the right.
 Now, let’s discuss the steps in detail considering the array {4,6,2,5,7,9,1,3}:
 
-Step 1: The first thing is to choose the pivot. A pivot is basically a chosen element of the given array. The element or the pivot can be chosen by our choice. So, in an array a pivot can be any of the following:
+Step 1: The first thing is to choose the pivot. A pivot is basically a chosen element of the given array. 
+The element or the pivot can be chosen by our choice. So, in an array a pivot can be any of the following:
 
 The first element of the array
 The last element of the array --Mostly used 
 Median of array
 Any Random element of the array
 
----Time complexity
+**Time complexity
 Worst case : O(n)
 Worse case occurs when pivot is always the smallest or the largest Element
-
 Average case/best case : O(Nlogn)
 
---------
-QuicK sort is a divide and conquer algorithm.
+
+**QuicK sort is a divide and conquer algorithm.
 it involved 3 steps 
 
 1.Pivot selection : We pick an element and mark it as (Pivot)
@@ -37,7 +37,7 @@ After this partitioning the pivot is at its correct sorted position .  \
 pivot and on the subaray formed on the right side of the pivot
 
 
--------Question Link
+Question Link
 https://neetcode.io/problems/kth-largest-element-in-an-array
 
 

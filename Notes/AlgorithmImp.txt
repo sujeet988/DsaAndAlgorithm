@@ -1,20 +1,19 @@
+** Important URL 
 https://takeuforward.org/
-https://www.youtube.com/@takeUforward
-https://www.youtube.com/@CodeHelp/playlists
 https://www.youtube.com/@ApnaCollegeOfficial
 https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ
 https://neetcode.io/practice
 https://www.educative.io/courses/data-structures-interviews-cs
 
-----IMPORTANT topic
+**IMPORTANT topic
 https://webrewrite.com/
 https://www.educative.io/courses/data-structures-interviews-cs
 
---
+** Imortant Algorithms
 Kadane Algorith
 Two pointer
 slow and fast pointer
 Sliding winddow
 Moore’s Voting Algorithm --majroity Elements
 
---------
+
