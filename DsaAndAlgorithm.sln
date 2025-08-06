@@ -328,7 +328,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstMissingPositive", "Arr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashing", "Hashing", "{2431DCAD-ED14-4C6B-8DD1-816686CDEF31}"
 	ProjectSection(SolutionItems) = preProject
-		Hashing\HashMapDictionary.docx = Hashing\HashMapDictionary.docx
 		Hashing\HashNotes.txt = Hashing\HashNotes.txt
 	EndProjectSection
 EndProject
@@ -566,7 +565,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignCookies", "Greedy\Ass
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestWindowContaining012", "SlidingWindow\SmallestWindowContaining012\SmallestWindowContaining012.csproj", "{14C35D4A-39DD-4F02-AFE8-B2DC38CA4BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestPositiveMissing", "Arrays\SmallestPositiveMissing\SmallestPositiveMissing.csproj", "{6486132C-E84D-42C7-BAF0-5A46DC3370FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestPositiveMissing", "Arrays\SmallestPositiveMissing\SmallestPositiveMissing.csproj", "{6486132C-E84D-42C7-BAF0-5A46DC3370FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

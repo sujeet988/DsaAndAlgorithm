@@ -1,31 +1,29 @@
-Binary search
-======>
-
+**Binary search
 	Binary search is an efficient searching algorithm used to find a specific element in a 
 	sorted array or list. It repeatedly divides the search space in half and narrows down the 
 	search until the desired element is found, or it determines that the element is not present 
 	in the collection.
 
-	The binary search algorithm works as follows:
+The binary search algorithm works as follows:
 
-1. Start with the entire sorted collection (array or list).
-2. Calculate the middle index of the collection.
-3. Compare the middle element with the target element you are searching for.
-4. If the middle element is equal to the target, the search is successful, and you've found the 
-   element.
-5. If the middle element is greater than the target, the target (if present) lies in the left half 
-   of the collection. Discard the right half, and repeat the process on the left half.
-6. If the middle element is less than the target, the target (if present) lies in the right half 
-	of the collection. Discard the left half, and repeat the process on the right half.
-7. Continue dividing the search space in half until the target element is found, or the search 
-  space is empty (in which case, the element is not present).
+    1. Start with the entire sorted collection (array or list).
+    2. Calculate the middle index of the collection.
+    3. Compare the middle element with the target element you are searching for.
+    4. If the middle element is equal to the target, the search is successful, and you've found the 
+       element.
+    5. If the middle element is greater than the target, the target (if present) lies in the left half 
+       of the collection. Discard the right half, and repeat the process on the left half.
+    6. If the middle element is less than the target, the target (if present) lies in the right half 
+	    of the collection. Discard the left half, and repeat the process on the right half.
+    7. Continue dividing the search space in half until the target element is found, or the search 
+      space is empty (in which case, the element is not present).
 
 	The key requirement for binary search is that the collection must be sorted in ascending 
 	(or descending) order. If the collection is not sorted, the algorithm will not work correctly, 
 	and you would need to sort the collection first.
 
 	public class BinarySearch
-{
+    {
     public static int Search(int[] sortedArray, int target)
     {
         int left = 0;
@@ -53,7 +51,8 @@ Binary search
     }
 }
 
-This implementation takes a sorted array and the target element as input and returns the index 
+**This implementation takes a sorted array and the target element as input and returns the index 
 of the target element in the array if found, or -1 if not found.
+
 Binary search has a time complexity of O(log n), which makes it highly efficient for searching 
 large sorted collections compared to linear search algorithms with a time complexity of O(n).

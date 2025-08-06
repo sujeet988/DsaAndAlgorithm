@@ -1,6 +1,4 @@
-Notes : 
-1. https://takeuforward.org/graph/introduction-to-graph/  -> For basic of Graph
-2. https://www.geeksforgeeks.org/comparison-between-adjacency-list-and-adjacency-matrix-representation-of-graph/
+**GRAPH **
 
 A Graph is a non-linear data structure consisting of nodes and edges. 
 The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect 
@@ -10,17 +8,22 @@ representation of the graph.
 **A graph can be represented in mainly two ways. 
 They are: Adjacency List and Adjacency Matrix:
 
-Adjacency List: 
+**Adjacency List: 
 
 An Adjacency list is an array consisting of the address of all the linked lists. 
-The first node of the linked list represents the vertex and the remaining lists connected to this node represents 
-the vertices to which this node is connected. This representation can also be used to represent a weighted graph. 
-The linked list can slightly be changed to even store the weight of the edge.
+The first node of the linked list represents the vertex and the remaining lists connected to this node 
+represents the vertices to which this node is connected. This representation can also be used to represent 
+a weighted graph. The linked list can slightly be changed to even store the weight of the edge.
 
-Adjacency Matrix:
+**Adjacency Matrix:
 
 Adjacency Matrix is a 2D array of size V x V where V is the number of vertices in a graph. 
 Let the 2D array be adj[][], a slot adj[i][j] = 1 indicates that there is an edge from vertex i to vertex j. 
-Adjacency matrix for undirected graph is always symmetric. Adjacency Matrix is also used to represent weighted graphs. 
+Adjacency matrix for undirected graph is always symmetric. Adjacency Matrix is also used to represent
+weighted graphs. 
 If adj[i][j] = w, then there is an edge from vertex i to vertex j with weight w.
 Let us consider a graph to understand the adjacency list and adjacency matrix representation.
+
+Notes : 
+1. https://takeuforward.org/graph/introduction-to-graph/  -> For basic of Graph
+2. https://www.geeksforgeeks.org/comparison-between-adjacency-list-and-adjacency-matrix-representation-of-graph/

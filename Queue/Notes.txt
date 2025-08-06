@@ -1,5 +1,5 @@
 *Queue :
---FIFO
+--Fisr in fisrt out (FIFO)
 
 Some inbuilt Method of Queue :
 1. Enqueue

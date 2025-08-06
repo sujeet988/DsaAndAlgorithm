@@ -14,7 +14,7 @@ be visited it’ll backtrack to its previous node (say N) and from
 this node N algorithm will start searching 
 for unvisited neighbour nodes and starts visiting them.
 
-**DFS : Traversal
+** DFS : Traversal
 
 DFS is a traversal technique which involves the idea of recursion and 
 backtracking. DFS goes in-depth, 
@@ -39,6 +39,7 @@ This traversal terminates when all the nodes are completely explored.
 
 
 **DFS Question Samples
+
 1. Number of islands
 2. Max Area of islands
 3  Count Unique Paths

@@ -6,7 +6,8 @@ symmetric matrix:
 A symmetric matrix is that matrix whose tranpose ie equall to the matrix itself. means after changes 
 to rows to columns  or colums to rows, it became original matrix.
 
-A symmetric matrix is a square matrix that is equal to its transpose. In other words, if we have a matrix A and its transpose is 
+A symmetric matrix is a square matrix that is equal to its transpose. In other words, 
+if we have a matrix A and its transpose is 
 denoted by A^T, then A is symmetric if A = A^T.
 
 ---Symmetric pair

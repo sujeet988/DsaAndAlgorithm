@@ -1,5 +1,5 @@
-Priority Queue 
-this is available in dotnet 6.0 onwards not in donet core or dotnet framework.
+**Priority Queue 
+  this is available in dotnet 6.0 onwards not in donet core or dotnet framework.
 
 **Difference
 The main difference between a priority queue and a heap data structure lies in 
