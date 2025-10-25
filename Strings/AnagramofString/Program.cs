@@ -53,11 +53,11 @@ namespace DsaAndAlgorithm.Strings.AnagramofString
             int[] freq = new int[26];
             for (int i = 0; i < a.Length; i++)
             {
-                freq[a[i] - 'A']++; //// if question  GIven A-Z in then use captal letter , if given a-z then use small letter
+                freq[a[i] - 'a']++; //// if question  GIven A-Z in then use captal letter , if given a-z then use small letter
             }
             for (int i = 0; i < b.Length; i++)
             {
-                freq[b[i] - 'A']--; //// if question  GIven A-Z in then use captal letter , if given a-z then use small letter
+                freq[b[i] - 'a']--; //// if question  GIven A-Z in then use captal letter , if given a-z then use small letter
             }
 
             for (int i = 0; i < freq.Length; i++)
@@ -82,7 +82,7 @@ namespace DsaAndAlgorithm.Strings.AnagramofString
             string s2 = "acaba";
             Console.WriteLine("String first " + s1);
             Console.WriteLine("String second " + s2);
-            bool isanagram = isAnagram(s1, s2);
+            bool isanagram = isAnagramByfrequency(s1, s2);
             Console.WriteLine("Is string is anagram : " + isanagram);
             Console.ReadLine();
         }
