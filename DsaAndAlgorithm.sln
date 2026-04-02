@@ -566,6 +566,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedList", "Linked
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListCycle", "LinkedList\LinkedListCycle\LinkedListCycle.csproj", "{ADEE94A6-1919-4ACE-A17A-78EC327A6FB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnCodeDecodeString", "Arrays\EnCodeDecodeString\EnCodeDecodeString.csproj", "{7E6E3B49-D781-43D5-AF47-F734D1A977E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1340,6 +1342,10 @@ Global
 		{ADEE94A6-1919-4ACE-A17A-78EC327A6FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADEE94A6-1919-4ACE-A17A-78EC327A6FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADEE94A6-1919-4ACE-A17A-78EC327A6FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6E3B49-D781-43D5-AF47-F734D1A977E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6E3B49-D781-43D5-AF47-F734D1A977E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6E3B49-D781-43D5-AF47-F734D1A977E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6E3B49-D781-43D5-AF47-F734D1A977E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1537,6 +1543,7 @@ Global
 		{1290A380-4192-4D1D-B103-14251181848F} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 		{74A8275B-EA9C-4E1C-8418-DBF71326399A} = {6C616764-9E2A-4DFD-9EAC-2506F15DF155}
 		{ADEE94A6-1919-4ACE-A17A-78EC327A6FB1} = {6C616764-9E2A-4DFD-9EAC-2506F15DF155}
+		{7E6E3B49-D781-43D5-AF47-F734D1A977E1} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
