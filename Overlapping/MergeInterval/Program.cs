@@ -40,10 +40,16 @@
                     }
                     if (!(intervals[j][0] > end || start >intervals[j][1]  ))
                     {
-                        // merge
-                        start =  Math.Min(start, intervals[j][0]);
-                        end = Math.Max(end, intervals[j][1]);
-                        vistied[j] = true;
+                        // NOT (no overlap)
+
+                        // intervals[j][0] > end   → current interval is completely after
+                        // intervals[j][1] < start → current interval is completely before
+
+                        // If neither of the above is true → intervals overlap
+
+                        // Merge intervals
+                        start = Math.Min(start, intervals[j][0]); // take smallest start
+                        end = Math.Max(end, intervals[j][1]);     // take largest end
                     }
                 }
 
