@@ -25,4 +25,4 @@ Input: (1,5),(2,3),(4,2),(5,1),(2,4)
 Output: (2,4) (5,1)
 Explanation: Since (1,5) and (2,4) are symmetric pairs and (5,1) and (4,2) are symmetric pairs.
 
----
+---Sorting Matrix based on first or second paramters
