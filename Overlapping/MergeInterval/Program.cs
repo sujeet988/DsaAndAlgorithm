@@ -7,6 +7,8 @@
          * https://www.youtube.com/watch?v=rpzaI1EPYSI&list=PLVItHqpXY_DDIcGOOm0QvpWCUvlDfvlTc
          * help by cto bhaiya 
          * When two Interval overlap : 
+           i1 = [s1,e1]
+           i2  = [s2,e2]
          * When twp interval not overlap : when second event  start after the first fist even is completed
            example :  s2 > e1 
          * when first event starts after the second  event is completed -
@@ -36,7 +38,7 @@
                     {
                         continue;
                     }
-                    if (!(intervals[j][0] > end || intervals[j][1] < start))
+                    if (!(intervals[j][0] > end || start >intervals[j][1]  ))
                     {
                         // merge
                         start =  Math.Min(start, intervals[j][0]);
