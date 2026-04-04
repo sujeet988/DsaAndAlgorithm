@@ -34,12 +34,43 @@
             }
             return max;
         }
+
+        public static int MaxAreaTwoPointer(int[] height)
+        {
+            int maxarea = 0;
+            int left = 0;
+            int right = height.Length - 1;
+
+            while (left < right)
+            {
+                int minheight = Math.Min(height[left], height[right]);
+                int width = right - left;
+                int area = minheight * width;
+                if(area > maxarea)
+                {
+                    maxarea = area;
+                }
+                if(height[left] < height[right])
+                {
+                    left++;
+                }
+                else
+                {
+                    right--;
+                }
+
+
+            }
+            return (maxarea);
+
+        
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("ContainerWIthMostWater");
 
             int[] height = new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
-            var resultmaxarea = MaxAreaBruteForce(height);
+            var resultmaxarea = MaxAreaTwoPointer(height);
             Console.WriteLine(resultmaxarea);
 
             Console.ReadLine();
