@@ -44,9 +44,45 @@
                 .ToArray();
 
         }
-                
+        public static int[][] MergeIntervalWithBruteForce2(int[][] intervals)
+        {
+            int n = intervals.Length;
 
-        
+            bool[] vistied = new bool[n];
+
+            List<int[]> result = new List<int[]>();
+
+            for (int i = 0; i < n; i++)
+            {
+                if (vistied[i]) continue;
+
+                int start = intervals[i][0];
+                int end = intervals[i][1];
+
+                for (int j = i + 1; j < n; j++)
+                {
+                    if (vistied[j])
+                    {
+                        continue;
+                    }
+                    bool isoverlap = intervals[j][0] <= end && intervals[j][1] >= start;
+                    if (isoverlap)
+                    {
+                        start = Math.Min(start, intervals[j][0]);
+                        end = Math.Max(end, intervals[j][1]);
+                        vistied[j] = true;
+                    }
+                }
+
+                result.Add(new int[] { start, end });
+            }
+
+            return result
+                .ToArray();
+
+        }
+
+
 
         static void Main(string[] args)
         {
@@ -67,7 +103,7 @@
             //    Console.WriteLine();
             //}
 
-            var result = MergeIntervalWithBruteForce(intervals);
+            var result = MergeIntervalWithBruteForce2(intervals);
 
             foreach(int[] i in result)
             {
