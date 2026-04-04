@@ -99,6 +99,44 @@
         }
 
 
+        public static int[][] MergeIntervalOptimized(int[][] intervals)
+        {
+            if (intervals.Length == 0)
+            {
+
+                return intervals;
+            }
+
+            Array.Sort(intervals, (a, b) => a[0].CompareTo(b[0]));
+            List<int[]> result = new List<int[]>();
+            int[] newinterval = intervals[0];
+
+            result.Add(newinterval);
+
+            foreach (int[] interval in intervals)
+            {
+                if (interval[0] <= newinterval[1])
+                {
+                    // overlapping interval
+                    // update end if needed
+                    newinterval[1] = Math.Max(newinterval[1], interval[1]);
+
+                }
+                else
+                {
+                    // disjoint intervals
+                    // add the new interval to the list 
+                    newinterval = interval;
+                    result.Add(newinterval);
+                }
+            }
+
+
+
+            return result.ToArray();
+
+        }
+
 
         static void Main(string[] args)
         {
@@ -119,7 +157,7 @@
             //    Console.WriteLine();
             //}
 
-            var result = MergeIntervalWithBruteForce2(intervals);
+            var result = MergeIntervalOptimized(intervals);
 
             foreach(int[] i in result)
             {
