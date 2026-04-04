@@ -7,12 +7,46 @@
          * 
          */
 
-        public static int[][] Merge(int[][] intervals)
+        public static int[][] MergeIntervalWithBruteForce(int[][] intervals)
         {
-            int[][] arr = new int[2][];
+          int n = intervals.Length;
 
-            return arr;
+            bool[] vistied = new bool[n];
+
+            List<int[]> result = new List<int[]>();
+
+            for(int i =0; i < n; i++)
+            {
+                if (vistied[i]) continue;
+
+                int start = intervals[i][0];
+                int end = intervals[i][1];
+
+                for(int j = i+1; j < n; j++)
+                {
+                    if (vistied[j])
+                    {
+                        continue;
+                    }
+                    if (!(intervals[j][0] > end || intervals[j][1] < start))
+                    {
+                        // merge
+                        start =  Math.Min(start, intervals[j][0]);
+                        end = Math.Max(end, intervals[j][1]);
+                        vistied[j] = true;
+                    }
+                }
+
+                result.Add(new int[] { start, end });
+            }
+
+            return result
+                .ToArray();
+
         }
+                
+
+        
 
         static void Main(string[] args)
         {
@@ -24,15 +58,29 @@
             intervals[2] = new int[2] { 8, 10 };
             intervals[3] = new int[2] { 15, 18 };
 
-            for (int i = 0; i < intervals.Length; i++)
+            //for (int i = 0; i < intervals.Length; i++)
+            //{
+            //    for(int j =0; j < intervals[i].GetLength(0); j++)
+            //    {
+            //        Console.Write(intervals[i][j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            var result = MergeIntervalWithBruteForce(intervals);
+
+            foreach(int[] i in result)
             {
-                for(int j =0; j < intervals[i].GetLength(0); j++)
+
+                foreach(var item in i)
                 {
-                    Console.Write(intervals[i][j]);
+                    Console.Write(item + " ");
                 }
                 Console.WriteLine();
+
             }
 
+            //Console.WriteLine(result);
 
             Console.ReadLine();
         }
