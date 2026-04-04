@@ -4,7 +4,15 @@
     {
         /*
          * https://leetcode.com/problems/merge-intervals/description/
-         * 
+         * https://www.youtube.com/watch?v=rpzaI1EPYSI&list=PLVItHqpXY_DDIcGOOm0QvpWCUvlDfvlTc
+         * help by cto bhaiya 
+         * When two Interval overlap : 
+         * When twp interval not overlap : when second event  start after the first fist even is completed
+           example :  s2 > e1 
+         * when first event starts after the second  event is completed -
+            s1 > e2
+
+          so final format wehn s2 > e1 || s1 > e2 so they do not overlap each other 
          */
 
         public static int[][] MergeIntervalWithBruteForce(int[][] intervals)
