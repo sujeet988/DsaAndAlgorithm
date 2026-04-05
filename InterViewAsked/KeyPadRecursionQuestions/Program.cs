@@ -22,3 +22,7 @@ foreach (string combination in combinations)
 {
     Console.WriteLine(combination);
 }
+Console.WriteLine("break");
+// second way
+string ans = "";
+ProgramKeyPad.Possiblewords("84", ans );

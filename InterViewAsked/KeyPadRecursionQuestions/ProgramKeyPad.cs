@@ -36,5 +36,21 @@ namespace DsaAndAlgorithm.InterViewAsked.KeyPadRecursionQuestions
                 GenerateCombinations(phoneNumber, next, combinations, index + 1);
             }
         }
+
+        public static void Possiblewords(string s,string ans)
+        {
+            if(s.Length == 0) 
+            {
+                Console.WriteLine(ans);
+                return;
+            }
+            var index = s[0] - 48;
+            var key = keypad[index]; // get the key
+
+            for (int i = 0; i < key.Length; i++) 
+            {
+                Possiblewords(s.Substring(1), ans + key[i]);
+            }
+        }
     }
 }
