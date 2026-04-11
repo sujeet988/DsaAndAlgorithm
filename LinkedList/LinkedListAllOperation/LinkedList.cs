@@ -65,7 +65,8 @@ namespace LinkedListAllOperation
             {
                 last = last.nextElement;
             }
-            last.nextElement = newnode;
+            last.nextElement = newnode; /// here modifying acutaul object head, not copy 
+
         }
         public bool Search(int value)
         {

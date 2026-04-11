@@ -576,6 +576,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeInterval", "Overlappin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixSorting", "Arrays\MatrixSorting\MatrixSorting.csproj", "{D1280843-0352-4B6C-A2BE-4A708CB8DBFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListEven", "LinkedListEven\LinkedListEven.csproj", "{89C659C0-1DA5-4363-96A5-A5241A757921}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1366,6 +1368,10 @@ Global
 		{D1280843-0352-4B6C-A2BE-4A708CB8DBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1280843-0352-4B6C-A2BE-4A708CB8DBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1280843-0352-4B6C-A2BE-4A708CB8DBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C659C0-1DA5-4363-96A5-A5241A757921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C659C0-1DA5-4363-96A5-A5241A757921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C659C0-1DA5-4363-96A5-A5241A757921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C659C0-1DA5-4363-96A5-A5241A757921}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1567,6 +1573,7 @@ Global
 		{0237E221-1139-4AB2-A4C9-9A7D30C81EB7} = {0850283D-E7FB-45A7-A943-383167F16520}
 		{2D8CA66D-2787-4948-9EB3-DBE4025B64BE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{D1280843-0352-4B6C-A2BE-4A708CB8DBFB} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
+		{89C659C0-1DA5-4363-96A5-A5241A757921} = {6C616764-9E2A-4DFD-9EAC-2506F15DF155}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}

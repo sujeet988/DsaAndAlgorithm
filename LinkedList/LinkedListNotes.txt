@@ -1,4 +1,4 @@
-Union:
+﻿Union:
 Given the two lists of A and B, the union is the list that contains elements or objects that belong to 
 either A or to B or to both, but duplicates are not allowed.
 
@@ -16,3 +16,28 @@ Intersection = 20->60->null
 ---SLow and fast pointer
 --------Intersection
 https://webrewrite.com/find-the-intersection-of-two-linked-lists/#more-2839
+
+**class Node
+{
+    public int val;
+    public Node Next;
+
+    public Node(int val)
+    {
+        this.val = val;
+        this.Next = null;
+    }
+}
+
+Node head = new Node(10);
+head.Next = new Node(20);
+head.Next.Next = new Node(30);
+
+Node temp = head;
+temp = temp.Next;
+temp.Next = new Node(40);
+
+PrintList(head);  ans ## 10 → 20 → 40 → null  
+
+note : temp = temp.Next → moved pointer
+temp.Next = new Node(40) → changed actual node
