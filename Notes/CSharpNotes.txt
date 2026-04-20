@@ -69,6 +69,8 @@ Contains()
 
 ff
 11 Math
+
+Math.Min
 --
 What is a priority queue? How does it differ from a regular queue?
 
@@ -79,4 +81,7 @@ A-Z  065 to 090
 a-z  097 to 122
 
 13. Matrix: sqare maitrx means row and column is same.
+
+
+** Intervals
 

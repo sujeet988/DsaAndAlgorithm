@@ -41,3 +41,13 @@ PrintList(head);  ans ## 10 → 20 → 40 → null
 
 note : temp = temp.Next → moved pointer
 temp.Next = new Node(40) → changed actual node
+
+**
+head → 10 → 20 → 30 → 40 → null
+Node temp = head.Next; // here head  value not changes 
+temp = temp.Next;
+temp.Next = new Node(50);
+
+ans : 10 → 20 → 30 → 50 → null
+
+** 

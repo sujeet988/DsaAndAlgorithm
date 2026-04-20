@@ -578,6 +578,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixSorting", "Arrays\Mat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListEven", "LinkedListEven\LinkedListEven.csproj", "{89C659C0-1DA5-4363-96A5-A5241A757921}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intervals", "Intervals", "{1AD0F9BF-3D53-4B05-8FA6-ABBD60C4028F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intervals", "Intervals\Intervals\Intervals.csproj", "{1F3270E7-83A6-428E-8E7B-FF3DEA4A909F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1372,6 +1376,10 @@ Global
 		{89C659C0-1DA5-4363-96A5-A5241A757921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89C659C0-1DA5-4363-96A5-A5241A757921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89C659C0-1DA5-4363-96A5-A5241A757921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F3270E7-83A6-428E-8E7B-FF3DEA4A909F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3270E7-83A6-428E-8E7B-FF3DEA4A909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3270E7-83A6-428E-8E7B-FF3DEA4A909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3270E7-83A6-428E-8E7B-FF3DEA4A909F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1574,6 +1582,7 @@ Global
 		{2D8CA66D-2787-4948-9EB3-DBE4025B64BE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{D1280843-0352-4B6C-A2BE-4A708CB8DBFB} = {4B107DBF-6567-4D23-B1DA-19F1A4E14EA0}
 		{89C659C0-1DA5-4363-96A5-A5241A757921} = {6C616764-9E2A-4DFD-9EAC-2506F15DF155}
+		{1F3270E7-83A6-428E-8E7B-FF3DEA4A909F} = {1AD0F9BF-3D53-4B05-8FA6-ABBD60C4028F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4C64E8E-154C-45A7-9BC0-161048E4306B}
