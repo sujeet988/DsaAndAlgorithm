@@ -19,6 +19,9 @@
 
         public int[][] Merge(int[][] intervals)
         {
+
+            Array.Sort(intervals, (a, b) => a[0].CompareTo(b[0]));
+
             int[][] result  = new int[intervals.Length][];
             return result;
 
